@@ -25,38 +25,68 @@ GadgetAngel's Voron 2.4 MODS (250 mm^3 Build):
 
 Tool head PCB board options (MODS) I am considering:
 
-	A.	Hartk1213's "Tool headBoard for Voron Afterburner v4.1" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/toolhead-board-for-voron-v2-4?_pos=1&_psq=boards&_ss=e&_v=1.0&variant=40751516418217
-			AA.  Wiring Diagram for "Tool headBoard for Voron Afterburner v4.1" Toolhead board: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Rev3.2/wiringDiagram.png
-	B.	Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0
-			BB. Wiring Diagram for Voron Afterburner Toolhead Board v3.rabbit" Tool headboard: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png
-	C. 	TURBO CAN Tool Head PCB Mod: https://github.com/henrikssn/TurboCAN (STM32F072CBUx)
+Hartk1213's "Tool headBoard for Voron Afterburner v4.1" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/toolhead-board-for-voron-v2-4?_pos=1&_psq=boards&_ss=e&_v=1.0&variant=40751516418217
+
+Wiring Diagram for "Tool headBoard for Voron Afterburner v4.1" Toolhead board: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Rev3.2/wiringDiagram.png
+
+Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0
+
+Wiring Diagram for Voron Afterburner Toolhead Board v3.rabbit" Tool headboard: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png
+
+
+TURBO CAN Tool Head PCB Mod: https://github.com/henrikssn/TurboCAN (STM32F072CBUx)
+
+---
 
 Other MODS I am considering for my build:
 
-	A.	MGN12 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12);
-	B.	PINS Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod);
-	C.	GE5C mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs);
-	D.	NeverMore Micro Filter Mod (https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro);
+MGN12 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12);
+
+PINS Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod);
+
+GE5C mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs);
+
+NeverMore Micro Filter Mod (https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro);
+
 	E.	V2.4_z_drive_motor_tensioner_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod);
+
 	F. 	Klicky Probe Mod (https://github.com/jlas1/Klicky-Probe);
+
 	G.  Ti Bracker Mod (https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers);
-	H.	Other-V2-Idlers (https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers)
+
+	H.	Other-V2-Idlers (https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
+
 	I.	AB-BN Afterburner mod (https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);
+
 	J.	Sexbolt Z-Endstop Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
+
 	K.	PCB Cover Mod (https://github.com/craxoor/VoronMods/tree/master/PCB%20Cover);
+
 	L.	Z_Drive_Belt_Exit_Covers (https://github.com/VoronDesign/Voron-2/tree/Voron2.2/STLs/VORON2.2/Bottom_Skirts_%2B_Decorative_Parts/Z_Drive_Belt_Exit_Covers);
+
 	M.	Umbilical Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_umbilical_strain_relief) & (Y Endstop relocation - https://github.com/hartk1213/MISC/tree/main/Voron%20Mods%2FVoron%202%2F2.4%2FVoron2.4_Y_Endstop_Relocation);
+
 	N.	Decontaminator_Purge_Bucket_&_Nozzle_Scrubber  (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber);
+
 	O.	bottom_panel_mag_clip Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hernsl/bottom_panel_mag_clip);
+
 	P.	Deck_Panel_Support_Clips Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips);
+
 	Q.	skirt_switch_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/tayto-chip/skirt_switch_mod) 					[RH or LH side Skirt] 			AND/OR
+
 	R.	PowerSkirt Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/leandromarceddu/PowerSkirt) 						[RH or LH side Skirt]			AND/OR
+
 	S.	Side_Fan_Support_No_Tape Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/StvPtrsn/Side_Fan_Support_No_Tape) [RH or LH side Skirt];
+
 	T.	Skirt_Mod_250 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250) 						[Rear or Front Skirt]			AND/OR
+
 	U.	BTT_PITFT50_v2_Mount Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount) 			[Rear or Front Skirt] 			OR
+
 	V.	LCD_case_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/LCD_case_mod) 					[Rear or Front Skirt];
-	W.  Mag Panel Mod (https://github.com/Yeriwyn/VoronUsers/tree/V1-and-V2-panels/printer_mods/yeri/V1_V2_Magnetic_Panels)
-	X.	oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2%20Recirculating%20Filter)
+
+	W.  Mag Panel Mod (https://github.com/Yeriwyn/VoronUsers/tree/V1-and-V2-panels/printer_mods/yeri/V1_V2_Magnetic_Panels);
+
+	X.	oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2%20Recirculating%20Filter);
 
 ## How I calculated the power requirements for my QUEEN build:
 
