@@ -1,4 +1,4 @@
-# This is my Build Log Repository for my Voron 2.4 250mm DIY 3D Printer called "QUEEN":
+## This is a Build Log Repository for my Voron 2.4 250mm DIY 3D Printer called "QUEEN":
 
 This repository contains wiring diagrams, specification sheets, any documentation I use to complete my Voron 2.4 build. Designs for the back panel or designs that have aesthetic value.
 
