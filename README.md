@@ -189,6 +189,8 @@ I know this is an overkill but if I want the power it will be there. I am lazy, 
 
 I am hoping I can fit all of this in my electronics case for a 250 mm build.  But the UHP power supplies are 1/2 the width of LRS-series PSUs.  I can fit the UHP-500-48 and UHP-500-24 in the same footprint as the LRS-200-24 PSU that is specified in the BOM.
 
+If I do not have enough room in the electronics case then I can take out the 12VDC supply and use small buck convertors (24VDC to 12VDC) to manage my devices that are on 12VDC.
+
 ## The PDF file of the "Color PIN Diagram" for the Octopus Pro V1.0:
 
 You can view the PDF in your browser by clicking on the filename ["BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2.pdf"](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram/BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2.pdf) and then hit the download button.
