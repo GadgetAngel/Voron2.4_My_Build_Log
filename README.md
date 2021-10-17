@@ -263,7 +263,7 @@ This is the electronics wiring diagram I developed for my Voron 2.4 build:
 
 Coming Soon.
 
-## How to determine how your Motors will perform on a Voron Build:
+## How Well Will Your Motors Perform on a Voron Build?:
 
 You need to look at the torque curve for your motors and see how your motors perform at different voltages.
 
