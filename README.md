@@ -169,7 +169,7 @@ https://www.newark.com/mean-well/uhp-500-48/power-supply-ac-dc-48v-10-45a/dp/01A
 
 ---
 
-So I could use option 3 & 4 **OR** 5 & 6.  Since I plan on LEDS and running a Raspberry Pi 4B with a solid state disk drive via USB 3.1 interface instead of using a Micro-SD card I want to have enough power to add extras to the Voron Build.
+So I could use option 3 & 4 **OR** 5 & 6.  Since I plan on LEDS; running a Raspberry Pi 4B with a solid state disk drive (via USB 3.1 interface instead of using a Micro-SD card); and a camera, I want to have enough power to add extras to the Voron Build.
 
 I opted to buy the following:
 
