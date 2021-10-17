@@ -16,7 +16,7 @@ This is a work in progress.  I am still planning my Voron 2.4 build.
 
 I have all my PIF parts and sourced all my parts via "sub-kits".  This will be explained later.
 
-I want to post an Excel spreadsheet for sourcing all my "sub-kits" or individual items for my Voron 2.4 build, but I need to remove it from a bigger spreadsheet I have been using to keep track of a lot of different information.  After I get done with the electronics case wiring diagram I will work on providing an Excel spreadsheet as a sourcing guide for my Voron 2.4.
+I wanted to post an Excel spreadsheet for sourcing all my "sub-kits" or individual items for my Voron 2.4, but I need to remove it from a bigger spreadsheet I have been using to keep track of a lot of different information.  After I get done with the electronics case wiring diagram, I will work on providing an Excel spreadsheet as a sourcing guide for my Voron 2.4.
 
 ## MODS I plan for QUEEN:
 
@@ -91,17 +91,17 @@ oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
-I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers. I want to share what I have learned.  I never realized that the motors I own are bipolar-series motors.
+I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers.  I never realized that the motors I own are **bipolar-series motors**.
 
 To me when things are connected in series the wires are daisy-chained together (positive lead1, negative lead1 is connected to positive lead2, negative lead2).
 
 When things are wired in parallel then the positive leads are connected together and the negative leads are connected together.
 
-So I thought the 3D printer motors where connected together in parallel on the 3D printer, which they are. If you look at the system in a "macro" view not a "micro" view.
+So I thought the 3D printer motors where connected together in parallel on the 3D printer, which they are. If you look at the **system in a "macro" view** not a "micro" view.
 
-My problem was not understanding the term "series" and "parallel" when it applies to the internal wiring of the 4 wire bipolar motor (a "micro" view).
+My problem was not understanding the term "series" and "parallel" when it applies to the internal wiring of the 4-wire bipolar motor (a "micro" view).
 
-I had to look at 8 wire bipolar motors before I actually go it through my thick head.
+I had to look at an 8-wire bipolar motor before I actually got it through my thick head.
 
 Maybe this will help others:
 
