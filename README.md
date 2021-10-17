@@ -146,6 +146,7 @@ See UHP-350 Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-350(R)/
 See UHP-500 Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-500(R)/UHP-500-spec.pdf
 
 If you are having a hard time finding UHP-xxx series of power supplies, there are two names for these UHP supplies.  One name is UHP-350-24, UHP-350-48 and so on. While the other name is UHP-350R-24, UHP-350R-48 and so on.  The extra "R" in the model number just indicates that you have the option of wiring 2 power supplies in parallel.  The "R" version will work if you can not find the regular version to buy.
+
 ---
 
 1. 48V PSU UHP-200-48 (AC to DC PSU)[(4.2A*0.8)= 3.36 Amps; I need 4 Amps! [without an aluminum plate, so 80%]] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-200-48/7707242
