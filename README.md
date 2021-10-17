@@ -154,7 +154,8 @@ See UHP-500 Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-500(R)/
 4. 24 PSU UHP-350R-24 [(14.6A*0.70)= 10.22 Amps; I want at least 9 Amps [without an aluminum plate, so 70%]]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-350-24/7707254;
 https://www.newark.com/mean-well/uhp-350r-24/power-supply-ac-dc-24v-14-6a/dp/01AH8029?ost=uhp-350r-24
 
-5. 48V PSU UHP-500-48 (AC to DC PSU)[(10.45*0.7)= 7.315 Amps; I need 4 Amps [without an aluminum plate, so 70%]] : https://www.newark.com/mean-well/uhp-500-48/power-supply-ac-dc-48v-10-45a/dp/01AH8038?ost=uhp-500-48
+5. 48V PSU UHP-500-48 (AC to DC PSU)[(10.45*0.7)= 7.315 Amps; I need 4 Amps [without an aluminum plate, so 70%]] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-500-48/8324039;
+https://www.newark.com/mean-well/uhp-500-48/power-supply-ac-dc-48v-10-45a/dp/01AH8038?ost=uhp-500-48
 
 6. 24V PSU UHP-500-24 (AC to DC PSU)[(20.9*0.7) = 14.63 Amps; I want at least 9 Amps [without an aluminum plate, so 70%]]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-500-24/8324036; https://www.newark.com/mean-well/uhp-500-24/power-supply-ac-dc-24v-20-9a/dp/01AH8036?ost=uhp-500-24
 
