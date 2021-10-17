@@ -1,8 +1,8 @@
-# Contributing to BTT_Octopus_Color_PIN_Diagram
+# Contributing to Voron2.4_My_Build_Log
 
-Thanks for your interest in contributing to BTT_Octopus_Color_PIN_Diagram!
+Thanks for your interest in contributing to Voron2.4_My_Build_Log!
 
-The following is a set of guidelines for contributing to BTT_Octopus_Color_PIN_Diagram, hosted by the [GadgetAngel](https://github.com/GadgetAngel) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a Pull Request.
+The following is a set of guidelines for contributing to Voron2.4_My_Build_Log, hosted by the [GadgetAngel](https://github.com/GadgetAngel) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a Pull Request.
 
 #### Table Of Contents
 
@@ -23,7 +23,7 @@ This project and everyone participating in it is governed by the [GadgetAngel of
 
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
-Bigtreetech hasFacebook groups where our knowledgable user community can provide helpful advice if you have questions.
+Bigtreetech has a Facebook groups where there is a knowledgeable user community can provide helpful advice if you have questions.
 
 * [Bigtreetech Octopus on Facebook](https://www.facebook.com/groups/531985571570025/)
 
@@ -32,7 +32,7 @@ Bigtreetech hasFacebook groups where our knowledgable user community can provide
 
 ### Reporting Bugs
 
-This section guides you through submitting a Bug Report for BTT_Octopus_Color_PIN_Diagram. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a Bug Report for Voron2.4_My_Build_Log. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
 When you are creating a Bug Report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](./ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
@@ -45,12 +45,12 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
 * **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the error in the manual** in as many details as possible. 
+* **Describe the error in the manual** in as many details as possible.
 * **Include screenshots, links to videos, etc.** which clearly demonstrate the problem.
 
 ### Suggesting Features or Changes
 
-This section guides you through submitting a suggestion for BTT_Octopus_Color_PIN_Diagram, including completely new features. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
+This section guides you through submitting a suggestion for Voron2.4_My_Build_Log, including completely new features. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
 When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-feature-request). Fill in [the template](./ISSUE_TEMPLATE/feature_request.md).
 
@@ -64,7 +64,7 @@ Feature Requests are tracked as [GitHub issues](https://guides.github.com/featur
 
 ### Pull Requests
 
-Pull Requests should always be targeted to working branches (e.g., `master`). If this is your first Pull Request, please read Github's [Pull Request](https://help.github.com/articles/creating-a-pull-request/) documentation.
+Pull Requests should always be targeted to working branches (e.g., `master`). If this is your first Pull Request, please read GitHub's [Pull Request](https://help.github.com/articles/creating-a-pull-request/) documentation.
 
 * Fill in [the required template](./pull_request_template.md).
 * Don't include issue numbers in the PR title.
