@@ -199,7 +199,7 @@ To download the spreadsheet, just click on the file named ["motor_torque_sim_v7_
 
 Once the Excel spreadsheet "motor_torque_sim_v7_database.xlsm" has downloaded, open it up in Excel but remember to "Enable" editing. If you do not enable editing you will not be able to see the "torque curve" graph. Also, the motors that are graphed can be chosen from a dropdown list. The voltage you run the stepper motors at can also be entered as can the current level.
 
-Here are examples Torque Curves produced by the Excel Spreadsheet:
+Here are examples of Torque Curves produced by the Excel Spreadsheet:
 
 As you will see when you go from 24V to 48V you can move faster. Also notice that when you go from 48V to 60V the gain is smaller than the jump from 24V to 48V!
 
