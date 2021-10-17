@@ -48,45 +48,45 @@ GE5C mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4
 
 NeverMore Micro Filter Mod (https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro);
 
-	E.	V2.4_z_drive_motor_tensioner_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod);
+V2.4_z_drive_motor_tensioner_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod);
 
-	F. 	Klicky Probe Mod (https://github.com/jlas1/Klicky-Probe);
+Klicky Probe Mod (https://github.com/jlas1/Klicky-Probe);
 
-	G.  Ti Bracker Mod (https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers);
+Ti Bracker Mod (https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers);
 
-	H.	Other-V2-Idlers (https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
+Other-V2-Idlers (https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
 
-	I.	AB-BN Afterburner mod (https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);
+AB-BN Afterburner mod (https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);
 
-	J.	Sexbolt Z-Endstop Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
+Sexbolt Z-Endstop Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
-	K.	PCB Cover Mod (https://github.com/craxoor/VoronMods/tree/master/PCB%20Cover);
+PCB Cover Mod (https://github.com/craxoor/VoronMods/tree/master/PCB%20Cover);
 
-	L.	Z_Drive_Belt_Exit_Covers (https://github.com/VoronDesign/Voron-2/tree/Voron2.2/STLs/VORON2.2/Bottom_Skirts_%2B_Decorative_Parts/Z_Drive_Belt_Exit_Covers);
+Z_Drive_Belt_Exit_Covers (https://github.com/VoronDesign/Voron-2/tree/Voron2.2/STLs/VORON2.2/Bottom_Skirts_%2B_Decorative_Parts/Z_Drive_Belt_Exit_Covers);
 
-	M.	Umbilical Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_umbilical_strain_relief) & (Y Endstop relocation - https://github.com/hartk1213/MISC/tree/main/Voron%20Mods%2FVoron%202%2F2.4%2FVoron2.4_Y_Endstop_Relocation);
+Umbilical Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_umbilical_strain_relief) & (Y Endstop relocation - https://github.com/hartk1213/MISC/tree/main/Voron%20Mods%2FVoron%202%2F2.4%2FVoron2.4_Y_Endstop_Relocation);
 
-	N.	Decontaminator_Purge_Bucket_&_Nozzle_Scrubber  (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber);
+Decontaminator_Purge_Bucket_&_Nozzle_Scrubber  (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber);
 
-	O.	bottom_panel_mag_clip Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hernsl/bottom_panel_mag_clip);
+bottom_panel_mag_clip Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hernsl/bottom_panel_mag_clip);
 
-	P.	Deck_Panel_Support_Clips Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips);
+Deck_Panel_Support_Clips Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips);
 
-	Q.	skirt_switch_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/tayto-chip/skirt_switch_mod) 					[RH or LH side Skirt] 			AND/OR
+skirt_switch_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/tayto-chip/skirt_switch_mod) 					[RH or LH side Skirt] 			AND/OR
 
-	R.	PowerSkirt Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/leandromarceddu/PowerSkirt) 						[RH or LH side Skirt]			AND/OR
+PowerSkirt Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/leandromarceddu/PowerSkirt) 						[RH or LH side Skirt]			AND/OR
 
-	S.	Side_Fan_Support_No_Tape Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/StvPtrsn/Side_Fan_Support_No_Tape) [RH or LH side Skirt];
+Side_Fan_Support_No_Tape Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/StvPtrsn/Side_Fan_Support_No_Tape) [RH or LH side Skirt];
 
-	T.	Skirt_Mod_250 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250) 						[Rear or Front Skirt]			AND/OR
+Skirt_Mod_250 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250) 						[Rear or Front Skirt]			AND/OR
 
-	U.	BTT_PITFT50_v2_Mount Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount) 			[Rear or Front Skirt] 			OR
+BTT_PITFT50_v2_Mount Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount) 			[Rear or Front Skirt] 			OR
 
-	V.	LCD_case_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/LCD_case_mod) 					[Rear or Front Skirt];
+LCD_case_mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/LCD_case_mod) 					[Rear or Front Skirt];
 
-	W.  Mag Panel Mod (https://github.com/Yeriwyn/VoronUsers/tree/V1-and-V2-panels/printer_mods/yeri/V1_V2_Magnetic_Panels);
+Mag Panel Mod (https://github.com/Yeriwyn/VoronUsers/tree/V1-and-V2-panels/printer_mods/yeri/V1_V2_Magnetic_Panels);
 
-	X.	oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2%20Recirculating%20Filter);
+oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2%20Recirculating%20Filter);
 
 ## How I calculated the power requirements for my QUEEN build:
 
