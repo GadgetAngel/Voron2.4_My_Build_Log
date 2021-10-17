@@ -211,7 +211,8 @@ Please take notice of the "Notes" section on the "Wiring_Harness_Diagram".
 
 To ensure you see it, I am going to repeat it here:
 
-```Note about the Hartk1213 v3.rabbit board:
+```
+Note about the Hartk1213 v3.rabbit board:
 If the jumper pads on the back of the v3.rabbit are configured
 incorrectly you could end up damaging your Octopus Pro mother board!!
 
@@ -228,8 +229,8 @@ For version #1 of the v3.rabbit board, the columns are labeled from left to righ
 
 For version #1 and version #2 the rows are: 1st row is 24VDC; 2nd row is (ABL, PCF, or HEF, {only on Version #1 FS}); and 3rd row is 5VDC.
 
-If you have version #2 and you want 5VDC, you are going to cut the trace to the 24VDC on the desired PIN (ABL, PCF or HEF)!```
-
+If you have version #2 and you want 5VDC, you are going to cut the trace to the 24VDC on the desired PIN (ABL, PCF or HEF)!
+```
 
 ![JPG of wiring harness Diagram](images/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg)
 
