@@ -207,7 +207,7 @@ You can download the JPG file for this "Color PIN Diagram" by clicking on the fi
 
 This is the wiring harness diagram I developed for my Voron 2.4 build, it is also in the directory called "Wiring_Harness_Diagram".
 
-Please take notice of the "Notes" section on the "Wiring_Harness_Diagram".  
+Please take notice of the "Notes" section on the "Wiring_Harness_Diagram".
 
 To ensure you see it, I am going to repeat it here:
 
@@ -263,7 +263,7 @@ This is the electronics wiring diagram I developed for my Voron 2.4 build:
 
 Coming Soon.
 
-## How Well Will Your Motors Perform on a Voron Build?:
+## How Well Will Your Motors Perform on a Voron Build?
 
 You need to look at the torque curve for your motors and see how your motors perform at different voltages.
 
@@ -316,9 +316,23 @@ There is only two PINs that are different between the Octopus V1.1 pin-out and t
 
 The second PIN difference is that on the Octopus V1.1 pin-out PB7 is the signal PIN used on the PROBE/SENSOR connector and on the BLTouch header but on the Octopus Pro V1.0 the signal pin on the PROBE connector is PC5.  Which means that on the Octopus V1.1 board you can only use either a BLTouch or a Proximity Sensor but NOT both. On the Octopus Pro V1.0 since the signal pins for the PROBE connector is different from the BLTouch, if you wanted to, you could use both ports.
 
-If you plan to use a voltage higher than 24V on MOTOR_POWER_IN then please pay attention to the following footnotes on the "Color PIN Diagram": 1.
+If you plan to use a voltage higher than 24V on MOTOR_POWER_IN then please pay attention to the footnote #1 on the "Color PIN Diagram".
 
-You may need to change the Fuse on the MB_POWER_IN, calculate the maximum amps you will be using (the four heaters {HE0-HE3}, 3.3VDC rail, 5VDC rail, and 12VDC rail all produced from the 24VDC rail).  The maximum amps for 3.3VDC rail is 1 Amp. The maximum amps for the 5VDC rail is 8 Amps. The maximum amps for 12VDC rail is 4 Amps. So the total maximum amps for 3.3VDC rail + 5VDC rail + 12VDC rail is equal to 13 Amps, but the amps needed to run the four heaters needs to be added to this value. Since BIGTREETECH supplies us with a 20 Amp fuse, then BIGTREETECH is saying that you have 7 more Amps available for all four heater ports or 1.75 Amps / heater cartridge. Just do not use more than 7 Amps on any combination of the four heater {HE0-HE3} ports!
+You may need to change the Fuse on the MB_POWER_IN. To calculate the maximum amps you will be using on the MB_POWER_IN connection you will need to know the maximum amps allowed on the 24VDC rail for the motherboard.
+
+To calculate the maximum amps allowed on the 24VDC rail on mother board:
+
+ (the four heaters {HE0-HE3}, 3.3VDC rail, 5VDC rail, and 12VDC rail all produced from the 24VDC rail).
+
+ The maximum amps for 3.3VDC rail is 1 Amp.
+
+ The maximum amps for the 5VDC rail is 8 Amps.
+
+ The maximum amps for 12VDC rail is 4 Amps.
+
+ So the total maximum amps for 3.3VDC rail + 5VDC rail + 12VDC rail is equal to 13 Amps, but the amps needed to run the four heaters needs to be added to this value.
+
+ Since BIGTREETECH supplies us with a 20 Amp fuse, then BIGTREETECH is saying that you have 7 more Amps available for all four heater ports or 1.75 Amps / heater cartridge. Just do not use more than 7 Amps on any combination of the four heater {HE0-HE3} ports!
 
 Please use the "Color PIN Diagram" in [BTT_Octopus_Pro_V1.0_Color_PIN_Diagram](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/tree/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram) to obtain the correct PIN assignments.
 
