@@ -175,7 +175,7 @@ This is the wiring harness diagram I developed for my Voron 2.4 build:
 
 ## PDF version of the for Wiring_Harness_Diagram":
 
-You can view the PDF in your browser by clicking on the filename !["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
+You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
 
 ## Located in the "Electronics_Case_Wiring_Diagram" directory you will find the wiring diagram for the electronics case for QUEEN:
 
