@@ -6,23 +6,25 @@ My Voron 2.4 3D Printer has a name "QUEEN".
 
 ## Mother board I plan on using:
 
-I will be using the Octopus Pro V1.0 board and the mother board for my Voron 2.4 printer.
+I will be using the Octopus Pro V1.0 board as the mother board for my Voron 2.4 printer.
 I will be powering my TMC5160 PRO stepper motor drivers with 48V DC.
 
 ## Planning Phase:
 
-This is a work in progress.  I am still planning on my Voron 2.4 build.
+This is a work in progress.  I am still planning my Voron 2.4 build.
 
 I have all my PIF parts and sourced all my parts via "sub-kits".  This will be explained later.
 
-I want to post an Excel spreadsheet for where I bought all my "sub-kits" or individual items for my Voron 2.4 build.
+I want to post an Excel spreadsheet for where I bought all my "sub-kits" or individual items for my Voron 2.4 build, but I need to remove it from a bigger spreadsheet I have been using to keep track of a lot of different information.  After I get done with the electronics case wiring diagram I will work on providing an Excel spreadsheet for sourcing parts for my Voron 2.4 build.
 
 ## MODS I plan for QUEEN:
 
 For now these are the MODS I plan on trying out:
 
 GadgetAngel's Voron 2.4 MODS (250 mm^3 Build):
+
 	Tool head PCB board options (MODS) I am considering:
+
 	A.	Hartk1213's "Tool headBoard for Voron Afterburner v4.1" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/toolhead-board-for-voron-v2-4?_pos=1&_psq=boards&_ss=e&_v=1.0&variant=40751516418217
 			AA.  Wiring Diagram for "Tool headBoard for Voron Afterburner v4.1" Toolhead board: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Rev3.2/wiringDiagram.png
 	B.	Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0
@@ -30,6 +32,7 @@ GadgetAngel's Voron 2.4 MODS (250 mm^3 Build):
 	C. 	TURBO CAN Tool Head PCB Mod: https://github.com/henrikssn/TurboCAN (STM32F072CBUx)
 
 	Other MODS I am considering for my build:
+
 	A.	MGN12 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12);
 	B.	PINS Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod);
 	C.	GE5C mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_GE5C/STLs);
