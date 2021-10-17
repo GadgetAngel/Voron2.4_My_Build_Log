@@ -193,9 +193,11 @@ Coming Soon.
 
 You need to look at the torque curve for your motors and see how your motors perform at different voltages.
 
-Here is an Excel spreadsheet that can help you: https://github.com/.../doc.../tree/master/stepper_motor/data
+Here is an Excel spreadsheet that can help you: https://github.com/eddietheengineer/documentation/tree/master/stepper_motor/data
 
-BTW, "Enable" editing the first time you open the above Excel spreadsheet when you open it "Enable" or you will not see the torque graph. Also, the motors that are graphed can be chosen from a dropdown list. The Voltage you run the stepper motors at can also be entered as can the current level.
+Download the file named ["motor_torque_sim_v7_database.xlsm"](https://github.com/eddietheengineer/documentation/blob/master/stepper_motor/data/motor_torque_sim_v7_database.xlsm) and hit the download button.
+
+Once the Excel spreadsheet "motor_torque_sim_v7_database.xlsm" has downloaded, open it up in Excel but remember to "Enable" editing. If you do not enable editing you will not be able to see the "torque curve" graph. Also, the motors that are graphed can be chosen from a dropdown list. The voltage you run the stepper motors at can also be entered as can the current level.
 
 Here are examples Torque Curves produced by the Excel Spreadsheet:
 
