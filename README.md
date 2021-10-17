@@ -195,7 +195,7 @@ You need to look at the torque curve for your motors and see how your motors per
 
 Here is an Excel spreadsheet that can help you: https://github.com/eddietheengineer/documentation/tree/master/stepper_motor/data
 
-To download spreadsheet the file click on the file named ["motor_torque_sim_v7_database.xlsm"](https://github.com/eddietheengineer/documentation/blob/master/stepper_motor/data/motor_torque_sim_v7_database.xlsm) and hit the download button.
+To download the spreadsheet, just click on the file named ["motor_torque_sim_v7_database.xlsm"](https://github.com/eddietheengineer/documentation/blob/master/stepper_motor/data/motor_torque_sim_v7_database.xlsm) and hit the download button.
 
 Once the Excel spreadsheet "motor_torque_sim_v7_database.xlsm" has downloaded, open it up in Excel but remember to "Enable" editing. If you do not enable editing you will not be able to see the "torque curve" graph. Also, the motors that are graphed can be chosen from a dropdown list. The voltage you run the stepper motors at can also be entered as can the current level.
 
