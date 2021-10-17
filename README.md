@@ -322,7 +322,7 @@ You may need to change the Fuse on the MB_POWER_IN. To calculate the maximum amp
 
 To calculate the maximum amps allowed on the 24VDC rail on mother board:
 
- (the four heaters {HE0-HE3}, 3.3VDC rail, 5VDC rail, and 12VDC rail all produced from the 24VDC rail).
+ (the four heaters {HE0-HE3}, 3.3VDC rail, 5VDC rail, and 12VDC rail are all produced from the 24VDC rail).
 
  The maximum amps for 3.3VDC rail is 1 Amp.
 
