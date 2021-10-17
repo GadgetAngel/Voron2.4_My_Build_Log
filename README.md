@@ -149,15 +149,21 @@ See UHP-500 Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-500(R)/
 
 2. 24V PSU UHP-200-24 (AC to DC PSU)[(8.4A*0.8)= 6.72 Amps ; I want at least 9 Amps! [without an aluminum plate, so 80%]]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-200-24/7707239
 
+---
+
 3. 48V PSU UHP-350R-48 (AC to DC PSU)[(7.3A*0.70)= 5.32 Amps; I need 4 Amps [without an aluminum plate, so 70%]] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-350-48/7707258; https://www.newark.com/mean-well/uhp-350r-48/power-supply-ac-dc-48v-7-3a/dp/01AH8032?ost=uhp-350r-48
 
 4. 24 PSU UHP-350R-24 [(14.6A*0.70)= 10.22 Amps; I want at least 9 Amps [without an aluminum plate, so 70%]]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-350-24/7707254;
 https://www.newark.com/mean-well/uhp-350r-24/power-supply-ac-dc-24v-14-6a/dp/01AH8029?ost=uhp-350r-24
 
+---
+
 5. 48V PSU UHP-500-48 (AC to DC PSU)[(10.45*0.7)= 7.315 Amps; I need 4 Amps [without an aluminum plate, so 70%]] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-500-48/8324039;
 https://www.newark.com/mean-well/uhp-500-48/power-supply-ac-dc-48v-10-45a/dp/01AH8038?ost=uhp-500-48
 
 6. 24V PSU UHP-500-24 (AC to DC PSU)[(20.9*0.7) = 14.63 Amps; I want at least 9 Amps [without an aluminum plate, so 70%]]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-500-24/8324036; https://www.newark.com/mean-well/uhp-500-24/power-supply-ac-dc-24v-20-9a/dp/01AH8036?ost=uhp-500-24
+
+---
 
 So I could use option 3 & 4 OR 5 & 6.  Since I plan on LEDS and running a Raspberry Pi 4B with a solid state disk drive via USB 3.1 interface instead of using a Micro-SD card I want to have enough power to add extras to the Voron Build.
 
