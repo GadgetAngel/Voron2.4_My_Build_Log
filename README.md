@@ -129,10 +129,10 @@ So ALL my motors are 4-wire bipolar-series motors!
 
  Since ALL LDO motors I own are bipolar-Series Motors we will use Rule of Thumb #1 ONLY!
 
- Power_ supply_current = (5 * 1/3 * 2.0 Amps) + (1 * 1/3 * 1.0A) = 3.333 + 0.333 = 3.6667 or 4 Amps. 
- 
- So for **my bipolar-series motors** I will need how many Watts of power? 
- 
+ Power_ supply_current = (5 * 1/3 * 2.0 Amps) + (1 * 1/3 * 1.0A) = 3.333 + 0.333 = 3.6667 or 4 Amps.
+
+ So for **my bipolar-series motors** I will need how many Watts of power?
+
  Answer: 48V @ 4Amp = 192 Watts or 200 Watts PSU (if the PSU supplies the full power without an aluminum plate for heat dissipation [PSU's Derating Curve]).
 
 Power my Voron 2.4 48VDC 250 mm Build (running all HT motors from LDO at 48VDC) with the following:
