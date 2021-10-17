@@ -203,9 +203,9 @@ You can download the JPG file for this "Color PIN Diagram" by clicking on the fi
 
 ![JPG of Color PIN Diagram](images/BIGTREETECH-Octopus-Pro-V1.0-color-PIN-V2.2.jpg)
 
-## "Wiring_Harness_Diagram" directory you will find the wiring harness diagram for QUEEN:
+## "Wiring_Harness_Diagram" for QUEEN:
 
-This is the wiring harness diagram I developed for my Voron 2.4 build:
+This is the wiring harness diagram I developed for my Voron 2.4 build, it is also in the directory called "Wiring_Harness_Diagram":
 
 Please take notice of the Notes on the "Wiring_Harness_Diagram".  To ensure you see it, I am going to repeat it here:
 
