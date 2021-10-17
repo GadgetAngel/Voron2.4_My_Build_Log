@@ -167,11 +167,13 @@ You can download the JPG file for this "Color PIN Diagram" by clicking on the fi
 
 ![JPG of Color PIN Diagram](images/BIGTREETECH-Octopus-Pro-V1.0-color-PIN-V2.2.jpg)
 
-## Located in the "Wiring_Harness_Diagram" directory you will find the wiring harness diagram for QUEEN:
+## "Wiring_Harness_Diagram" directory you will find the wiring harness diagram for QUEEN:
 
 This is the wiring harness diagram I developed for my Voron 2.4 build:
 
 ![JPG of wiring harness Diagram](images/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg)
+
+You can download the JPG file for this "Wiring_Harness_Diagram" by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) or the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg) and then hit the download button.
 
 ## PDF version of the for Wiring_Harness_Diagram":
 
@@ -179,7 +181,7 @@ You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Too
 
 You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button.
 
-## Located in the "Electronics_Case_Wiring_Diagram" directory you will find the wiring diagram for the electronics case for QUEEN:
+## "Electronics_Case_Wiring_Diagram" directory you will find the wiring diagram for the electronics case for QUEEN:
 
 This is the electronics wiring diagram I developed for my Voron 2.4 build:
 
