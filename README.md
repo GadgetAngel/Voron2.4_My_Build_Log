@@ -159,7 +159,7 @@ I am hoping I can fit all of this in my electronics case for a 250 mm build.  Bu
 
 You can view the PDF in your browser by clicking on the filename ["BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2.pdf"](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram/BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2.pdf) and then hit the download button.
 
-You can view an even higher resolution image when you view the PDF in you browser by clicking on the filename ["BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2-600ppi.pdf"](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram/BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2-600ppi.pdf) and then hit the download button.
+You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2-600ppi.pdf"](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram/BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V2.2-600ppi.pdf) and then hit the download button.
 
 ## A Picture of the "Color PIN Diagram" for the Octopus Pro V1.0:
 
@@ -176,6 +176,8 @@ This is the wiring harness diagram I developed for my Voron 2.4 build:
 ## PDF version of the for Wiring_Harness_Diagram":
 
 You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
+
+You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button.
 
 ## Located in the "Electronics_Case_Wiring_Diagram" directory you will find the wiring diagram for the electronics case for QUEEN:
 
