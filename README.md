@@ -23,7 +23,7 @@ For now these are the MODS I plan on trying out:
 
 GadgetAngel's Voron 2.4 MODS (250 mm^3 Build):
 
-	Tool head PCB board options (MODS) I am considering:
+Tool head PCB board options (MODS) I am considering:
 
 	A.	Hartk1213's "Tool headBoard for Voron Afterburner v4.1" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/toolhead-board-for-voron-v2-4?_pos=1&_psq=boards&_ss=e&_v=1.0&variant=40751516418217
 			AA.  Wiring Diagram for "Tool headBoard for Voron Afterburner v4.1" Toolhead board: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Rev3.2/wiringDiagram.png
@@ -31,7 +31,7 @@ GadgetAngel's Voron 2.4 MODS (250 mm^3 Build):
 			BB. Wiring Diagram for Voron Afterburner Toolhead Board v3.rabbit" Tool headboard: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png
 	C. 	TURBO CAN Tool Head PCB Mod: https://github.com/henrikssn/TurboCAN (STM32F072CBUx)
 
-	Other MODS I am considering for my build:
+Other MODS I am considering for my build:
 
 	A.	MGN12 Mod (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12);
 	B.	PINS Mod (https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod);
