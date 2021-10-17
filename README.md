@@ -113,11 +113,11 @@ So ALL my motors are 4-wire bipolar-series motors!
 
  To Determine the amount of Power Required for your Voron 2.4 build:
 
- Fact: During a Z Hope move 6 motors will be active at a time.
+ ``Fact: During a Z Hope move 6 motors will be active at a time.
  Fact:  Extruder (E) Motor LDO-42STH20-1004ASH:
 		Rated Peak current: 1.0A/ Phase
  Fact:  Z motors and AB motors are LD0-42STH40-2004MAH
-		Rated Peak current: 2.0A / Phase
+		Rated Peak current: 2.0A / Phase``
 
  Rule of Thumb (https://robotics.stackexchange.com/questions/14071/how-to-calculate-my-power-supply-voltage-and-current):
  1. Power_supply_current = number_of_motors * 1/3 * motor_peak_current for "bipolar-series motors" (All LDO motors are bipolar-Series Motors!)
