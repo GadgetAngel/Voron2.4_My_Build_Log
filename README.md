@@ -133,11 +133,17 @@ So ALL my motors are 4-wire bipolar-series motors!
 
  So for **my bipolar-series motors** I want to khow many Watts of power is 4 Amps at 48 VDC?
 
- Answer: Watts = Volts * Amps So, 48VDC * 4 Amp = 192 Watts or 200 Watts PSU (if the PSU supplies the full power without an aluminum plate for heat dissipation [PSU's Derating Curve]).
+ Answer: Watts = Volts * Amps 
+ 
+ So, 48VDC * 4 Amp = 192 Watts or 200 Watts PSU (if the PSU supplies the full power without an aluminum plate for heat dissipation [PSU's Derating Curve]).
 
-Power my Voron 2.4 48VDC 250 mm Build (running all HT motors from LDO at 48VDC) with the following:
+Options for powering my Voron 2.4 printer at 48 VDC, and 24 VDC (running all HT motors from LDO at 48VDC) with the following:
 
-See Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-200(R)/UHP-200-spec.pdf
+See UHP-200 Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-200(R)/UHP-200-spec.pdf
+
+See UHP-350 Spec Data sheet : https://www.meanwellusa.com/productPdf.aspx?i=830
+
+See UHP-500 Spec Data sheet : https://www.meanwell.com/productPdf.aspx?i=832
 
 1. 48V PSU UHP-200-48 (AC to DC PSU)[(4.2A*0.8)= 3.36 Amps; I need 4 Amps! [without an aluminum plate, so 80%]] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-200-48/7707242
 
