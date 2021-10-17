@@ -189,6 +189,33 @@ This is the electronics wiring diagram I developed for my Voron 2.4 build:
 
 Coming Soon.
 
+## How to determine how your Motors will perform on a Voron Build:
+
+You need to look at the torque curve for your motors and see how your motors perform at different voltages.
+
+Here is an Excel spreadsheet that can help you: https://github.com/.../doc.../tree/master/stepper_motor/data
+
+BTW, "Enable" editing the first time you open the above Excel spreadsheet when you open it "Enable" or you will not see the torque graph. Also, the motors that are graphed can be chosen from a dropdown list. The Voltage you run the stepper motors at can also be entered as can the current level.
+
+Here are examples Torque Curves produced by the Excel Spreadsheet:
+
+As you will see when you go from 24V to 48V you can move faster. Also notice that when you go from 48V to 60V the gain is smaller than the jump from 24V to 48V!
+
+Here is the Torque Curve for the specified stepper motors at 24 VDC:
+
+![Motor Torque Curve for 24V](images/Motor_Torque_Curve_for_24V.jpg)
+
+Here is the Torque Curve for the same specified stepper motors at 48 VDC:
+
+![Motor Torque Curve for 48V](images/Motor_Torque_Curve_for_48V.jpg)
+
+Here is the Torque Curve for the same specified stepper motors at 60 VDC:
+
+![Motor Torque Curve for 60V](images/Motor_Torque_Curve_for_60V.jpg)
+
+
+As you can see when you go from 24V to 48V you can move faster. Also notice that when you go from 48V to 60V the gain is smaller than the jump from 24V to 48V!
+
 ## The Original BIGTREETECH Wiring Diagram for the Octopus Pro V1.0:
 
 ![Original Wiring Diagram](images/BIGTREETECH-Octopus-Pro-V1.0-Original-Wiring-Diagram.jpg)
