@@ -171,6 +171,27 @@ You can download the JPG file for this "Color PIN Diagram" by clicking on the fi
 
 This is the wiring harness diagram I developed for my Voron 2.4 build:
 
+Please take notice of the Notes on the "Wiring_Harness_Diagram".  To ensure you see it, I am going to repeat it here:
+
+Note about the Hartk1213 v3.rabbit board:
+If the jumper pads on the back of the v3.rabbit are configured
+incorrectly you could end up damaging your Octopus Pro mother board!!
+
+Because there are two different versions of this Toolhead board around (let’s call them version #1, and version #2), before powering on your printer, please ensure that the jumper pads on the back of the v3.rabbit Toolhead board are properly configure for your FANS and ABL!
+
+How to tell which version of the v3.rabbit Toolhead board you own:
+
+If you turn the board over on its back, you will see a bank of jumper pads.  For version #1 of the v3.rabbit Toolhead board has 4 columns by 3 rows of jumper pads.  For version #2 of v3.rabbit Toolhead board has 3 columns by 3 rows of jumper pads.  If you have version #1 of the v3.rabbit Toolhead board (4 columns by 3 rows of jumper pads) than you are responsible for bridging the jumper pads to your desired voltage (in my case I would solder a bridge to 24VDC for ABL, PCF, HEF, and FS).  If you have version #2 of the v3.rabbit Toolhead board (3 columns by 3 rows of jumper pads) than all the selectable voltages default to 24VDC!
+
+Here is what the labels mean:
+ABL means auto bed leveling or an inductive probe or the proximity sensor connector;  PCF means Part Cooling Fan; HEF means Hotend Fan; and FS means Filament Switch Sensor.
+
+For version #1 of the v3.rabbit board, the columns are labeled from left to right: ABL, PCF, HEF, FS. For version #2 of the v3.rabbit board, the columns are labeled from left to right: ABL, PCF, HEF.
+
+For version #1 and version #2 the rows are: 1st row is 24VDC; 2nd row is (ABL, PCF, or HEF, {only on Version #1 FS}); and 3rd row is 5VDC.
+
+If you have version #2 and you want 5VDC, you are going to cut the trace to the 24VDC on the desired PIN (ABL, PCF or HEF)!
+
 ![JPG of wiring harness Diagram](images/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg)
 
 You can download the JPG file for this "Wiring_Harness_Diagram" by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg).
