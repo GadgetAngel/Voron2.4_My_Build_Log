@@ -140,6 +140,7 @@ See Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-200(R)/UHP-200-
 So I could use option 3 & 4 OR 5 & 6.  Since I plan on LEDS and running a Raspberry Pi 4B with a solid state disk drive via USB 3.1 interface instead of using a Micro-SD card I want to have enough power to add extras to my Voron Build.
 
 I opted to buy the following:
+
     A. UHP-500-48 for my 48VDC supply
     B. UHP-500-24 for my 24VDC supply
     C. RS-25-5 for my 5VDC supply
