@@ -151,7 +151,13 @@ YET TO BE DONE, coming soon.
 
 ## BIGTREETECH has a GitHub repository for the Octopus Pro V1.0:
 
-The BIGTREETECH Github repository is located at https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro
+The BIGTREETECH GitHub repository for Octopus Pro is located at https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro
+
+## BIGTREETECH has a GitHub repository for the Octopus V1.0/1.1 Board:
+
+The BIGTREETECH GitHub repository for Octopus 1.0/1.1 is located at https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0
+
+This repository also has information on how to wire up an Octopus V1.0/V1.1 board for a Voron Build and is located at https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20works%20on%20Voron%20v2.4
 
 ## Klipper firmware supports the Octopus Pro V1.0 board:
 
