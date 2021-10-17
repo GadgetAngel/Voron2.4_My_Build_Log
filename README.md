@@ -91,7 +91,7 @@ oab1 v2.2 Recirculating Filter (https://github.com/oab1/VoronMods/tree/main/v2.2
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
-I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers.  I never realized that the motors I own are **bipolar-series motors**.
+I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers I will describe the process I used.  I never realized that the motors I own are **bipolar-series motors**.
 
 To me when things are connected in series the wires are daisy-chained together (positive lead1, negative lead1 is connected to positive lead2, negative lead2).
 
