@@ -139,10 +139,11 @@ See Spec Data sheet : https://www.meanwellusa.com/upload/pdf/UHP-200(R)/UHP-200-
 
 So I could use option 3 & 4 OR 5 & 6.  Since I plan on LEDS and running a Raspberry Pi 4B with a solid state disk drive via USB 3.1 interface instead of using a Micro-SD card I want to have enough power to add extras to my Voron Build.
 
-I opted to buy the UHP-500-48 for my 48VDC supply
-I opted to buy the UHP-500-24 for my 24VDC supply
-I opted to buy the RSP-25-5 for my 5VDC supply
-I opted to buy the UHP-200-12 for my 12VDC supply.
+I opted to buy the following:
+    A. UHP-500-48 for my 48VDC supply
+    B. UHP-500-24 for my 24VDC supply
+    C. RS-25-5 for my 5VDC supply
+    D. UHP-200-12 for my 12VDC supply.
 
 I will use the Octopus Pro to power the stepper motor drivers, heater cartridge, temperature sensors, limit switches, and generate signals on PINs to control stuff, but I do not plan on powering stuff off the Octopus Pro board that is considered optional equipment like LEDs, and endoscope or cameras.  Since my Raspberry Pi (running Klipper) is the brains of this setup, I will be using a solid state drive to act as the disk drive for the Raspberry Pi.  This adds additional current draw and the Raspberry Pi will have its own 5V PSU.
 
