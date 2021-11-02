@@ -22,6 +22,10 @@ Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
 
+## This repository can be downloaded as one large zip file from my Google drive at:
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 ## Mother board I plan on using:
 
 I will be using the Octopus Pro V1.0 board as the mother board for my Voron 2.4 printer.

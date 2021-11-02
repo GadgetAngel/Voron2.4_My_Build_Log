@@ -15,6 +15,9 @@ $ git clone https://github.com/GadgetAngel/Voron2.4_My_Build_Log.git
 Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
+## This repository can be downloaded as one large zip file from my Google drive at:
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Wiring Harness for QUEEN (my Voron 2.4 build):
 
