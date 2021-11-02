@@ -23,7 +23,7 @@ Now open Window explorer to the location of local clone.
 
 ## This whole repository can be downloaded as one large zip file from my Google drive at: (if downloading via LFS is giving you are hard time)
 
-## xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## https://drive.google.com/file/d/1EB7RUZIzA_hzhPUtp8R2ubD9VVtWnn0H/view?usp=sharing
 
 ## Mother board I plan on using:
 
