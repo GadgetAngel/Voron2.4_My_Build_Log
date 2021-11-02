@@ -22,9 +22,9 @@ Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
 
-## This repository can be downloaded as one large zip file from my Google drive at:
+## This whole repository can be downloaded as one large zip file from my Google drive at: (if downloading via LFS is giving you are hard time)
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Mother board I plan on using:
 
