@@ -1,8 +1,7 @@
 # This repositoy uses LFS extension
 
 ```
-I use Git for Windows with VScode to manage this repository.  I also use Git LFS extensions
-for .pdf and .png files.
+I use Git for Windows with VScode to manage this repository.  I also use Git LFS extensions for all the files.
 
 Install Git with LFS extensions: https://git-lfs.github.com/
 
