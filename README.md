@@ -4,6 +4,23 @@ My Voron 2.4 3D Printer has a name "QUEEN".
 
 This repository contains wiring diagrams, specification sheets, any documentation I use to complete my Voron 2.4 build. I also am including aesthetic designs for QUEEN's back panel and side panels.
 
+# This repositoy uses LFS extension
+
+```
+I use Git for Windows with VScode to manage this repository.  I also use Git LFS extensions
+for .pdf and .png files.
+
+Install Git with LFS extensions: https://git-lfs.github.com/
+
+To Download the whole repository do the following: select the "Clone or download button" and
+click on "paste to clipboard" button so you can place the URL for the GitHub repository
+to the clipboard. Now Open Git Bash.  Change the current working directory to the location
+where you want the cloned directory.
+Type git clone, and then paste the URL you copied earlier.
+$ git clone https://github.com/GadgetAngel/Voron2.4_My_Build_Log.git
+Press Enter to create your local clone.
+Now open Window explorer to the location of local clone.
+```
 
 ## Mother board I plan on using:
 
