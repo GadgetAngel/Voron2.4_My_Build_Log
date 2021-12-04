@@ -112,17 +112,17 @@ Note: this replaces the GE5C Mod;
 19.	[MarcPot's "Skirt_Mod_250 Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250); - with my modification so that you can use this with the magnatic bottom panel;
 
 20.  My "BTT-PITFT5-Mount Mod" from the following sources:
-    * Alanho\'\s "BTT_PITFT50_v2_Mount Mod",
-    * Smaseface\'\s "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
-    * Revnull\'\s "Articulating arm" from his "rpi_7in_display_mount mod"
+    * Alanho's "BTT_PITFT50_v2_Mount Mod",
+    * Smaseface's "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
+    * Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"
 
-    * [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
+* [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
 
-    *  [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
+* [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
 
-    * [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
+* [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
 
-    * [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
+* [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
 
 21.	[Randell's "Microswitch_Endstop POD"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/randell/Microswitch_Endstop);
 
