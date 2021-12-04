@@ -150,7 +150,7 @@ Note: this replaces the GE5C Mod;
 
 32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram);
 
-33. I also used all Trident DIN clips for mounting electronics and I used Trident 3D Printed Parts on the MGN12 Mod. **Thank you Voron Design Team for all your hard work!**
+33. I also used all [Trident DIN clips](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/ElectronicsBay) for mounting electronics and I used [Trident 3D Printed Parts on the MGN12 Mod](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage). **Thank you Voron Design Team for all your hard work!**
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
