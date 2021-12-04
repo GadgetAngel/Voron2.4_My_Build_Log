@@ -113,19 +113,13 @@ Note: this replaces the GE5C Mod;
 
 20.  My "BTT-PITFT5-Mount Mod" from the following sources:
 
-* Alanho's "BTT_PITFT50_v2_Mount Mod",
+    * [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
 
-* Smaseface's "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
+    * [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
 
-* Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"
+    * [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
 
-* [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
-
-* [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
-
-* [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
-
-* [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
+    * [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
 
 21.	[Randell's "Microswitch_Endstop POD"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/randell/Microswitch_Endstop);
 
