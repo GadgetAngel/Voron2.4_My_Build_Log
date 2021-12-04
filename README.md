@@ -111,11 +111,11 @@ Note: this replaces the GE5C Mod;
 
 19.	[MarcPot's "Skirt_Mod_250 Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250); - with my modification so that you can use this with the magnatic bottom panel;
 
-20.  My "BTT-PITFT5-Mount Mod" from the following sources: 
+20.  My "BTT-PITFT5-Mount Mod" from the following sources:
 
-    * Alanho's "BTT_PITFT50_v2_Mount Mod" , 
-    * Smaseface's "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and 
-    * Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"
+    * Alanho\*'*\s "BTT_PITFT50_v2_Mount Mod",
+    * Smaseface\*'\*s "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
+    * Revnull\*'\*s "Articulating arm" from his "rpi_7in_display_mount mod"
 
     * [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
 
