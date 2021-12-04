@@ -74,7 +74,7 @@ Note: this replaces the GE5C Mod;
 
 6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);
 
-    I also used the following user mods for the "Klicky Probe Mod":
+    I also used the following "user mods" for the "Klicky Probe Mod":
 
     * [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
 
