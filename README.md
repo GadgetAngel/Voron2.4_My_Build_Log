@@ -68,9 +68,9 @@ Note: this replaces the GE5C Mod;
 
 5.  I combined two mods into one, "Z Drive Motor Tensioner Mod" was combined from the following sources:
 
-1. Z Motor A/B Unit combined from [Edwardyeeks' "V2.4_z_drive_motor_tensioner_mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod); with my modification for the front Skirts for switches and Hour counter;
+* Z Motor A/B Unit combined from [Edwardyeeks' "V2.4_z_drive_motor_tensioner_mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod); with my modification for the front Skirts for switches and Hour counter;
 
-2. Z Motor A/B  Motor Unit combined from [Spaghetti-Bolognese's "Z Driver System Mods"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/Z_drive_motor_mount);
+* Z Motor A/B  Motor Unit combined from [Spaghetti-Bolognese's "Z Driver System Mods"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/Z_drive_motor_mount);
 
 
 
@@ -78,23 +78,19 @@ Note: this replaces the GE5C Mod;
 
 I also used the following user mods for the "Klicky Probe Mod":
 
-1. [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
+* [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
 
-2. [bluedragonx's "BlueDragonX's Klicky Mods"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx);
+* [bluedragonx's "BlueDragonX's Klicky Mods"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx);
 
-3. [Oc_geek's "More Robust Klicky Probe mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/oc_geek);
+* [Oc_geek's "More Robust Klicky Probe mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/oc_geek);
 
-4. I combined StefanRaatz's "Klicky Probe with additional holes mod" and Oc_geek's "More Robust Klicky Probe mod" for my version of "More Robust Klicky Probe mod".
-
-
+* I combined StefanRaatz's "Klicky Probe with additional holes mod" and Oc_geek's "More Robust Klicky Probe mod" for my version of "More Robust Klicky Probe mod".
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
-
-
 8. [Ramalama2's "Front_Idlers mod" ](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers); - these are replacement for Phalanx's "Other-V2-Idlers mod;
 
-1. [Phalanx's "Other-V2-Idlers mod"](https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
+* [Phalanx's "Other-V2-Idlers mod"](https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
 
 
 9. [Badnoob's "AB-BN30 Afterburner mod"](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);
@@ -119,17 +115,15 @@ I also used the following user mods for the "Klicky Probe Mod":
 
 19.	[MarcPot's "Skirt_Mod_250 Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250); - with my modification so that you can use this with the magnatic bottom panel;
 
-
-
 20.  "BTT-PITFT5-Mount Mod" from the following sources: Alanho's "BTT_PITFT50_v2_Mount Mod" , Smaseface's "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and Revnull's "Articulating arm" from his "rpi_7in_display_mount mod":
 
-1. [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
+* [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
 
-2. [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
+* [Smaseface's "BTT-PITFT5-Mount mod"](https://github.com/smaseface/BTT-PITFT5-Mount-for-Voron-v2.4);
 
-3. [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
+* [Revnull's "Articulating arm" from his "rpi_7in_display_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/revnull/rpi_7in_display_mount);
 
-4. [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
+* [driftology's "Fysetc Paneldue 7i V3 Voron 2 Adapter on Thingiverse.com"](https://www.thingiverse.com/thing:4571677);
 
 21.	[Randell's "Microswitch_Endstop POD"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/randell/Microswitch_Endstop);
 
@@ -154,9 +148,9 @@ I also used the following user mods for the "Klicky Probe Mod":
 31. For handling the thermal expansion on the Build Plate for QUEEN, I added the Mandala Rose Works's ["Matched Height Kinematic Kit"](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit) along with ["Voron 250 Standard Bed"](https://www.mandalaroseworks.com/shop/voron/voron-250-standard-bed),
 
 The following will be need if you add the kinematic kit to your Voron 2.4 Build:
-1. [Shorten the purge bucket](https://discord.com/channels/460117602945990666/635687829254701107/905929693587464242);
-2. [buy a longer sexbolt for #J mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
-3. buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
+*  [Shorten the purge bucket](https://discord.com/channels/460117602945990666/635687829254701107/905929693587464242);
+*  [buy a longer sexbolt for #J mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
+*  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
 32. GadgetAngel's "Litter Box mod" : located here in my GitHub Repo;
 
