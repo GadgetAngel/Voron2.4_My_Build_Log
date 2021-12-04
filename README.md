@@ -76,13 +76,13 @@ Note: this replaces the GE5C Mod;
 
     I also used the following "user mods" for the "Klicky Probe Mod":
 
-    * [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
+* [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
 
-    * [bluedragonx's "BlueDragonX's Klicky Mods"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx);
+* [bluedragonx's "BlueDragonX's Klicky Mods"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx);
 
-    * [Oc_geek's "More Robust Klicky Probe mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/oc_geek);
+* [Oc_geek's "More Robust Klicky Probe mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/oc_geek);
 
-    * I combined StefanRaatz's "Klicky Probe with additional holes mod" and Oc_geek's "More Robust Klicky Probe mod" for my version of "More Robust Klicky Probe mod".
+* I combined StefanRaatz's "Klicky Probe with additional holes mod" and Oc_geek's "More Robust Klicky Probe mod" for my version of "More Robust Klicky Probe mod".
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
