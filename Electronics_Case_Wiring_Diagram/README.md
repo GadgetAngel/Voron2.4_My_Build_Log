@@ -21,17 +21,17 @@ Now open Window explorer to the location of local clone.
 
 # Electronics Case Wiring Diagram for QUEEN (my Voron 2.4 build):
 
-This repository contains JPG and PDF files for the electronics case for QUEEN.  I am presently working on the "Fuctional Wiring Diagram" for my QUEEN Build.  I am concurrently working on the "Real World" Electronics case Diagram which will
-show you the actual wire routing I will use for my QUEEN Build.
+This repository contains JPG and PDF files for the electronics case for QUEEN.  I am presently working on the "Fuctional Wiring Diagram" for my QUEEN Build.  I am concurrently working on the "Real World" Electronics Case Diagram which will
+show you the actual routing of all the wires I will use for my QUEEN Build.
 
-I have spent the last two months, creating a 3D model for my QUEEN Voron 2.4 250mm³ build.  All the parts in this 3D model use parametric bodies for the 3D printd parts.  I even added 3D models of the Electroncis boards and PSU.
+I have spent the last two months, creating a 3D model for my QUEEN Voron 2.4 250mm³ build.  All the parts in this 3D model use parametric bodies for the 3D printd parts.  I even added 3D models of the electroncis boards and PSUs.
 
-I will be publishing a folder of .stl files for all the printed parts I used for my QUEEN build, including the once from
-my PIF parts (comming soon)
+I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from
+my PIF parts (comming soon).
 
 I will also be publishing the 3D model of my QUEEN printer.
 
-You will also be able to find my Sourcing Guide for QUEEN. (comming soon)
+You will also be able to find my Sourcing Guide for QUEEN (comming soon).
 
 ### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
 
