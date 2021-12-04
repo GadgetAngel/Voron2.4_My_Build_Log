@@ -32,7 +32,7 @@ I will be powering my TMC5160 PRO stepper motor drivers with 48V DC.
 
 ## Planning Phase:
 
-This is a work in progress.  I am still planning my Voron 2.4 build.
+I am ~~still planning~~ done planning my Voron 2.4 build.
 
 I have all my PIF parts and sourced all my parts via "sub-kits".  This will be explained later.
 
