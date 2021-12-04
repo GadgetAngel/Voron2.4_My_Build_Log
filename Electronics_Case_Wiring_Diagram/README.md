@@ -92,23 +92,23 @@ Here are some still pictures:
 
 The Front View:
 
-!["Front View of QUEEN"](.../images/Front.png)
+!["Front View of QUEEN"](../images/Front.png)
 
  The Litter Box can not be seen, the Voron 2.4 looks actually like a regular Voron 2.4 machine.
 
 The Left Profile View:
 
-!["Left Profile View"](.../images/Left_profile.png)
+!["Left Profile View"](../images/Left_profile.png)
 
 This is where you see the Litter Box mod.  The Litter Box mod will hang off the back and over the Back Panel of the Voron 2.4 printer. There is no need to buy another Back Panel since the Litter Box Mod is designed to hold the Back Panel in place instead of the Panel Clips.
 
 The Wide Right View:
 
-!["Wide Right View of QUEEN"](.../images/Wide-right_side_view_without_panels.png)
+!["Wide Right View of QUEEN"](../images/Wide-right_side_view_without_panels.png)
 
 The Bottom View with panels:
 
-!["Bottom View of QUEEN"](.../images/Bottom.png)
+!["Bottom View of QUEEN"](../images/Bottom.png)
 
 The Bottom View without panels:
 
@@ -116,7 +116,7 @@ The Bottom View without panels:
 
 The View from the TOP:
 
-!["Top View of QUEEN](.../images/Top.png)
+!["Top View of QUEEN](../images/Top.png)
 
 
  ## A Picture of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
