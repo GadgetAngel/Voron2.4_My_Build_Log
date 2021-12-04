@@ -113,9 +113,9 @@ Note: this replaces the GE5C Mod;
 
 20.  My "BTT-PITFT5-Mount Mod" from the following sources:
 
-    * Alanho\*'*\s "BTT_PITFT50_v2_Mount Mod",
-    * Smaseface\*'\*s "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
-    * Revnull\*'\*s "Articulating arm" from his "rpi_7in_display_mount mod"
+    * Alanho\'\s "BTT_PITFT50_v2_Mount Mod",
+    * Smaseface\'\s "BTT-PITFT5-Mount-for-Voron-v2.4 mod" and
+    * Revnull\'\s "Articulating arm" from his "rpi_7in_display_mount mod"
 
     * [Alanho's "BTT_PITFT50_v2_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount);
 
