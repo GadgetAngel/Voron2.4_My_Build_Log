@@ -19,50 +19,6 @@ Now open Window explorer to the location of local clone.
 ## xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
-# Electronics Case Wiring Diagram for QUEEN (my Voron 2.4 build):
-
-This repository contains JPG and PDF files for the electronics case for QUEEN.  I am presently working on the "Fuctional Wiring Diagram" for my QUEEN Build.  I am concurrently working on the "Real World" Electronics Case Diagram which will
-show you the actual routing of all the wires I will use for my QUEEN Build.
-
-I have spent the last two months, creating a 3D model for my QUEEN Voron 2.4 250mm³ build.  All the parts in this 3D model use parametric bodies for the 3D printd parts.  I even added 3D models of the electroncis boards and PSUs.
-
-I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from
-my PIF parts (comming soon).
-
-I will also be publishing the 3D model of my QUEEN printer.
-
-You will also be able to find my Sourcing Guide for QUEEN (comming soon).
-
-### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
-
-Coming Soon.
-
-<!--- The PDF file looks the same as the JPG file. You can enlarge the image for both file types to get all the details.
-
-You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
-
-You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button. -->
-
-## A Picture of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
-
-Coming Soon.
-
-<!--- You can download the JPG file for this "Wiring Harness" by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) or the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg) and then hit the download button.
-
-Again, to download the PDF just click on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) or the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and hit the download button.
-
- ![JPG of Wiring_Harness](Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) -->
-
-### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
-
-Coming Soon.
-
-<!--- The PDF file looks the same as the JPG file. You can enlarge the image for both file types to get all the details.
-
-You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
-
-You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button. -->
-
 ### What is the Litter Box Mod?
 
 Think of the "Litter Box" as the poor man's DOOM mod.  Basically, I split the electronics up into two sections. AC electronics go in the "bottom case" on the Voron 2.5 250mm³ and the standard electronics boards go in the "Litter Box" mod.  Instead of putting the "standard electronics" on the TOP of the printer (as the DOOM MOD does),  I put the boards on the BACK of the Voron 2.5 250mm³ build.  I did this so I would **not** have to buy another wiring harness. I can use the wiring harnesses that are pre-made.  For the DOOM Mod the pre-made wiring harness will not work because it will not be long enough, but the "Litter Box" mod allows you to use the pre-made wiring harness.   I also designed the "Litter Box" mod so that one can not tell the "Litter Box" mod is attached to the printer unless you are viewing the Voron from the side.
