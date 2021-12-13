@@ -46,9 +46,9 @@ GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
 Tool head PCB board options (MODS) I am using:
 
-1. Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit" (https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). Buy one at https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0
+1. [Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit"](https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB). [Buy one at deepfriedhero.in website](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0)
 
-Wiring Diagram for Voron Afterburner Toolhead Board v3.rabbit" Tool headboard: https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png
+[Wiring Diagram for Voron Afterburner Toolhead Board v3.rabbit" Tool headboard](https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png)
 
 
 Also see my [wiring harness diagram!](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Wiring_Harness_Diagram)
