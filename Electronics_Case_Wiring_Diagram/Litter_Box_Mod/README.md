@@ -28,7 +28,7 @@ I also designed the "Litter Box" Mod so that I did not have to cut out a lot of 
 
 
 Here is a video Tour:
-<iframe width="696" height="435" src="https://screencast.autodesk.com/Embed/Timeline/undefined?t=0m0s" frameborder="0" allowfullscreen webkitallowfullscreen></iframe>
+
 
 Here are some still photos:
 
