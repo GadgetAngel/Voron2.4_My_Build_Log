@@ -146,17 +146,17 @@ Note: this replaces the GE5C Mod;
 
 33. I also used all [Trident DIN clips](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/ElectronicsBay) for mounting electronics and I used [Trident 3D Printed Parts on the MGN12 Mod](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage). **Thank you Voron Design Team for all your hard work!**
 
-34. Nemgrea & Geoffreyyoung's "LGX Extruder Mod to replace the Clockwork extruder" : https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/geoffreyyoung/lgx;
+34. [Nemgrea & Geoffreyyoung's "LGX Extruder Mod to replace the Clockwork extruder"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/geoffreyyoung/lgx);
 
-35. LoCoCNC's "Wire_grommets": https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoCoCNC/wire_grommets; modified for Kinematic Bed;
+35. [LoCoCNC's "Wire_grommets"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoCoCNC/wire_grommets); modified for Kinematic Bed;
 
-36. Danowar's "Humidity_Sensor_Bracket" : https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/Danowar/Humidity_Sensor_Bracket;
+36. [Danowar's "Humidity_Sensor_Bracket"](https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/Danowar/Humidity_Sensor_Bracket);
 
-37. Mikro10 Illumination Edge Bracket for the Side panels : https://www.wired4signsusa.com/products/edge-lit-led-extrusion-for-1-4-acrylic-mikro10?adg_id=87314711028&cmp_id=6613373433&device=c&gclid=Cj0KCQjwub-HBhCyARIsAPctr7zbuecNIcr3v6Q-rKfdWc7mU8h6LHWWi03DaAadUDBfhbv_PXq73eEaApGcEALw_wcB&hsa_acc=4180687217&hsa_ad=386204908692&hsa_cam=6613373433&hsa_grp=87314711028&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=u&hsa_tgt=pla-293946777986&hsa_ver=3&kwd=&utm_campaign=Shopping%20Campaign&utm_content=sag_organic&utm_medium=ppc&utm_source=adwords&utm_term=&variant=32250290143298; I modified 42bios' "corner_panel_clip_cable mod" (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/corner_panel_clip_cable) so I could mount the Mikro10 illumination edge bracket to light the side panels.
+37. [Mikro10 Illumination Edge Bracket for the Side panels](https://www.wired4signsusa.com/products/edge-lit-led-extrusion-for-1-4-acrylic-mikro10?adg_id=87314711028&cmp_id=6613373433&device=c&gclid=Cj0KCQjwub-HBhCyARIsAPctr7zbuecNIcr3v6Q-rKfdWc7mU8h6LHWWi03DaAadUDBfhbv_PXq73eEaApGcEALw_wcB&hsa_acc=4180687217&hsa_ad=386204908692&hsa_cam=6613373433&hsa_grp=87314711028&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=u&hsa_tgt=pla-293946777986&hsa_ver=3&kwd=&utm_campaign=Shopping%20Campaign&utm_content=sag_organic&utm_medium=ppc&utm_source=adwords&utm_term=&variant=32250290143298); I modified [42bios' "corner_panel_clip_cable mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/corner_panel_clip_cable) so I could mount the Mikro10 illumination edge bracket to light the side panels.
 
-38. Boingomw's "Wago_mount mod":  https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Boingomw/Wago_mount used for Wago mount near the Build Plate;
+38. [Boingomw's "Wago_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Boingomw/Wago_mount) used for Wago mount near the Build Plate;
 
-39. GSL12's "wago_221_mount mod" : https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/GSL12/wago_221_mount; Used these to place WAGO nuts around the whole Voron 2.4 printer mounted to the extrusions.
+39. [GSL12's "wago_221_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/GSL12/wago_221_mount); Used these to place WAGO nuts around the whole Voron 2.4 printer mounted to the extrusions.
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
