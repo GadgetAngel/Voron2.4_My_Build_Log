@@ -29,7 +29,7 @@ I also designed the "Litter Box" Mod so that I did not have to cut out a lot of 
 
 Here is a video Tour:
 
-[![Litter Box Video Tour](../../Electronics_Case_Wiring_Diagram/Litter_Box_Mod/Litter_Box_Mod_only_pictures/Litter_Box_Mod2.png)](https://autode.sk/3lYfwx8)
+[![Litter Box Video Tour](../../Electronics_Case_Wiring_Diagram/Litter_Box_Mod/Litter_Box_Mod_only_pictures/Litter_Box_Mod2.png)](https://youtu.be/gklbsIQtgYg)
 
 
 Here are some still photos:
