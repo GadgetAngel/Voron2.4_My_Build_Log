@@ -31,7 +31,7 @@ Here is a video Tour:
 
 [![Litter Box Video Tour](../../Electronics_Case_Wiring_Diagram/Litter_Box_Mod/Litter_Box_Mod_only_pictures/Litter_Box_Mod2.png)](https://youtu.be/gklbsIQtgYg)
 
-[![Litter Box Video Tour with Narration done by GadgetAngel](https://img.youtube.com/vi/gklbsIQtgYg/hqdefault.jpg](https://youtu.be/gklbsIQtgYg)
+[![Litter Box Video Tour with Narration Done By GadgetAngel](https://img.youtube.com/vi/gklbsIQtgYg/hqdefault.jpg](https://youtu.be/gklbsIQtgYg)
 
 
 Here are some still photos:
