@@ -72,15 +72,9 @@ Note: this replaces the GE5C Mod;
 
     * Z Motor A/B  Motor Unit combined from [Spaghetti-Bolognese's "Z Driver System Mods"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/Z_drive_motor_mount);
 
-6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mods" for the "Klicky Probe Mod":
+6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mod" for the "Klicky Probe Mod":
 
-    * [StefanRaatz's "Klicky Probe with additional holes mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/StefanRaatz);
-
-    * [bluedragonx's "BlueDragonX's Klicky Mods"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx);
-
-    * [Oc_geek's "More Robust Klicky Probe mod"](https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/oc_geek);
-
-    * I combined StefanRaatz's "Klicky Probe with additional holes mod" and Oc_geek's "More Robust Klicky Probe mod" for my version of "More Robust Klicky Probe mod".
+    * bluedragonx's "BlueDragonX's Klicky Mods" (using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx;
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
@@ -93,7 +87,7 @@ Note: this replaces the GE5C Mod;
 
 10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
-11.	Cover for Toolhead, I created my own (in this repository) - from [Hartk1213's "ERCF covers"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/Clockwork/Covers); I placed vents on the ERCF cover for ABBN30.
+11.	Cover for Toolhead, I created my own (in this repository) - from [Hartk1213's "ERCF covers"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/Clockwork/Covers); I placed vents on the ERCF cover for ABBN30 and created a PCB spacer for the LGX extruder.
 
 12.	[Whoppingpochard's "Z_Drive_Belt_Exit_Covers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/Z_belt_cable_cover);
 
@@ -127,7 +121,7 @@ Note: this replaces the GE5C Mod;
 
 23. [Ramalama2's "AB_Plug_Microfit mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_Microfit); or [AB_Plug_JST-XHmod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_JST-XH);
 
-24. [Ramalama2's "Panel_Clips"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version when you print out the clips!!! - 3mm panel and 3mm of foam tape);
+24. [Ramalama2's "Panel_Clips"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
 
 25. [Richardjm's "ADXL345 Mount Mod"](https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/richardjm/adxl-chain); I used information from [Padok's ADXL345 Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/padok/chain_anchor-ADXL345_mount);
 
@@ -135,22 +129,34 @@ Note: this replaces the GE5C Mod;
 
 27. [Hartk1213's  "AB Spinner (Voron2.4_Spinner) mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Spinner); or [Rubber Ducky Spinner Mod](https://discord.com/channels/460117602945990666/828406858271162378/875463215721644032)
 
-28. [42bios' "corner_panel_clip_cable mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/corner_panel_clip_cable);
+28. [42bios' "corner_panel_clip_cable mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/corner_panel_clip_cable); Also my own modification for these clips so I can use them to mount the Mikro10 Illumination Edge Bracket on the side panels.
 
-29. [OV1A's "WAGO+221+DIN+rail+holder mod" from Thiniverse.com](https://www.thingiverse.com/thing:4972435);
+29. [OV1A's "WAGO+221+DIN+rail+holder mod" from Thiniverse.com](https://www.thingiverse.com/thing:4972435); Used to mount the WAGO nuts on the DIN rails.
 
 30. [The0bone's "Voron 2.4 China Chain Guide mod" on Prusaprinters.org](https://www.prusaprinters.org/prints/69683-voron-24-china-chain-guide?fbclid=IwAR1xfiLFqM1xiLLYC27wswsilp6afWQkuD313DK3K7LC2ITIk452Heg-T0U);
 
 31. For handling the thermal expansion on the Build Plate for QUEEN, I added the Mandala Rose Works's ["Matched Height Kinematic Kit"](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit) along with ["Voron 250 Standard Bed"](https://www.mandalaroseworks.com/shop/voron/voron-250-standard-bed),
 
     The following will be need if you add the kinematic kit to your Voron 2.4 Build:
-    *  [Shorten the purge bucket](https://discord.com/channels/460117602945990666/635687829254701107/905929693587464242);
+    *  [Side Mount the Purge Bucket by using the extension_bracket_v1.8_rev4 ](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl);
     *  [buy a longer sexbolt for #10 mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
 32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram);
 
 33. I also used all [Trident DIN clips](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/ElectronicsBay) for mounting electronics and I used [Trident 3D Printed Parts on the MGN12 Mod](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage). **Thank you Voron Design Team for all your hard work!**
+
+34. Nemgrea & Geoffreyyoung's "LGX Extruder Mod to replace the Clockwork extruder" : https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/geoffreyyoung/lgx;
+
+35. LoCoCNC's "Wire_grommets": https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoCoCNC/wire_grommets; modified for Kinematic Bed;
+
+36. Danowar's "Humidity_Sensor_Bracket" : https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/Danowar/Humidity_Sensor_Bracket;
+
+37. Mikro10 Illumination Edge Bracket for the Side panels : https://www.wired4signsusa.com/products/edge-lit-led-extrusion-for-1-4-acrylic-mikro10?adg_id=87314711028&cmp_id=6613373433&device=c&gclid=Cj0KCQjwub-HBhCyARIsAPctr7zbuecNIcr3v6Q-rKfdWc7mU8h6LHWWi03DaAadUDBfhbv_PXq73eEaApGcEALw_wcB&hsa_acc=4180687217&hsa_ad=386204908692&hsa_cam=6613373433&hsa_grp=87314711028&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=u&hsa_tgt=pla-293946777986&hsa_ver=3&kwd=&utm_campaign=Shopping%20Campaign&utm_content=sag_organic&utm_medium=ppc&utm_source=adwords&utm_term=&variant=32250290143298; I modified 42bios' "corner_panel_clip_cable mod" (https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/42bios/corner_panel_clip_cable) so I could mount the Mikro10 illumination edge bracket to light the side panels.
+
+38. Boingomw's "Wago_mount mod":  https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Boingomw/Wago_mount used for Wago mount near the Build Plate;
+
+39. GSL12's "wago_221_mount mod" : https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/GSL12/wago_221_mount; Used these to place WAGO nuts around the whole Voron 2.4 printer mounted to the extrusions.
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
