@@ -26,6 +26,10 @@ Think of the "Litter Box" as the poor man's DOOM mod.  Basically, I split the el
 
 I also designed the "Litter Box" Mod so that I did not have to cut out a lot of different holes in the Coraplast top/bottom panels or the two Coraplast side panels.  I also designed an "Extended" skirt, so that the back skirt is not hidden underneath the mod, instead the back skirt has been moved out.  This then required me to design an extended Bottom panel to cover the AC socket plugs.  To hold the extedned Bottom panel in place I had to two clips I used the bottom magnetic clips from [Hernsl's "Bottom_panel_mag_clip Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hernsl/bottom_panel_mag_clip).
 
+
+Here is a video Tour:
+<iframe width="696" height="435" src="https://screencast.autodesk.com/Embed/Timeline/undefined?t=0m0s" frameborder="0" allowfullscreen webkitallowfullscreen></iframe>
+
 Here are some still photos:
 
 
