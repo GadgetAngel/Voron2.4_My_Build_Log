@@ -29,7 +29,7 @@ I also designed the "Litter Box" Mod so that I did not have to cut out a lot of 
 
 Here is a video Tour:
 
-[![Litter Box Video Tour](/Litter_Box_Mod_only_pictures/Litter_Box_Mod2.png)](https://drive.google.com/file/d/1w13uIRrDJjQWZnKNw7Pu9RTlBrBWncfY/view?usp=sharing)
+[![Litter Box Video Tour](../images/Litter_Box_Mod2.png)](https://autode.sk/3lYfwx8)
 
 
 Here are some still photos:
@@ -181,7 +181,7 @@ The Bottom View with panels:
 
 The Bottom View without panels:
 
-!["Naked Bottom View of QUEEN"](.../images/Bottom_without_panel.png)
+!["Naked Bottom View of QUEEN"](../images/Bottom_without_panel.png)
 
 The View from the TOP:
 
