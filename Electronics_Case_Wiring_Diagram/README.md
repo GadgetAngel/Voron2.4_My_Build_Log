@@ -26,8 +26,7 @@ show you the actual routing of all the wires I will use for my QUEEN Build.
 
 I have spent the last two months, creating a 3D model for my QUEEN Voron 2.4 250mm³ build.  All the parts in this 3D model use parametric bodies for the 3D printd parts.  I even added 3D models of the electroncis boards and PSUs.
 
-I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from
-my PIF parts (comming soon).
+I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from my PIF parts (comming soon).
 
 I will also be publishing the 3D model of my QUEEN printer.
 
@@ -65,60 +64,12 @@ You can view an even higher resolution image when you view the PDF in your brows
 
 ### What is the Litter Box Mod?
 
-Think of the "Litter Box" as the poor man's DOOM mod.  Basically, I split the electronics up into two sections. AC electronics go in the "bottom case" on the Voron 2.4 250mm³ and the standard electronics boards go in the "Litter Box" mod.  Instead of putting the "standard electronics" on the TOP of the printer (as the DOOM MOD does),  I put the boards on the BACK of the Voron 2.4 250mm³ build.  I did this so I would **not** have to buy another wiring harness. I can use the wiring harnesses that are pre-made.  For the DOOM Mod the pre-made wiring harness will not work because it will not be long enough, but the "Litter Box" mod allows you to use the pre-made wiring harness.   I also designed the "Litter Box" mod so that one can not tell the "Litter Box" mod is attached to the printer unless you are viewing the Voron from the side.
-
-
-Here are some still photos:
-
-
+Please go to [My Litter Box Mod folder](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
 
 
 ### Want more information about the "Litter Box" Mod?
 
 Please go to [My Litter Box Mod folder](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
-
-## A Picture of the "Litter Box" mod for QUEEN:
-
-The "Litter Box" mod is a place to store all you good shit......LOL
-
-The name is a wink to RCF (a.k.a RussianCatFood).
-
-I also have posted two videos which give you a roatating view of the QUEEN 3D model.  This is the 3D model I used
-to devleop the Litter Box.
-
-1. First look Video: https://youtu.be/x5X1lYImGgg;
-
-2. Second Look Video: https://youtu.be/KOevvhMHMqQ
-
-Here are some still pictures:
-
-The Front View:
-
-!["Front View of QUEEN"](../images/Front.png)
-
- The Litter Box can not be seen, the Voron 2.4 looks actually like a regular Voron 2.4 machine.
-
-The Left Profile View:
-
-!["Left Profile View"](../images/Left_profile.png)
-
-This is where you see the Litter Box mod.  The Litter Box mod will hang off the back and over the Back Panel of the Voron 2.4 printer. There is no need to buy another Back Panel since the Litter Box Mod is designed to hold the Back Panel in place instead of the Panel Clips.
-
-The Wide Right View:
-
-!["Wide Right View of QUEEN"](../images/Wide-right_side_view_without_panels.png)
-
-The Bottom View with panels:
-
-!["Bottom View of QUEEN"](../images/Bottom.png)
-
-The Bottom View without panels:
-
-!["Naked Bottom View of QUEEN"](../images/Bottom_without_panel.png)
-
-The View from the TOP:
-
-!["Top View of QUEEN](../images/Top.png)
 
 
  ## A Picture of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
