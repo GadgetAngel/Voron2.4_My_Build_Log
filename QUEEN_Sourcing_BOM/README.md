@@ -1,4 +1,4 @@
-## This is a "QUEEN" Sourcing Guide:
+## This is the "QUEEN" Sourcing Guide:
 
 My Voron 2.4 3D Printer has a name "QUEEN".
 
