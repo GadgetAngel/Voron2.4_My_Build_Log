@@ -44,6 +44,25 @@ For now these are the MODS I am going to use in my build:
 
 GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
+I have spent 3 months creating the 3D model of my QUEEN Voron 2.4 250mm³ build.
+
+I have used the CAD models from each MOD (listed below) and incorporated the respective MOD's CAD model into my QUEEN Fusion 360 model.  After working in Fusion 360 for the past 3 months I have become aware of a couple of things:
+
+1.  When exporting sub-Assemblies from Fusion 360 in .STEP format the only sub-assemblies that get put into the STEP file are the sub-assemblies that are visable at the time the exported STEP file is created.  So when you use STEP files expect all the sub-assemblies to be visable when you first open up the STEP file.  You will have to turn off the sub-assemblies that you want to see after upload the STEP file to Fusion 360 or your CAD software.
+
+2. If a MOD did not have a Fusion 360 CAD model, I used the .stl files from the MOD and used Fusion 360 to convert the .stl files into parametric bodies.
+
+
+GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
+
+1.  [QUEEN's Voron 2.4 Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_FUSION360_Files)
+
+2.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_STEP_Files)
+
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_FUSION360_Files)
+
+4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_STEP_Files)
+
 Tool head PCB board (MOD) I am using:
 
 1. [Hartk1213's "Voron Afterburner Toolhead Board v3.rabbit (also known as ERCF PCB board)"](https://github.com/hartk1213/Voron-Hardware/tree/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB).
