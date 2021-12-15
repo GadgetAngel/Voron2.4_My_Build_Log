@@ -37,6 +37,6 @@ Once my cost hit over $2,000 I quite keeping track of them.
 
 The QUEEN Sourcing Guide is contained in a file called "QUEEN_Sourcing_BOM.xlsx" which is inside a .zip file called "QUEEN_Sourcing_BOM.xlsx.zip".  This makes it easier to download the Excel spreadsheet from GitHub since it is contained within a .zip file.
 
-If I find anything missing after I publish this QUEEN Sourcing Guide, I will update it.
+If I find anything missing after I publish this "QUEEN Sourcing Guide", I will update it and repost it here.
 
-I hope this helps others who are in the middle of sourcing their Voron 2.4.
+I hope this helps others who are in the middle of sourcing their Voron 2.4 DIY 3D printer.
