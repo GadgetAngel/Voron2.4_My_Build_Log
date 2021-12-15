@@ -52,11 +52,8 @@ I have used the CAD models from each MOD (listed below) and incorporated the res
 
 3.  If you upload .f3d sub-Assembly file and all sub-assembly option are turn on, then please just turn off the sub-assemblies you do not want to see.  I exported the .STEP files at the same time I was creating the .f3d files, so I might have left all the option turned on so I could save the .STEP file.
 
----
 
-### MODS:
-
-GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
+GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
 1.  [QUEEN's Voron 2.4 Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_FUSION360_Files)
 
@@ -68,7 +65,8 @@ GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
 ---
 
-GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
+### GadgetAngel's Voron 2.4 MODS (250 mm³ Build)::
+
 
 Tool head PCB board (MOD) I am using:
 
