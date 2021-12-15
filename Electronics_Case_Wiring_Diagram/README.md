@@ -21,16 +21,47 @@ Now open Window explorer to the location of local clone.
 
 # Electronics Case Wiring Diagram for QUEEN (my Voron 2.4 build):
 
-This repository contains JPG and PDF files for the electronics case for QUEEN.  I am presently working on the "Fuctional Wiring Diagram" for my QUEEN Build.  I am concurrently working on the "Real World" Electronics Case Diagram which will
-show you the actual routing of all the wires I will use for my QUEEN Build.
+This repository contains JPG and PDF files for the electronics case for QUEEN.  I am presently working on the "Fuctional Wiring Diagram" for my QUEEN Build.  I am concurrently working on the "Real World" Electronics Case Diagram which will show you the actual routing of all the wires I will use for my QUEEN Build.
 
-I have spent the last two months, creating a 3D model for my QUEEN Voron 2.4 250mm³ build.  All the parts in this 3D model use parametric bodies for the 3D printd parts.  I even added 3D models of the electroncis boards and PSUs.
+---
+
+## Sourcing Guide for my QUEEN Voron 2.4 Build:
+
+[Here is the Excel spreadsheet as a sourcing guide for my Voron 2.4](/../QUEEN_Sourcing_BOM).
+
+---
+
+## Fusion 360 CAD files and STEP files:
+
+I have spent 3 months creating the 3D model of my QUEEN Voron 2.4 250mm³ build.
+
+I have used the CAD models from each MOD (listed below) and incorporated the respective MOD's CAD model into my QUEEN Fusion 360 model.  After working in Fusion 360 for the past 3 months I have become aware of a couple of things:
+
+1.  When exporting sub-Assemblies from Fusion 360 in .STEP format the only sub-assemblies that get put into the STEP file are the sub-assemblies that are visable at the time the exported STEP file is created.  So when you use STEP files expect all the sub-assemblies to be visable when you first open up the STEP file.  You will have to turn off the sub-assemblies that you do not want to see after you upload the STEP file to Fusion 360 (or your CAD software).
+
+2. If a MOD did not have a Fusion 360 CAD model, I used the .stl files from the MOD and used Fusion 360 to convert the .stl files into parametric bodies.
+
+3.  If you upload .f3d sub-Assembly file and all sub-assembly option are turn on, then please just turn off the sub-assemblies you do not want to see.  I exported the .STEP files at the same time I was creating the .f3d files, so I might have left all the option turned on so I could save the .STEP file.
+
+
+GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
+
+1.  [QUEEN's Voron 2.4 Fusion 360 model](/CAD/QUEEN_FUSION360_Files)
+
+2.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](/CAD/QUEEN_STEP_Files)
+
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](/CAD/My_Choosed_SubAssembly_FUSION360_Files)
+
+4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](/CAD/My_Choosed_SubAssembly_STEP_Files)
+
+---
+
+## .STL list of files needed for each MOD:
 
 I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from my PIF parts (comming soon).
 
-I will also be publishing the 3D model of my QUEEN printer.
+My intent is to list the files needed in each Sub-Assembly and indicate which .stl files need to be replaced or exchanged for a MODed .stl file.  I think an EXCEL spreadsheet would help with this task.
 
-You will also be able to find my Sourcing Guide for QUEEN (comming soon).
 
 ### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
 
