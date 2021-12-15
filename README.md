@@ -36,7 +36,7 @@ I am ~~still planning~~ done planning my Voron 2.4 build.
 
 I have all my PIF parts and sourced all my parts via "sub-kits".  This will be explained later.
 
-I wanted to post an Excel spreadsheet for sourcing all my "sub-kits" or individual items for my Voron 2.4~~, but I need to remove it from a bigger spreadsheet I have been using to keep track of a lot of different information~~.  ~~After I get done with the electronics case wiring diagram, I will work on providing an~~ [Here is the Excel spreadsheet as a sourcing guide for my Voron 2.4](/QUEEN_Sourcing_BOM).
+I wanted to post an Excel spreadsheet for sourcing all my "sub-kits" or individual items for my Voron 2.4 ~~, but I need to remove it from a bigger spreadsheet I have been using to keep track of a lot of different information.  After I get done with the electronics case wiring diagram, I will work on providing an~~ [Here is the Excel spreadsheet as a sourcing guide for my Voron 2.4](/QUEEN_Sourcing_BOM).
 
 ## MODS I plan for QUEEN:
 
