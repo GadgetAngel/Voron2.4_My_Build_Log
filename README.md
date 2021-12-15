@@ -40,9 +40,7 @@ I wanted to post an Excel spreadsheet for sourcing all my "sub-kits" or individu
 
 ## MODS I plan for QUEEN:
 
-For now these are the MODS I am going to use in my build:
-
-GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
+### Fusion 360 CAD files and STEP files:
 
 I have spent 3 months creating the 3D model of my QUEEN Voron 2.4 250mm³ build.
 
@@ -54,6 +52,9 @@ I have used the CAD models from each MOD (listed below) and incorporated the res
 
 3.  If you upload .f3d sub-Assembly file and all sub-assembly option are turn on, then please just turn off the sub-assemblies you do not want to see.  I exported the .STEP files at the same time I was creating the .f3d files, so I might have left all the option turned on so I could save the .STEP file.
 
+---
+
+### MODS:
 
 GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
@@ -64,6 +65,10 @@ GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_FUSION360_Files)
 
 4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_STEP_Files)
+
+---
+
+GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
 Tool head PCB board (MOD) I am using:
 
