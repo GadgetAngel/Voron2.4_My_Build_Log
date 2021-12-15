@@ -1,4 +1,4 @@
-## This is a Build Log for my Voron 2.4 250 mm DIY 3D Printer called "QUEEN":
+## This is a "QUEEN" Sourcing Guide:
 
 My Voron 2.4 3D Printer has a name "QUEEN".
 
