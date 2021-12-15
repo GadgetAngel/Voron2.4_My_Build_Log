@@ -65,7 +65,7 @@ GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
 ---
 
-### GadgetAngel's Voron 2.4 MODS (250 mm³ Build)::
+### GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
 
 
 Tool head PCB board (MOD) I am using:
