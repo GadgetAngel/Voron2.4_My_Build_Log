@@ -27,7 +27,7 @@ This repository contains JPG and PDF files for the electronics case for QUEEN.  
 
 ## Sourcing Guide for my QUEEN Voron 2.4 Build:
 
-[Here is the Excel spreadsheet as a sourcing guide for my Voron 2.4](/../QUEEN_Sourcing_BOM).
+[Here is the Excel spreadsheet as a sourcing guide for my Voron 2.4](../QUEEN_Sourcing_BOM).
 
 ---
 
