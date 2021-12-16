@@ -64,16 +64,8 @@ My intent is to list the files needed in each Sub-Assembly and indicate which ".
 
 The ".STL" files for my QUEEN Voron 2.4 build can be found [here](../The_.STL_Files)
 
+---
 
-### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
-
-Coming Soon.
-
-<!--- The PDF file looks the same as the JPG file. You can enlarge the image for both file types to get all the details.
-
-You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
-
-You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button. -->
 
 ## A Picture of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
 
@@ -85,7 +77,7 @@ Again, to download the PDF just click on the filename ["Voron_2.4_Tool_Head_PCB_
 
  ![JPG of Wiring_Harness](Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) -->
 
-### The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
+## The PDF file of the Bottom "Electronics Case Wiring Diagram" for QUEEN:
 
 Coming Soon.
 
@@ -95,17 +87,19 @@ You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Too
 
 You can view an even higher resolution image when you view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.pdf) and then hit the download button. -->
 
-### What is the Litter Box Mod?
+---
+
+## What is the Litter Box Mod?
 
 Please go to [My Litter Box Mod folder](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
 
 
-### Want more information about the "Litter Box" Mod?
+## Want more information about the "Litter Box" Mod?
 
 Please go to [My Litter Box Mod folder](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
 
 
- ## A Picture of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
+## A Picture of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
 
 Coming Soon.
 
@@ -118,7 +112,7 @@ Again, to download the PDF just click on the filename ["Voron_2.4_Tool_Head_PCB_
 
  ![JPG of Wiring_Harness](Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) -->
 
-  ### The PDF file of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
+## The PDF file of the "Litter Box" "Electronics Case Wiring Diagram" for QUEEN:
 
 Coming Soon.
 
