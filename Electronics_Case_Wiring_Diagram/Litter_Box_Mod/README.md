@@ -181,3 +181,13 @@ The Bottom View without panels:
 The View from the TOP:
 
 !["Top View of QUEEN](../../images/Top.png)
+
+## Testing exploded video view
+
+
+
+https://user-images.githubusercontent.com/33468777/146670064-1608361b-13ad-41d8-a300-66e19e9f9e40.mov
+
+
+
+
