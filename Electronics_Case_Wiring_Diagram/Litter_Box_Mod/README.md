@@ -184,10 +184,5 @@ The View from the TOP:
 
 ## Testing exploded video view
 
-
-
-https://user-images.githubusercontent.com/33468777/146670064-1608361b-13ad-41d8-a300-66e19e9f9e40.mov
-
-
-
+![UHP-500_PSU_DIN_Mounts_v4](https://user-images.githubusercontent.com/33468777/146670195-64c4a7f6-97cc-4f98-ad79-bad05a1f5335.gif)
 
