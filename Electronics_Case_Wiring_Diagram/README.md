@@ -43,16 +43,41 @@ I have used the CAD models from each MOD (listed below) and incorporated the res
 
 3.  If you upload .f3d sub-Assembly file and all sub-assembly option are turn on, then please just turn off the sub-assemblies you do not want to see.  I exported the .STEP files at the same time I was creating the .f3d files, so I might have left all the option turned on so I could save the .STEP file.
 
+4. I have noticed that if one uses the "save a copy as ..." option that parts will loose their postion (x,y,z).  So to create the sub-assemblies I did a  "copy" to the clip board and then placed into a new file and saved.  So if you would like the full model in STEP format, just take each sub-assembly and past them all back together via the clip-board.  Each sub-assembly will be properly placed (without your assistance), just accept the default location when you do the "paste".
 
 GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
-1.  <!--- [QUEEN's Voron 2.4 Fusion 360 model](./CAD/QUEEN_FUSION360_Files)-->
+The full model only has a fusion 360 (.f3d) file. The STEP files are from the sub-assemblies.  This way I could turn on all the options in the sub-assemblies and create the STEP files.  To create a STEP file for the full model is just to many options.
 
-2.  <!--- [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](./CAD/QUEEN_STEP_Files)-->
+1.  [QUEEN's Voron 2.4 Fusion 360 model](../CAD)
 
-3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](../CAD)
+2.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model for the Electronics from the Bottom Electronics Case](../CAD/Electronics_forBottom_Electronic_Case)
 
-4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](../CAD)
+3.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for the Electronics from the Bottom Electronics Case](../CAD/Electronics_forBottom_Electronic_Case)
+
+4.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model for Electronics from the LitterBox Case](../CAD/Electronics_forLitterBox_Case)
+
+5.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for Electronics from the LitterBox Case](../CAD/Electronics_forLitterBox_Case)
+
+6.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model for the LEDs](../CAD/LEDs)
+
+7.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for the LEDs](../CAD/LEDs)
+
+8.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model for all Panels & Clips](../CAD/Panel_Mounting)
+
+9.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for all Panels & Clips](../CAD/Panel_Mounting)
+
+10. [QUEEN's Voron 2.4 Fusion 360 subAssembly model for all Skirts](../CAD/Skirts)
+
+11. [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for all Skirts](../CAD/Skirts)
+
+12. [QUEEN's Voron 2.4 Fusion 360 subAssembly model for all the mods located under the Heated Bed & a Filament Runout Sensor](../CAD/Under_Heated_Bed)
+
+13. [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for all the mods located under the Heated Bed & a Filament Runout Sensor](../CAD/Under_Heated_Bed)
+
+14. [QUEEN's Voron 2.4 Fusion 360 subAssembly model for my Z Driver Tensioner Mod](../CAD/Z_Drive)
+
+15. [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly model for for my Z Driver Tensioner Mod](../CAD/Z_Drive)
 
 ---
 
