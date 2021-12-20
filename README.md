@@ -69,7 +69,7 @@ GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
 I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from my PIF parts (comming soon).
 
-My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an EXCEL spreadsheet would help with this taska nd can be found [here](/The_.STL_Files/Excel_Spreadsheet_of_Modded_.stl_files).
+My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an EXCEL spreadsheet would help with this taska nd can be found [here](/The_.STL_Files/Excel_Spreadsheet_.stl_files).
 
 The ".STL" files for my QUEEN Voron 2.4 build can be found [here](./The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated)
 
