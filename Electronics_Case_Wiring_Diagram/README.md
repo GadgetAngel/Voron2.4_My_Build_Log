@@ -50,9 +50,9 @@ GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
 2.  <!--- [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](./CAD/QUEEN_STEP_Files)-->
 
-3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](./CAD)
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](../CAD)
 
-4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](./CAD)
+4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](../CAD)
 
 ---
 
