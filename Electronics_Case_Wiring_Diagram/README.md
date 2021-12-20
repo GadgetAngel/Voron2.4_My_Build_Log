@@ -46,13 +46,13 @@ I have used the CAD models from each MOD (listed below) and incorporated the res
 
 GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
-1.  [QUEEN's Voron 2.4 Fusion 360 model](./CAD/QUEEN_FUSION360_Files)
+1.  <!--- [QUEEN's Voron 2.4 Fusion 360 model](./CAD/QUEEN_FUSION360_Files)-->
 
-2.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](./CAD/QUEEN_STEP_Files)
+2.  <!--- [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](./CAD/QUEEN_STEP_Files)-->
 
-3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](./CAD/My_Choosed_SubAssembly_FUSION360_Files)
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](./CAD)
 
-4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](./CAD/My_Choosed_SubAssembly_STEP_Files)
+4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](./CAD)
 
 ---
 
