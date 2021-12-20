@@ -62,7 +62,7 @@ I will be publishing a folder of .stl files for all the printed parts I am using
 
 My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an EXCEL spreadsheet would help with this task and can be found [here](../The_.STL_Files/Excel_Spreadsheet_.stl_files).
 
-The ".STL" files for my QUEEN Voron 2.4 build can be found [here](../The_.STL_Files)
+The ".STL" files for my QUEEN Voron 2.4 build can be found [here](../The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated)
 
 ---
 
