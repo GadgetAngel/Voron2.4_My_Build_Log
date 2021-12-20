@@ -181,3 +181,8 @@ The Bottom View without panels:
 The View from the TOP:
 
 !["Top View of QUEEN](../../images/Top.png)
+
+## Testing exploded video view
+
+![UHP-500_PSU_DIN_Mounts_v4](https://user-images.githubusercontent.com/33468777/146670195-64c4a7f6-97cc-4f98-ad79-bad05a1f5335.gif)
+
