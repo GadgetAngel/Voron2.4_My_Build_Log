@@ -55,13 +55,13 @@ I have used the CAD models from each MOD (listed below) and incorporated the res
 
 GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
-1.  [QUEEN's Voron 2.4 Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_FUSION360_Files)
+1. <!--- [QUEEN's Voron 2.4 Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_FUSION360_Files)-->
 
-2.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_STEP_Files)
+2. <!---  [QUEEN's Voron 2.4 STEP version of the Fusion 360 model](/Electronics_Case_Wiring_Diagram/CAD/QUEEN_STEP_Files)-->
 
-3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_FUSION360_Files)
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly models](./CAD)
 
-4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](/Electronics_Case_Wiring_Diagram/CAD/My_Choosed_SubAssembly_STEP_Files)
+4.  [QUEEN's Voron 2.4 STEP version of the Fusion 360 subAssembly models](./CAD)
 
 ---
 
@@ -71,7 +71,7 @@ I will be publishing a folder of .stl files for all the printed parts I am using
 
 My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an EXCEL spreadsheet would help with this taska nd can be found [here](./The_.STL_Files/Excel_Spreadsheet_of_Modded_.stl_files).
 
-The ".STL" files for my QUEEN Voron 2.4 build can be found [here](./The_.STL_Files)
+The ".STL" files for my QUEEN Voron 2.4 build can be found [here](./The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated)
 
 ---
 
@@ -192,6 +192,18 @@ Note: this replaces the GE5C Mod;
 38. [Boingomw's "Wago_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Boingomw/Wago_mount) used for Wago mount near the Build Plate;
 
 39. [GSL12's "wago_221_mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/legacy_printers/printer_mods/GSL12/wago_221_mount); Used these to place WAGO nuts around the whole Voron 2.4 printer mounted to the extrusions.
+
+40. [Jeoje's "Molex_MLX_Microfit_Bed_Connector_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Molex_MLX_Microfit_Bed_Connector_Mount);
+
+41. [Richardjm's "Back plate blanking plate mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/richardjm);
+
+42. [Jeoje's "Z_Chain_Guide_Thermistor_Mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Z_Chain_Guide_Thermistor_Mount);
+
+43. [BladeScraper-Designs' "Horizontal-Spool-Holder Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/BladeScraper-Designs/Horizontal-Spool-Holder);
+
+44. [Empusas' "BTT_Filament_Motion_Sensor_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount);
+
+45. [Ellis' "Bed_Fans Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Ellis/Bed_Fans);
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
