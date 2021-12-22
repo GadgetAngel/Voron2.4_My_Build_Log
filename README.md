@@ -85,6 +85,8 @@ The full model for QUEEN has a fusion 360 (.f3d) file and STEP file.  The STEP f
 
 13. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Z-Endstop called the "SexBolt Z-Endstop"](./CAD/Z_Endstop)
 
+14. [QUEEN's Voron 24 Fusion 360 subAssembly model (.f3d) and .STEP version for the BTT piTFT V2.0 articulating arm with display mount](./CAD/Skirts/Front/Middle)
+
 ---
 
 ### ".STL List" of files needed for each MOD:
