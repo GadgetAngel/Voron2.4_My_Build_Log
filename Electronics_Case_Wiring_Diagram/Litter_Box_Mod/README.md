@@ -132,6 +132,10 @@ The Interface Bar is just a block of plastic with a slotted hole, that allows th
 
 What is the Foot Interface A/B piece.  The Foot Interface is how the two dummy feet get mounted to the Bottom 2020 extrusion of the Voron 2.4 printer.  The Foot Interface A/B comes in three sizes to accomdate three different Voron 2.4 Back Panel thickness sizes (3mm, 4mm, and 6mm).
 
+Since the Litter Box does not cover the totallity of the Back Panel, I wanted the ability to move the electronics boards up or down from the DIN rail to help with wire routing.  I ended up designing a sliding mounting system for the electronics.  Basically a nut and bolt are used to the two sliding haves together and I have designed these mounts to accomodate as many of the Voron DIN clips as I could (Trident DIN clips and Voron 2.4 DIN clips)
+
+These new sliding mounts are listed under the Litter Box electronics mod.  I also designed some stablizing arms for the UHP PSU models.  The Stablizing arm is not bolted down to the PSU but stops the PSU from shifing horizontally.
+
 
 <!--- You can download the JPG file for this "Wiring Harness" by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.jpg) or the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Voron2.4_My_Build_Log/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg) and then hit the download button.
 
