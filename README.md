@@ -201,7 +201,7 @@ Note: this replaces the GE5C Mod;
 31. For handling the thermal expansion on the Build Plate for QUEEN, I added the Mandala Rose Works's ["Matched Height Kinematic Kit"](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit) along with ["Voron 250 Standard Bed"](https://www.mandalaroseworks.com/shop/voron/voron-250-standard-bed),
 
     The following will be need if you add the kinematic kit to your Voron 2.4 Build:
-    *  [Side Mount the Purge Bucket by using the extension_bracket_v1.8_rev4 ](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl);
+    *  [Modified Purge Bucket](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/The_.STL_Files/GA_modded_STLs/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber_MOD);
     *  [buy a longer sexbolt for #10 mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
