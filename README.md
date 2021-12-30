@@ -127,7 +127,7 @@ Other MODS I am using for my QUEEN build (Z belts 9mm; XY belts 6mm):
 3. [Ramalama2's "Misumi_RBPB5 Mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Misumi_RBPB5);
 Note: this replaces the GE5C Mod;
 
-4. [0ndsk4's "NeverMore Micro Filter Mod"](https://github.com/0ndsk4/VoronUsers/tree/0ndsk4/printer_mods/0ndsk4/Nevermore_Air_Filter/Nevermore_Micro);
+4. [0ndsk4's "NeverMore Micro Filter Mod"](https://github.com/nevermore3d/Nevermore_Micro);
 
 5.  I combined two mods into one, "Z Drive Motor Tensioner Mod" was combined from the following sources:
 
