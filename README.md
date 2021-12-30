@@ -112,7 +112,7 @@ Tool head PCB board (MOD) I am using:
 
     * [Buy Hartk1213's ERCF PCB board at deepfriedhero.in website](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit?_pos=1&_psq=v3.&_ss=e&_v=1.0)
 
-    * [Wiring Diagram for "Voron Afterburner Toolhead Board v3.rabbit"](https://github.com/hartk1213/Voron-Hardware/blob/hartk1213/Voron-Hardware/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png)
+    * [Wiring Diagram for "Voron Afterburner Toolhead Board v3.rabbit"](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/Images/Wiring/ERCF-Toolhead%20SKR%201_4%20wiring.png)
 
     * Also see my [wiring harness diagram!](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Wiring_Harness_Diagram)
 
