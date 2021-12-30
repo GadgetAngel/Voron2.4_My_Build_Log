@@ -255,7 +255,7 @@ I had to look at an 8-wire bipolar motor before I actually got it through my thi
 
 Maybe this will help others:
 
-[Drawing of 8 wire bipolar-parallel motor](https://www.google.com/search?rlz=1C1KDEC_enUS925US925&sxsrf=AOaemvLwrmaDl8ua4lQseCKg1z3Zyqv7hA:1632969577225&source=univ&tbm=isch&q=stepper+driver+schematic+with+bipolar+parallel&fir=4TCFBxk3bBwQHM%252CPz8Y0vCOJhjweM%252C_%253Bdc6Xcx5op01amM%252CPz8Y0vCOJhjweM%252C_%253BItQbyHd9IexujM%252CdmTk8dQZiaTOKM%252C_%253BJq7NH4XUzw-gaM%252CbmpTPUvcAgJ1iM%252C_%253BNUciJ8biUMyATM%252CdmTk8dQZiaTOKM%252C_%253Bek59VPLAp7FTaM%252CfLr7UhIdS3zfiM%252C_%253Bcr7a5jpp9XtmSM%252CzzUhUZJ6gFb9SM%252C_%253BcHqWrnFkQqbUFM%252CU6NS1Lt6QBz7EM%252C_%253BxAUcqizP6jkfWM%252C8vsQdXCGrpQ9nM%252C_%253BHgNwYdr3N6uCPM%252CNKxfcF59LDIYkM%252C_&usg=AI4_-kR9_lmMfvjdB0rNsNvfnE_PhDKY6w&sa=X&ved=2ahUKEwi28NDc1aXzAhXFmmoFHevzDAUQ7Al6BAgCEEY&biw=1514&bih=650&dpr=1.25#imgrc=HgNwYdr3N6uCPM)
+[Drawing of 8 wire bipolar-parallel motor](https://www.google.com/imgres?imgurl=https://buildbotics.com/content/images/2019/09/8wireParallel.png&imgrefurl=https://buildbotics.com/wiring-stepper-motors/&tbnid=HgNwYdr3N6uCPM&vet=1&docid=NKxfcF59LDIYkM&w=735&h=411&source=sh/x/im)
 
 [Drawing of 8 wire bipolar-series motor](https://www.google.com/imgres?imgurl=https%3A%2F%2Fbuildbotics.com%2Fcontent%2Fimages%2F2019%2F09%2F8wireSeries.png&imgrefurl=https%3A%2F%2Fbuildbotics.com%2Fwiring-stepper-motors%2F&tbnid=c1vZXhJLkcsohM&vet=12ahUKEwinr7uN1aXzAhUGFKwKHYYtChEQMygJegUIARCzAg..i&docid=NKxfcF59LDIYkM&w=716&h=395&q=stepper%20driver%20schematic%20with%20bipolar%20motor%20series&ved=2ahUKEwinr7uN1aXzAhUGFKwKHYYtChEQMygJegUIARCzAg)
 
