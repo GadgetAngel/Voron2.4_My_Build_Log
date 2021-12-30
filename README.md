@@ -205,7 +205,7 @@ Note: this replaces the GE5C Mod;
     *  [buy a longer sexbolt for #10 mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
-32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram);
+32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod);
 
 33. I also used all [Trident DIN clips](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/ElectronicsBay) for mounting electronics and I used [Trident 3D Printed Parts on the MGN12 Mod](https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage). **Thank you Voron Design Team for all your hard work!**
 
