@@ -223,7 +223,7 @@ Note: this replaces the GE5C Mod;
 
 40. [Jeoje's "Molex_MLX_Microfit_Bed_Connector_Mount Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Molex_MLX_Microfit_Bed_Connector_Mount);
 
-41. [Richardjm's "Back plate blanking plate mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/richardjm);
+41. [Richardjm's "Back plate blanking plate mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/richardjm/back-plate);
 
 42. [Jeoje's "Z_Chain_Guide_Thermistor_Mount mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Z_Chain_Guide_Thermistor_Mount);
 
