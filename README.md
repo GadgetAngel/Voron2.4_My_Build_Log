@@ -158,7 +158,7 @@ Note: this replaces the GE5C Mod;
 
 14.	[Hernsl's "Bottom_panel_mag_clip Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hernsl/bottom_panel_mag_clip);
 
-15.	[Wile-e1's "Deck_Panel_Support_Clips Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clip);
+15.	[Wile-e1's "Deck_Panel_Support_Clips Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips);
 
 16.	[Tayto-chip's "Skirt_switch_mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/tayto-chip/skirt_switch_mod) - with my modifications;
 
