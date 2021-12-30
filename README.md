@@ -166,7 +166,7 @@ Note: this replaces the GE5C Mod;
 
 18.	[StvPtrsn's "Side_Fan_Support_No_Tape Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/StvPtrsn/Side_Fan_Support_No_Tape);
 
-19.	[MarcPot's "Skirt_Mod_250 Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods/250); - with my modification so that you can use this with the magnatic bottom panel;
+19.	[MarcPot's "Skirt_Mod_250 Mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/MarcPot/Skirt_Mods); - with my modification so that you can use this with the magnatic bottom panel;
 
 20. My BTT-PITFT5-Mount Mod come from the following sources:
 
