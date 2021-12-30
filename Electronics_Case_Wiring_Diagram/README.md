@@ -50,33 +50,38 @@ GadgetAngel's Voron 2.4 Fusion 360 CAD model (.f3d) and (.STEP) files:
 
 The full model for QUEEN has a fusion 360 (.f3d) file and STEP file.  The STEP file for the full model has been integrated by myself from all the sub-assemblies STEP files. This way I could check the sub-assembly files to ensure that they were created correctly.
 
-1.  [QUEEN's Voron 2.4 Fusion 360 model and STEP version](../CAD)
+1.  [QUEEN's Voron 2.4 Fusion 360 model and STEP version](../CAD/QUEEN_Voron_2.4_Build_ZIP_files)
 
-2.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Electronics from the Bottom Electronics Case](../CAD/Electronics_forBottom_Electronic_Case)
+2.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Electronics from the Bottom Electronics Case](../CAD/Electronics_forBottom_Electronic_Case/ZIP_files)
 
-3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for Electronics from the LitterBox Case](../CAD/Electronics_forLitterBox_Case)
+3.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for Electronics from the LitterBox Case](../CAD/Electronics_forLitterBox_Case/ZIP_files)
 
-4.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the LEDs](../CAD/LEDs)
+4.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the LEDs](../CAD/LEDs/ZIP_files)
 
-5.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all Panels & Clips, see this directory for additional sub-assemblies for different panels](../CAD/Panel_Mounting)
+5.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all Panels & Clips](../CAD/Panel_Mounting/QUEENv98_SubAssmbly_Panel&Clips_ZIP_files)
 
-6. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all Skirts, see this directory for additional sub-assemblies for different Skirts (i.e., Front Skirt, Left-Side Skirt, etc.)](../CAD/Skirts)
+6.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for different panels, see this directory for additional sub-assemblies](../CAD/Panel_Mounting)
 
-7. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all the mods located under the Heated Bed & a Filament Runout Sensor](../CAD/Under_Heated_Bed)
+7. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all Skirts](../CAD/Skirts/QUEENv98_SubAssmbly_ALL_Skirts_ZIP_files)
 
-8. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for my Z Driver Tensioner Mod](../CAD/Z_Drive)
+8. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for different Skirts (i.e., Front Skirt, Left-Side Skirt, etc.), see this directory for additional sub-assemblies](../CAD/Skirts)
 
-9. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Exhaust Filter](../CAD/Ehaust_Filter)
+9. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for all the mods located under the Heated Bed & a Filament Runout Sensor](../CAD/Under_Heated_Bed/ZIP_files)
 
-10.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Frame](../CAD/Frame)
+10. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for my Z Driver Tensioner Mod](../CAD/Z_Drive/ZIP_files)
 
-11. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Gantry](../CAD/Gantry)
+11. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Exhaust Filter](../CAD/Ehaust_Filter/ZIP_file)
 
-12. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Litter Box Mod and its sub-assemblies, see this directory for additional sub-assemblies](../CAD/Litter_Box_CAD)
+12.  [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Frame](../CAD/Frame/ZIP_files)
 
-13. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Z-Endstop called the "SexBolt Z-Endstop"](../CAD/Z_Endstop)
+13. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Gantry](../CAD/Gantry/ZIP_files)
 
-14. [QUEEN's Voron 24 Fusion 360 subAssembly model (.f3d) and .STEP version for the BTT piTFT V2.0 articulating arm with display mount](../CAD/Skirts/Front/Middle)
+14. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Litter Box Mod and its sub-assemblies, see this directory for additional sub-assemblies](../CAD/Litter_Box_CAD)
+
+15. [QUEEN's Voron 2.4 Fusion 360 subAssembly model (.f3d) and .STEP versions for the Z-Endstop called the "SexBolt Z-Endstop"](../CAD/Z_Endstop/ZIP_files)
+
+16. [QUEEN's Voron 24 Fusion 360 subAssembly model (.f3d) and .STEP version for the BTT piTFT V2.0 articulating arm with display mount](../CAD/Skirts/Front/Middle/ZIP_files)
+
 
 ---
 
