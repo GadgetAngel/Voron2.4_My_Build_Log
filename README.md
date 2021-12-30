@@ -237,6 +237,8 @@ Note: this replaces the GE5C Mod;
 
 47. [Derpimus' Euclide_Probe's "OmronRotatedXRailDock_v2"](https://discord.com/channels/460117602945990666/916406093339566120/923047248051462226);
 
+48. [Voron Design Team's "Stealthburner Mod"](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/STLs);
+
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
 I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers I will describe the process I used.  I never realized that the motors I own are **bipolar-series motors**.
