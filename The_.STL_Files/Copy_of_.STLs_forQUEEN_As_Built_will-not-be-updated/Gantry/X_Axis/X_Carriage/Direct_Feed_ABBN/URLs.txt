@@ -10,3 +10,4 @@ https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/r
 
 https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX
 
+

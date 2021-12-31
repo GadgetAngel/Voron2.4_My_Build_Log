@@ -1,0 +1,6 @@
+
+https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage
+
+
+https://github.com/jlas1/Klicky-Probe/tree/main/STL
+
