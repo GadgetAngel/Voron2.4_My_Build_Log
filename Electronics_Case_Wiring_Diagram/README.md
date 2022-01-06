@@ -133,6 +133,8 @@ Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https:/
 
 Below you will find the JPG and the PDF files for the "Voron 2.4 AC Electrical Wiring Diagram".
 
+After finding a [schematic diagram of the BTT relay V1.2 from a russian website](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/BTT%20Relay%20V1.2%20Schematic.pdf) I have become aware that I can control the PSUs via the BTT Relay V1.2 by using the Raspberry Pi. Therefore the secondary relay to control the PSUs is no longer need but I still need it to control the mechanical Hour-Counter.  I will be updating my AC Electrical Wiring Diagram to reflect this change.
+
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
 
 You can download the JPG file for the "Voron 2.4 AC Electrical Wiring Diagram" by clicking on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg) and then hit the download button.
