@@ -99,6 +99,14 @@ The ".STL" files for my QUEEN Voron 2.4 build can be found [here](../The_.STL_Fi
 I finished the AC wiring diagram for the QUEEN build today. From doing the wiring diagram
 I determined that I needed to make some adjustements in my power supplies and do more work with the 3D model layout.
 
+I have decided to split the Wiring Diagram for my Voron 2.4 printer up into two wiring diagrams: "AC Electrical Wiring Diagram" and "DC Electrical Wiring Diagram".
+
+The "DC Electrical Wiring Diagram" will show how to setup the Octopus Pro board and all the DC wiring not included in the "Wiring Harness Diagram" like LEDs, fans, DC light switches and so on. I will work on this one next.
+
+The first draft of the "AC Electrical Wiring Diagram" is done and is now being published.  I still might need to make changes to it once I start working on the DC wiring diagram.  Please remember this whole repository is a "Work in progress" because I still have not finished building my Voron 2.4 printer. I have all the building material but I want to document how I will be interconnecting all the modules before I start putting things together.
+
+### Requirements for my Voron 2.4 printer build
+
 One of the requirements for my Voron 2.4 printer is that I want to be able to reboot the Voron 2.4 printer without requiring me to reboot Mainsail or Fluidd (the Raspberry Pi) along with the printer's motherboard and power supplies.  To accomplish this goal, I have decided that my Raspberry Pi will always remain powererd up. It can be shut down thruogh the BIG RED mushroom button but typically it will always be turned on while the Voron 2.4 printer may not be turned on.
 
 I also want to use some extra features with my Voron 2.4 printer, like, filament runout sensor, filament jam detection, automtic shutdown after print job has finished, and resume 3D print after power failure.
