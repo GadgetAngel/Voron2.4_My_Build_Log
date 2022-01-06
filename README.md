@@ -370,7 +370,7 @@ Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https:/
 
 Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#a-picture-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
 
-Click here to see the PDF file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#the-pdf-file-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
+To download the PDF just click on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf"](images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) and hit the download button.
 
 
 ## The PDF file of the "Color PIN Diagram" for the Octopus Pro V1.0:
