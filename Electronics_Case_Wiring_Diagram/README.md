@@ -138,7 +138,6 @@ The PDF file looks the same as the JPG file. You can enlarge the image for both 
 
 To download the PDF just click on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) and hit the download button.
 
-![PDF of Voron2.4_AC_Electrical_Wiring_Diagram](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf)
 
 ## A Picture of the "Voron 2.4 DC Electrical Wiring Diagram" for QUEEN:
 

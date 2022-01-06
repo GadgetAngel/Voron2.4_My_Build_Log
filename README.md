@@ -368,7 +368,9 @@ In the AC electrical wiring diagram some of the lines are thicker than the other
 
 Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https://www.amazon.com/Chanzon-34-Values-Zener-Assorted/dp/B07BTWBXJ3) for over voltage protection on the Raspberry Pi's GPIO lines when using a 5VDC power supply for the 4-channel relay module to activate the relay's coils.
 
-Click here see the JPG and PDF files for the ["Voron 2.4 AC Electrical Wiring Diagram"]()
+Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#a-picture-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
+
+Click here to see the PDF file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#the-pdf-file-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
 
 
 ## The PDF file of the "Color PIN Diagram" for the Octopus Pro V1.0:
@@ -439,9 +441,10 @@ You can view an even higher resolution image (give it a minute or two to load, i
 
 ## "Electronics_Case_Wiring_Diagram" directory you will find the wiring diagram for the electronics case for QUEEN:
 
-This is the electronics wiring diagram I developed for my Voron 2.4 build:
+Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#a-picture-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
 
-Coming Soon.
+Click here to see the PDF file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#the-pdf-file-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
+
 
 ## How Well Will Your Motors Perform on a Voron Build?
 
