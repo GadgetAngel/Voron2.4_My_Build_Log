@@ -107,7 +107,7 @@ The first draft of the "AC Electrical Wiring Diagram" is done and is now being p
 
 ### Requirements for my Voron 2.4 printer build
 
-One of the requirements for my Voron 2.4 printer is that I want to be able to reboot the Voron 2.4 printer without requiring me to reboot Mainsail or Fluidd (the Raspberry Pi) along with the printer's motherboard and power supplies.  To accomplish this goal, I have decided that my Raspberry Pi will always remain powererd up. It can be shut down thruogh the BIG RED mushroom button but typically it will always be turned on while the Voron 2.4 printer may not be turned on.
+One of the requirements for my Voron 2.4 printer is that I want to be able to reboot the Voron 2.4 printer without requiring a reboot of Mainsail or Fluidd (the Raspberry Pi) along with the printer's motherboard and power supplies.  To accomplish this goal, I have decided that my Raspberry Pi will always remain powererd up. It can be shut down thruogh the BIG RED mushroom button but typically it will always be turned on while the Voron 2.4 printer may not be turned on.
 
 I also want to use some extra features with my Voron 2.4 printer, like, filament runout sensor, filament jam detection, automtic shutdown after print job has finished, and resume 3D print after power failure.
 
