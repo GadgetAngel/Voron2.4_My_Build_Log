@@ -127,7 +127,7 @@ In my AC wiring diagram you will see things like "grounding straps" and "Ferrite
 
 Logically I have 5 power supplies, two 5V PSU, one 12V PSU, one 24V PSU and one 48V PSU.  One PSU combines two of these into one PSU (Meanwell RD-50A combines a 5V PSU and 12V PSU into one PSU).
 
-In the AC electrical wiring diagram some of the lines are thicker than the others. I did this on purpose so that you will automatically recognize the AC lines from the DC lines.  The AC lines are thicker and are distributed using UK2.5 terminal blocks.  The DC lines are thin and use WAGO nuts for distrubution blocks.
+In the AC electrical wiring diagram some of the lines are thicker than the others. I did this on purpose so that you will automatically recognize the AC lines from the DC lines.  The AC lines are thicker and are distributed using UK2.5 terminal blocks (or Dinkle DK4N termainal blocks).  The DC lines are thin and use WAGO nuts for distrubution blocks.
 
 Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https://www.amazon.com/Chanzon-34-Values-Zener-Assorted/dp/B07BTWBXJ3) for over voltage protection on the Raspberry Pi's GPIO lines when using a 5VDC power supply for the 4-channel relay module to activate the relay's coils.
 
