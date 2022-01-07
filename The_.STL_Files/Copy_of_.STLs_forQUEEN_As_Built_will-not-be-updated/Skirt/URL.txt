@@ -1,1 +1,6 @@
 https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Skirts
+
+https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/JST-SM-Connectors
+
+https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts
+
