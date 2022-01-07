@@ -133,11 +133,11 @@ Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https:/
 
 Below you will find the JPG and the PDF files for the "Voron 2.4 AC Electrical Wiring Diagram".
 
-After finding a [schematic diagram of the BTT relay V1.2 from a russian website](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/BTT%20Relay%20V1.2%20Schematic.pdf) I have become aware that I can control the PSUs witht the Raspberry Pi via the BTT Relay V1.2 modules with the use of a second relay module. Therefore the secondary relaymodule will only control the mechanical Hour-Counter.  I have updated my AC Electrical Wiring Diagram to reflect this change.
+After finding a [schematic diagram of the BTT relay V1.2 from a russian website](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/BTT%20Relay%20V1.2%20Schematic.pdf) I have become aware that I can control the PSUs with the Raspberry Pi via the BTT Relay V1.2 modules without the use of a second relay module. Therefore the secondary relay module will only control the mechanical Hour-Counter.  I have updated my AC Electrical Wiring Diagram to reflect this change.
 
-After a discussion in the Voron discord channel with other more experience Voron users the following question arose: "Does your printer even have the capacity to resume print?  If the Gantry sags at all it won't, since you wouldn't be able to perform QGL with a buildplate already occupied.".  Due to this fact using the BTT UPS modules is now out since I will not be able to get the flying gantery back to where it needs to be to resume a print.  I will be removing the "resume after power failure" as a requirement for my Voron 2.4 printer.
+After a discussion in the Voron discord channel with other more experienced Voron users the following question arose: "Does the Voron 2.4 printer even have the capacity to resume print?  If the Gantry sags at all it won't, since you wouldn't be able to perform QGL with a buildplate already occupied.".  Due to this fact using the BTT UPS modules is now out since I will not be able to get the flying gantery back to where it needs to be to resume a print.  I will be removing the "resume after power failure" as a requirement for my Voron 2.4 printer.
 
-Also another Voron user found a error in my first AC wiring diagram. I forgot to tie all my V- (DC negative voltage) terminal from each PSU together so that a common DC ground could be established.  My new revised AC wiring diagram now has the V- terminals all tied together.
+Also another Voron user found an error in my first AC wiring diagram. I forgot to tie all my V- (DC negative voltage) terminals together to establish a common voltage reference between different power supplies.  My new revised AC wiring diagram now has the V- terminals all tied together.
 
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
 
