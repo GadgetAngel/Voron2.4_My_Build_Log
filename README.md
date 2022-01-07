@@ -360,13 +360,15 @@ Since I want the Raspberry Pi to be "alway ON" I need to buy another 5V power su
 
 The Meanwell RS-25-5 will be the power supply that always remains on and is attached to the external UPS [APC UPS 1500VA UPS Battery Backup and Surge Protector, BX1500M Backup Battery Power Supply](https://www.amazon.com/gp/product/B06VY6FXMM) along with Voron 2.4 printer.  I am using a "BIG RED" button or mushroom button between teh APC UPS unit and the power input (filtered power inlet) for the Voron 2.4 printer.  I am using this for saftey reason only.  The mushroom box assembly will have a long power cord so I can place it where ever I want to.  I also have smoke detector located above the 3D printer.
 
-I my AC electrical diagram you will see thing like "grounding straps" and "Ferrite core filters".  These are present to help reduce cross talk.
+In my AC electrical diagram you will see things like "grounding straps" and "Ferrite core filters".  These are present to help reduce cross talk.
 
 Logically I have 5 power supplies, two 5V PSU, one 12V PSU, one 24V PSU and one 48V PSU.  One PSU combines two of these into one PSU (Meanwell RD-50A combines a 5V PSU and 12V PSU into one PSU).
 
 In the AC electrical wiring diagram some of the lines are thicker than the others. I did this on purpose so that you will automatically recognize the AC lines from the DC lines.  The AC lines are thicker and are distributed using UK2.5 terminal blocks.  The DC lines are thin and use WAGO nuts for distrubution blocks.
 
 Since the Raspberry Pi is a 3.3V logic device, I use [3.6V Zener Diodes](https://www.amazon.com/Chanzon-34-Values-Zener-Assorted/dp/B07BTWBXJ3) for over voltage protection on the Raspberry Pi's GPIO lines when using a 5VDC power supply for the 4-channel relay module to activate the relay's coils.
+
+Click [here]() to see additional discussion of the AC wiring diagram.
 
 Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#a-picture-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
 
