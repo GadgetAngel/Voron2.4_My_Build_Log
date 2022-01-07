@@ -123,7 +123,7 @@ Since I want the Raspberry Pi to be "alway ON" I need to buy another 5V power su
 
 The Meanwell RS-25-5 will be the power supply that always remains on and is attached to the external UPS [APC 1500VA UPS Battery Backup and Surge Protector, BX1500M Power Supply](https://www.amazon.com/gp/product/B06VY6FXMM) along with Voron 2.4 printer.  I am using a "BIG RED" button or mushroom button between the APC UPS unit and the power input (filtered power inlet) for the Voron 2.4 printer.  I have added this for saftey reasons.  The mushroom box assembly will have a long power cord so I can place it whereever I want.  I also have smoke detector located above the 3D printer.
 
-I my AC electrical diagram you will see thing like "grounding straps" and "Ferrite core filters".  These are present to help reduce cross talk.
+In my AC wiring diagram you will see things like "grounding straps" and "Ferrite core filters".  These are present to help reduce cross talk.
 
 Logically I have 5 power supplies, two 5V PSU, one 12V PSU, one 24V PSU and one 48V PSU.  One PSU combines two of these into one PSU (Meanwell RD-50A combines a 5V PSU and 12V PSU into one PSU).
 
