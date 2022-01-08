@@ -138,7 +138,7 @@ Note: this replaces the GE5C Mod;
 6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mod" for the "Klicky Probe Mod":
 
     *   ~~[bluedragonx's "BlueDragonX's Klicky Mods" ](using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/bluedragonx;~~
-    
+
      Bluedragonx's mod changes the X-Axis Carriage Frame pieces to allow for a built in Klick Probe. I decided to use the regular Klick Probe mode and a combination of the following two user mods for the Klick Probe (this way the Klicky Probe is not built into the X-Axis Carriage and I can decide to use the Euclid Probe if I choose [See item #47](#47):
 
     *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz)
