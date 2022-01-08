@@ -137,7 +137,12 @@ Note: this replaces the GE5C Mod;
 
 6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mod" for the "Klicky Probe Mod":
 
-    * bluedragonx's "BlueDragonX's Klicky Mods" (using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Usermods/bluedragonx;
+    *   ~~[bluedragonx's "BlueDragonX's Klicky Mods" ](using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/bluedragonx;~~
+    
+     Bluedragonx's mod changes the X-Axis Carriage Frame pieces to allow for a built in Klick Probe. I decided to use the regular Klick Probe mode and a combination of the following two user mods for the Klick Probe (this way the Klicky Probe is not built into the X-Axis Carriage and I can decide to use the Euclid Probe if I choose [See item #47](#47):
+
+    *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz)
+    *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek)
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
@@ -146,7 +151,7 @@ Note: this replaces the GE5C Mod;
     * [Phalanx's "Other-V2-Idlers mod"](https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
 
 
-9. [Badnoob's "AB-BN30 Afterburner mod"](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);
+~~9. [Badnoob's "AB-BN30 Afterburner mod"](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);~~ I will be using the Stealthburner Mod instead. [Please see item #48](#48)
 
 10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
@@ -184,7 +189,7 @@ Note: this replaces the GE5C Mod;
 
 23. [Ramalama2's "AB_Plug_Microfit mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_Microfit); or [AB_Plug_JST-XHmod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_JST-XH); or you could also use the Voron Design Team's ["tie down the AB motors cables to the Z-Beam Mod"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_cable_anchor_x4_rev1.stl);
 
-24. [Ramalama2's "Panel_Clips" to use midspan clips for sides and the front door clips](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
+24. [Ramalama2's "Panel_Clips"; I will use the midspan clips for sides and top](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
 
 25. [Richardjm's "ADXL345 Mount Mod"](https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/richardjm/adxl-chain); I used information from [Padok's ADXL345 Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/padok/chain_anchor-ADXL345_mount);
 
@@ -235,15 +240,19 @@ Note: this replaces the GE5C Mod;
 
 46. [Ramalama2's "Misumi_Led_Corners"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Misumi_Led_Corners);
 
-47. [Derpimus' Euclide_Probe's "OmronRotatedXRailDock_v2"](https://discord.com/channels/460117602945990666/916406093339566120/923047248051462226);
+### 47. [Derpimus' Euclide_Probe's "OmronRotatedXRailDock_v2"](https://discord.com/channels/460117602945990666/916406093339566120/923047248051462226);
 
-48. [Voron Design Team's "Stealthburner Mod"](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/STLs);
+### 48. [Voron Design Team's "Stealthburner Mod"](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/STLs);
 
 49. [Voron Desing Team's "Z Rail end stops"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_z_rail_stop_x4_rev1.stl);
 
 50. [AlexanderT-Moss's 270-Clamping-Hinges for the front doors instead of Item #24's Front door clips](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges);
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts, I modified it so I could mount a Reset button for the BTT V1.2 Relays shown on my AC Wiring Diagram](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts);
+
+52. [V6cl's Lift Handles](https://github.com/v6cl/My-Voron2.4-Customs/tree/main/LiftHandle) - I modified the Lift Handles so they will fit my Side panels which have Edge lighting.  Instead of 7 mm clearence I will need 11 mm cleareance.
+
+53. [V6cl's Panel_Locker](https://github.com/v6cl/My-Voron2.4-Customs/tree/main/Panel_Locker) as the front door handles.
 
 If you are looking for 3D CAD models for the different Voron Build plates you can find them at https://github.com/lecktor/Voron-V2.4
 
