@@ -139,7 +139,7 @@ Note: this replaces the GE5C Mod;
 
     *   ~~[bluedragonx's "BlueDragonX's Klicky Mods" ](using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/bluedragonx;~~
 
-     Bluedragonx's mod changes the X-Axis Carriage Frame pieces to allow for a built in Klick Probe. I decided to use the regular Klick Probe mode and a combination of the following two user mods for the Klick Probe (this way the Klicky Probe is not built into the X-Axis Carriage and I can decide to use the Euclid Probe if I choose [See item #47](#47):
+     Bluedragonx's mod changes the X-Axis Carriage Frame pieces to allow for a built in Klick Probe. I decided to use the regular Klick Probe mode and a combination of the following two user mods for the Klick Probe (this way the Klicky Probe is not built into the X-Axis Carriage and I can decide to use the Euclid Probe if I choose [See item #47](#47.-Derpimus'-Euclide_Probe's-"OmronRotatedXRailDock_v2";):
 
     *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz)
     *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek)
@@ -240,9 +240,9 @@ Note: this replaces the GE5C Mod;
 
 46. [Ramalama2's "Misumi_Led_Corners"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Misumi_Led_Corners);
 
-### 47. [Derpimus' Euclide_Probe's "OmronRotatedXRailDock_v2"](https://discord.com/channels/460117602945990666/916406093339566120/923047248051462226);
+##### 47. [Derpimus' Euclide_Probe's "OmronRotatedXRailDock_v2"](https://discord.com/channels/460117602945990666/916406093339566120/923047248051462226);
 
-### 48. [Voron Design Team's "Stealthburner Mod"](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/STLs);
+##### 48. [Voron Design Team's "Stealthburner Mod"](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/STLs);
 
 49. [Voron Desing Team's "Z Rail end stops"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_z_rail_stop_x4_rev1.stl);
 
