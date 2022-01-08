@@ -352,7 +352,7 @@ I opted to buy the following:
 
 I will use the Octopus Pro to power the stepper motor drivers, heater cartridge, temperature sensors, limit switches, and generate signals on PINs to control stuff, but I do not plan on powering stuff off the Octopus Pro board that is considered optional equipment like LEDs, an endoscope or cameras.  Since my Raspberry Pi (running Klipper) is the brains of this setup, I will be using a solid state drive to act as the disk drive for the Raspberry Pi.  This adds additional current draw and the Raspberry Pi will have its own 5V PSU.
 
-All my LEDS are ~~12VDC or 24VDC~~ Neopixels so they are 5VDC. So that is why I am running a separate 12VDC PSU and added additional current capability to my 24VDC supply.
+All my LEDS are ~~12VDC or 24VDC~~ Neopixels so they are 5VDC. So that is why I am running a separate second 5VDC PSU and added additional current capability to my 24VDC supply.
 
 I plan on running all TMC5160 (HV) PRO stepper motor drivers for all my motors on QUEEN.
 I know this is an overkill but if I want the power it will be there. I am lazy, and I do not want to redo wiring at a later date.
