@@ -141,9 +141,9 @@ Other MODS I am using for my QUEEN build (Z belts 9mm; XY belts 6mm):
 
      Bluedragonx's user mod changes the X-Axis Carriage Frame pieces to allow for a built-in Klicky Probe. I decided to use the regular Klicky Probe mode and a combination of the following two user mods for the Klick Probe body (this way the Klicky Probe is **not** built into the X-Axis Carriage and I can decide to use the Euclid Probe if I so desire [See item #47](#47-derpimus-euclide_probes-omronrotatedxraildock_v2):
 
-    *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz);
+    *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz); This is a modified Klicky probe with two holes so that you can feed through the uninsolated part of the cable a little bit more. Gave me better contact.
 
-    *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek);
+    *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek);  Beefier column and revised holes for zip tie (was def too small); reduced height 1mm (was excess) Chanfered bottom in all direction (also sides) on the probe carriage Microswitch body exposed by a tiny bit.
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
