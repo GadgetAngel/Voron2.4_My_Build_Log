@@ -247,7 +247,7 @@ Note: this replaces the GE5C Mod;
 
 If you are looking for 3D CAD models for the different Voron Build plates you can find them at https://github.com/lecktor/Voron-V2.4
 
-I created a 3D CAD model for the Mandala Rose Works's MIC6 Build plate for the 250mm build. You can find it at xxx.
+I created a 3D CAD model for the Mandala Rose Works's MIC6 Build plate for the 250mm build. You can find it at https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/CAD/Under_Heated_Bed.
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
