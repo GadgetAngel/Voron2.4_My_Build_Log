@@ -251,7 +251,7 @@ Other MODS I am using for my QUEEN build (Z belts 9mm; XY belts 6mm):
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts) - I modified it so I could [mount a Reset button for the BTT V1.2 Relays](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated/LitterBox_Mod/Electronics/%5Ba%5D_RED_Mini_Push_Button_Momentary_Switch_mount_x6.stl) shown on my AC Wiring Diagram;
 
-52. [V6cl's Lift Handles](https://github.com/v6cl/My-Voron2.4-Customs/tree/main/LiftHandle) - I modified the Lift Handles so they will fit my Side panels which have Edge lighting.  Instead of 7 mm clearence I will need 11 mm cleareance.
+52. [V6cl's Lift Handles](https://github.com/v6cl/My-Voron2.4-Customs/tree/main/LiftHandle) - I modified the [Lift Handles](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated/Panel_Mounting/LiftHandles_11mm) so they will fit my Side panels which have Edge lighting.  Instead of 7 mm clearence I will need 11 mm cleareance.
 
 53. [V6cl's Panel_Locker](https://github.com/v6cl/My-Voron2.4-Customs/tree/main/Panel_Locker) as the front door handles.
 
