@@ -359,7 +359,7 @@ I know this is an overkill but if I want the power it will be there. I am lazy, 
 
 ~~I am hoping I can fit all of this in my electronics case for a 250 mm build.~~ Edited: There is not enough room for all the PSU and all the electronics therefore I developed my own "Litter Box" Mod so I can keep the AC Power in the bottom electronic's case and use my "Litter Box" for the DC electronic components.
 
-I explain the "Litter Box" Mod at https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod
+[Click here to get explaination about the "Litter Box" Mod](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
 
 1/5/2022:  Click [here](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#lesson-learned-while-doing-the-electronics-case-wiring-diagram-for-queen) to see additional discussion about the Voron 2.4 AC wiring diagram.
 
