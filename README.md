@@ -154,7 +154,7 @@ Note: this replaces the GE5C Mod;
 
 ~~9. [Badnoob's "AB-BN30 Afterburner mod"](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);~~ I will be using the Stealthburner Mod instead. [Please see item #48](#48-voron-design-teams-stealthburner-mod)
 
-#####   10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
+####   10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
 11.	Cover for Toolhead, I created my own (in this repository) - from [Hartk1213's "ERCF covers for the LGX extruder"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/LGX); I cut the front of the LGX cover for ERCF cover for Stealthburner. See also [Th3fallen's website for the LGX_PCB_Mount_Heatset.stl file](https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX);
 
@@ -208,7 +208,7 @@ Note: this replaces the GE5C Mod;
 
     The following will be needed if you add the kinematic kit to your Voron 2.4 Build:
     *  [Modified Purge Bucket](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/The_.STL_Files/GA_modded_STLs/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber_MOD);
-    *  [buy a longer sexbolt for](https://www.amazon.com/gp/product/B07GSQZWNP) [Item #10](#10-Hartk1213s-Sexbolt-Z-Endstop-Mod)] and
+    *  [buy a longer sexbolt for](https://www.amazon.com/gp/product/B07GSQZWNP) [Item #10](#10hartk1213s-sexbolt-z-endstop-mod) and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
 32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod);
