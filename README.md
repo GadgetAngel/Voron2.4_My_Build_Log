@@ -208,7 +208,7 @@ Note: this replaces the GE5C Mod;
 
     The following will be needed if you add the kinematic kit to your Voron 2.4 Build:
     *  [Modified Purge Bucket](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/The_.STL_Files/GA_modded_STLs/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber_MOD);
-    *  [buy a longer sexbolt for ](https://www.amazon.com/gp/product/B07GSQZWNP)[Item #10 mod](#10-Hartk1213s-Sexbolt-Z-Endstop-Mod)] and
+    *  [buy a longer sexbolt for](https://www.amazon.com/gp/product/B07GSQZWNP) [Item #10](#10-Hartk1213s-Sexbolt-Z-Endstop-Mod)] and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
 32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod);
