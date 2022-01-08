@@ -129,7 +129,7 @@ Note: this replaces the GE5C Mod;
 
 4. [0ndsk4's "NeverMore Micro Filter Mod"](https://github.com/nevermore3d/Nevermore_Micro);
 
-5.  I combined two mods into one, "Z Drive Motor Tensioner Mod" was combined from the following sources:
+5.  I combined two user mods into one mod for the, "Z Drive Motor Tensioner Mod":
 
     * Z Motor A/B Unit combined from [Edwardyeeks' "V2.4_z_drive_motor_tensioner_mod"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod); with my modification for the front Skirts for switches and Hour counter;
 
