@@ -156,7 +156,7 @@ Other MODS I am using for my QUEEN build (Z belts 9mm; XY belts 6mm):
 
 ####     10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
-11.	Cover for Toolhead, I created my own (in this repository) - from [Hartk1213's "ERCF covers for the LGX extruder"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/LGX); I cut the front of the LGX cover for ERCF cover for Stealthburner. See also [Th3fallen's website for the LGX_PCB_Mount_Heatset.stl file](https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX);
+11.	Cover for Toolhead, I created my own ([in this repository](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated/Gantry/X_Axis/X_Carriage/Direct_Feed_Stealthburner/%5Ba%5D_Stealthburner-ERCF-LGX_Vented_Cover_x1.stl)) - from [Hartk1213's "ERCF covers for the LGX extruder"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/LGX); I cut the front of the LGX cover for ERCF cover for Stealthburner. See also [Th3fallen's website for the LGX_PCB_Mount_Heatset.stl file](https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX);
 
 12.	[Whoppingpochard's "Z_Drive_Belt_Exit_Covers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/Z_belt_cable_cover);
 
