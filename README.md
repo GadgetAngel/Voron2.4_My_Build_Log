@@ -135,25 +135,26 @@ Note: this replaces the GE5C Mod;
 
     * Z Motor A/B  Motor Unit combined from [Spaghetti-Bolognese's "Z Driver System Mods"](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Spaghetti-Bolognese/Z_drive_motor_mount);
 
-6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mod" for the "Klicky Probe Mod":
+6. [Jlas1's "Klicky Probe Mod"](https://github.com/jlas1/Klicky-Probe) and information about the Klicky Probe mod from  [Ramalama2's "KlickyShare GitHub repo"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/KlickyShare);  I also used the following "user mods" for the "Klicky Probe Mod":
 
     *   ~~[bluedragonx's "BlueDragonX's Klicky Mods" ](using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/bluedragonx;~~
 
-     Bluedragonx's mod changes the X-Axis Carriage Frame pieces to allow for a built in Klick Probe. I decided to use the regular Klick Probe mode and a combination of the following two user mods for the Klick Probe (this way the Klicky Probe is not built into the X-Axis Carriage and I can decide to use the Euclid Probe if I choose [See item #47](#47-derpimus-euclide_probes-omronrotatedxraildock_v2):
+     Bluedragonx's user mod changes the X-Axis Carriage Frame pieces to allow for a built-in Klicky Probe. I decided to use the regular Klicky Probe mode and a combination of the following two user mods for the Klick Probe body (this way the Klicky Probe is **not** built into the X-Axis Carriage and I can decide to use the Euclid Probe if I so desire [See item #47](#47-derpimus-euclide_probes-omronrotatedxraildock_v2):
 
-    *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz)
-    *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek)
+    *   [StefanRaatz's Klicky Mods](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/StefanRaatz);
+
+    *   [Oc_geek's More Roboust Klicky Probe Mod](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/oc_geek);
 
 7. [Whoppingpochard's "Ti Backers Mod"](https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers); Y backers 30mm from front; X backer 35mm from the Y axis drag chain;
 
 8. [Ramalama2's "Front_Idlers mod" ](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers); - these are replacement for Phalanx's "Other-V2-Idlers mod;
 
-    * [Phalanx's "Other-V2-Idlers mod"](https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
+    * Here is the information on Phalanx's "Other-V2-Idlers mod" if you are interested.  [Phalanx's "Other-V2-Idlers mod"](https://github.com/VoronDesign/VoronUsers/tree/a425971f2986578e2e5c10e638f59d02172687c1/printer_mods/Phalanx/Other-V2-Idlers);
 
 
 ~~9. [Badnoob's "AB-BN30 Afterburner mod"](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Badnoob/AB-BN/Readme.md);~~ I will be using the Stealthburner Mod instead. [Please see item #48](#48-voron-design-teams-stealthburner-mod)
 
-10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
+#####   10.	[Hartk1213's "Sexbolt Z-Endstop Mod"](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop);
 
 11.	Cover for Toolhead, I created my own (in this repository) - from [Hartk1213's "ERCF covers for the LGX extruder"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/LGX); I cut the front of the LGX cover for ERCF cover for Stealthburner. See also [Th3fallen's website for the LGX_PCB_Mount_Heatset.stl file](https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX);
 
@@ -187,7 +188,7 @@ Note: this replaces the GE5C Mod;
 
 22. [Ramalama2's "Misumi_Cable_Clip mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Misumi_Cable_Clip);
 
-23. [Ramalama2's "AB_Plug_Microfit mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_Microfit); or [AB_Plug_JST-XHmod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_JST-XH); or you could also use the Voron Design Team's ["tie down the AB motors cables to the Z-Beam Mod"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_cable_anchor_x4_rev1.stl);
+23. [Ramalama2's "AB_Plug_Microfit mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_Microfit); or [AB_Plug_JST-XHmod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_JST-XH); or you could also use the Voron Design Team's ["Tie-down the AB motors cables to the Z-Beam Mod"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_cable_anchor_x4_rev1.stl);
 
 24. [Ramalama2's "Panel_Clips"; I will use the midspan clips for sides and top](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
 
@@ -205,9 +206,9 @@ Note: this replaces the GE5C Mod;
 
 31. For handling the thermal expansion on the Build Plate for QUEEN, I added the Mandala Rose Works's ["Matched Height Kinematic Kit"](https://www.mandalaroseworks.com/shop/voron/matched-height-kinematic-kit) along with ["Voron 250 Standard Bed"](https://www.mandalaroseworks.com/shop/voron/voron-250-standard-bed),
 
-    The following will be need if you add the kinematic kit to your Voron 2.4 Build:
+    The following will be needed if you add the kinematic kit to your Voron 2.4 Build:
     *  [Modified Purge Bucket](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/The_.STL_Files/GA_modded_STLs/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber_MOD);
-    *  [buy a longer sexbolt for #10 mod](https://www.amazon.com/gp/product/B07GSQZWNP) and
+    *  [buy a longer sexbolt for [Item #10 mod](#10-Hartk1213s-Sexbolt-Z-Endstop-Mod)](https://www.amazon.com/gp/product/B07GSQZWNP) and
     *  buy some [Openbuild's Angled brackets](https://deepfriedhero.in/products/openbuilds-angle-corner-connector?_pos=2&_sid=c4c7e2ca4&_ss=r) or you could just use blind joints;
 
 32. [GadgetAngel's "Litter Box mod"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod);
