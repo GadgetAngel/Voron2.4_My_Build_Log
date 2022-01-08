@@ -345,10 +345,10 @@ Since I plan on LEDS; running a Raspberry Pi 4B with a solid state disk drive (v
 
 I opted to buy the following:
 
-    A. UHP-500-48 for my 48VDC supply
-    B. UHP-500-24 for my 24VDC supply
-    C. RS-25-5 for my 5VDC supply
-    D. ~~UHP-200-12 for my 12VDC supply~~ Since I switched my LEDS from 12VDC and 24VDC so that all LEDs will be Neopixels, I need another 5VDC PSU instead of a 12V PSU.  So I decided to by a combo PSU that will supply 5VDC and 12VDC. I purchased a [Meanwell RD-50A](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/MeanWell%20RD-50A%20specs.PDF)
+1.  UHP-500-48 for my 48VDC supply
+2.  UHP-500-24 for my 24VDC supply
+3.  RS-25-5 for my 5VDC supply
+4.   ~~UHP-200-12 for my 12VDC supply~~ Since I switched my LEDS from 12VDC and 24VDC so that all LEDs will be Neopixels, I need another 5VDC PSU instead of a 12V PSU.  So I decided to by a combo PSU that will supply 5VDC and 12VDC. I purchased a [Meanwell RD-50A](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/MeanWell%20RD-50A%20specs.PDF)
 
 I will use the Octopus Pro to power the stepper motor drivers, heater cartridge, temperature sensors, limit switches, and generate signals on PINs to control stuff, but I do not plan on powering stuff off the Octopus Pro board that is considered optional equipment like LEDs, and endoscope or cameras.  Since my Raspberry Pi (running Klipper) is the brains of this setup, I will be using a solid state drive to act as the disk drive for the Raspberry Pi.  This adds additional current draw and the Raspberry Pi will have its own 5V PSU.
 
