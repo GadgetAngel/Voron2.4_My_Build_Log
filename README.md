@@ -245,8 +245,9 @@ Note: this replaces the GE5C Mod;
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts, I modified it so I could mount a Reset button for the BTT V1.2 Relays shown on my AC Wiring Diagram](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts);
 
-If you are looking for 3D models for the different Voron Build plates you can find them at https://github.com/lecktor/Voron-V2.4
+If you are looking for 3D CAD models for the different Voron Build plates you can find them at https://github.com/lecktor/Voron-V2.4
 
+I created a 3D CAD model for the Mandala Rose Works's MIC6 Build plate for the 250mm build. You can find it at xxx.
 
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
