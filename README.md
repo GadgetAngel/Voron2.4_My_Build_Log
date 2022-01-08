@@ -245,6 +245,9 @@ Note: this replaces the GE5C Mod;
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts, I modified it so I could mount a Reset button for the BTT V1.2 Relays shown on my AC Wiring Diagram](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts);
 
+If you are looking for 3D models for the different Voron Build plates you can find them at https://github.com/lecktor/Voron-V2.4
+
+
 ## How I Calculated the Power Requirements for my Voron 2.4 Build:
 
 I know a lot of you already know the answer but for the rest of us that are still learning about bipolar stepper motors and stepper drivers I will describe the process I used.  I never realized that the motors I own are **bipolar-series motors**.
