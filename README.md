@@ -190,7 +190,7 @@ Note: this replaces the GE5C Mod;
 
 23. [Ramalama2's "AB_Plug_Microfit mod"](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_Microfit); or [AB_Plug_JST-XHmod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/AB_Plug_JST-XH); or you could also use the Voron Design Team's ["Tie-down the AB motors cables to the Z-Beam Mod"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_cable_anchor_x4_rev1.stl);
 
-24. [Ramalama2's "Panel_Clips"; I will use the midspan clips for sides and top](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
+#####     24. [Ramalama2's "Panel_Clips"; I will use the midspan clips for sides and top](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips); - (use 6mm version - 3mm panel and 3mm of foam tape);
 
 25. [Richardjm's "ADXL345 Mount Mod"](https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/richardjm/adxl-chain); I used information from [Padok's ADXL345 Mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/padok/chain_anchor-ADXL345_mount);
 
@@ -247,7 +247,7 @@ Note: this replaces the GE5C Mod;
 
 49. [Voron Desing Team's "Z Rail end stops"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_z_rail_stop_x4_rev1.stl);
 
-50. [AlexanderT-Moss's 270-Clamping-Hinges for the front doors instead of Item #24's Front door clips](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges);
+50. [AlexanderT-Moss's 270-Clamping-Hinges for the front doors]((https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges)) [instead of Item #24's Front door clips](#24Ramalama2s-Panel_Clips-I-will-use-the-midspan-clips-for-sides-and-top);
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts, I modified it so I could mount a Reset button for the BTT V1.2 Relays shown on my AC Wiring Diagram](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts);
 
