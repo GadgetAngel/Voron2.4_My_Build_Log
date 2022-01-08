@@ -88,9 +88,9 @@ The full model for QUEEN has a fusion 360 (.f3d) file and STEP file.  The STEP f
 
 I will be publishing a folder of .stl files for all the printed parts I am using for my QUEEN build, including the ones from my PIF parts ~~(comming soon)~~.
 
-My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an EXCEL spreadsheet would help with this task and can be found [here](../The_.STL_Files/Excel_Spreadsheet_.stl_files).
+My intent is to list the files needed in each Sub-Assembly and indicate which ".stl files" need to be replaced or exchanged for a MODed ".stl" file.  I think an [EXCEL spreadsheet would help with this task and can be found here](../The_.STL_Files/Excel_Spreadsheet_.stl_files).
 
-The ".STL" files for my QUEEN Voron 2.4 build can be found [here](../The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated)
+The [".STL" files for my QUEEN Voron 2.4 build can be found here](../The_.STL_Files/Copy_of_.STLs_forQUEEN_As_Built_will-not-be-updated)
 
 ---
 
@@ -113,9 +113,9 @@ I also want to use some extra features with my Voron 2.4 printer, like, filament
 
 The filament runout sensor and filament jam detection will be looked at when I do the DC wiring diagram for the electronic case (which I will be working on next).  The "automatic shutdown after print job has finished" and "resume 3D print after power failure" features needed to be looked at while doing the AC electrical wiring.
 
-These two features have been incorporated into the AC electrical wiring diagram.  I am using BTT's relay V1.2 to perform the "automatic shutdown after print finishes" feature and I am using BTT's UPS module to perform the "resume 3D print after power failure" feature.  I also added in another set of relays to allow the Raspberry Pi to remotely shutdown the Voron 2.4 printer (along with the PSU, except for the PSU that supplies 5VDC power for the Raspberry Pi). I also have a mechanical Hour-counter and Engergy Meter incorporated in the front and side skirt of my Voron 2.4 printer that I need to control.  The Energy Meter will always be on when the Voron 2.4 printer is powered up (it is located on the right-hand side of my printer).  The mechanical Hour-Counter will only run when the Voron 2.4 printer is actually producing a 3D part and is located on the front skirt.  This way I can see the number of actual hours of print time. This Hour-Counter runs throughgh a relay so I can control when it is turned on.
+These two features have been incorporated into the AC electrical wiring diagram.  I am using BTT's relay V1.2 to perform the "automatic shutdown after print finishes" feature ~~and I am using BTT's UPS module to perform the "resume 3D print after power failure" feature.~~  I also added in another set of relays to allow the Raspberry Pi to remotely shutdown the Voron 2.4 printer (along with the PSU, except for the PSU that supplies 5VDC power for the Raspberry Pi). I also have a mechanical Hour-counter and Engergy Meter incorporated in the front and side skirt of my Voron 2.4 printer that I need to control.  The Energy Meter will always be on when the Voron 2.4 printer is powered up (it is located on the right-hand side of my printer).  The mechanical Hour-Counter will only run when the Voron 2.4 printer is actually producing a 3D part and is located on the front skirt.  This way I can see the number of actual hours of print time. This Hour-Counter runs through a relay so I can control when it is turned on.
 
-The BTT's relay V1.2 are relays that are normally closed (NO) so when I added my additional relay I needed to ensure that I could configure it to be NO or NC.  The relay that controls the Hour-counter is NO type of relay.
+The BTT's V1.2 are relays that are normally opened (NO) so when I added my additional relay I needed to ensure that I could configure it to be NO or NC.  The relay that controls the Hour-counter is NO type of relay.
 
 I also want the capability to use momentary switches on the left-hand side and right-hand side of my printer to power up or down the Voron 2.4.  These momentary switches are active low and are hardwired directly into the relays so that software is not needed to control them.  I call these my "hardware reboot switches".  These switches will only reboot the Voron 2.4 (not the Raspberry Pi).  The switch that is on the back of the Voron 2.4 will reboot both the Raspberry Pi and the Voron 2.4 printer.  I will also mount a "mini Red push button (momentary switch)" to one of the keyholes on the Voron 2.4 skirt which allows me to reboot the Voron 2.4 printer via the BTT's relay V 1.2 modules.
 
