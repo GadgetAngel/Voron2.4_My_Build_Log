@@ -247,7 +247,7 @@ Note: this replaces the GE5C Mod;
 
 49. [Voron Desing Team's "Z Rail end stops"](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Gantry/%5Ba%5D_z_rail_stop_x4_rev1.stl);
 
-50. [AlexanderT-Moss's 270-Clamping-Hinges for the front doors](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges) [instead of Item #24's Front door clips](#24-ramalama2s-panel_clips-i-will-use-the-midspan-clips-for-sides-and-top---use-6mm-version---3mm-panel-and-3mm-of-foam-tape);
+50. [AlexanderT-Moss's 270-Clamping-Hinges for the front doors](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges) [instead of Item #24's Front door clips](#24--ramalama2s-panel_clips-i-will-use-the-midspan-clips-for-sides-and-top---use-6mm-version---3mm-panel-and-3mm-of-foam-tape);
 
 51. [AlchemyEngine's Skirt-Microfit-Inserts, I modified it so I could mount a Reset button for the BTT V1.2 Relays shown on my AC Wiring Diagram](https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts);
 
