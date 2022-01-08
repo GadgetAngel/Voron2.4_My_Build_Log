@@ -361,7 +361,7 @@ I know this is an overkill but if I want the power it will be there. I am lazy, 
 
 [Click here to get explaination about the "Litter Box" Mod](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram/Litter_Box_Mod).
 
-1/5/2022:  Click [here](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#lesson-learned-while-doing-the-electronics-case-wiring-diagram-for-queen) to see additional discussion about the Voron 2.4 AC wiring diagram.
+1/5/2022:  Click [here](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#lesson-learned-while-doing-the-electronics-case-wiring-diagram-for-queen) to see further information about the "Voron 2.4 AC wiring diagram".
 
 Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/tree/main/Electronics_Case_Wiring_Diagram#a-picture-of-the-voron-24-ac-electrical-wiring-diagram-for-queen)
 
