@@ -103,7 +103,7 @@ The ".STL" files for my QUEEN Voron 2.4 build can be found [here](./The_.STL_Fil
 
 ---
 
-### GadgetAngel's Voron 2.4 MODS (250 mm³ Build):
+### Voron 2.4 MODS I plan on using for my Build (250 mm³ Build):
 
 
 Tool head PCB board (MOD) I am using:
