@@ -139,6 +139,8 @@ After a discussion in the Voron discord channel with other more experienced Voro
 
 Also another Voron user found an error in my first AC wiring diagram. I forgot to tie all my V- (DC negative voltage) terminals together to establish a common voltage reference between different power supplies. The revised AC wiring diagram now has the V- terminals all tied together.
 
+Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
+
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
 
 You can download the JPG file for the "Voron 2.4 AC Electrical Wiring Diagram" by clicking on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg) and then hit the download button.
