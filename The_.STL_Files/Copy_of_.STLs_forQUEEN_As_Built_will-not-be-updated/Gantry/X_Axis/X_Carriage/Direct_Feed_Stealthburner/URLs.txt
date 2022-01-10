@@ -10,5 +10,5 @@ https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/r
 
 https://discord.com/channels/460117602945990666/923325119454126090/923672571411591209
 
-https://github.com/EtteGit/EnragedRabbitProject/blob/main/usermods/LGX_Toolhead_Sensor/STL/LGX%20Front%20Mount.stl
+https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl ---renamed "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl"
 
