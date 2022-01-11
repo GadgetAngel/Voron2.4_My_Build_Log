@@ -153,7 +153,7 @@ I like to think of this rationalization as a way to boot strap my Voron printer 
 
 1/11/2022:
 
-I am still working on the DC wiring Diagram for the QUEEN build.  Here is what I am trying to figure out right now. 
+I am still working on the DC wiring Diagram for the QUEEN build.  Here is what I am trying to figure out right now.
 
 I have bought a [ERCF v1.1 moster kit - 6 chart version](https://deepfriedhero.in/products/enraged-rabbit-carrot-feeder-v1-1-monster-kit?variant=41260783534249) because I will someday print out the parts and but it together to do multi-material printing.
 
@@ -205,7 +205,7 @@ The Seeeduino XIAO microcontroller and sensors are powered through the USB C cab
 
 So all the connection on the ERCF Easy Board will send data to the rapberry pi via USB.  The only connections to the Octopus Pro board we need to make are the following:
 
-1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_2" endstop connector of the Octopus Pro board.
+1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_7" endstop connector of the Octopus Pro board (on the LDO Kit they refer to this as the "Z Probe" line).
 
 2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Boards V~in~). Also on the Octopus Pro board ensure the Jumper on the "Probe Type Select" header is REMOVED so that PNP type is used for the "Probe" connector.  The datasheet on the "AH3364Q-P-B Hall effect sensor" states the following:
 ```
@@ -218,8 +218,75 @@ for North pole fields to or no magnetic fields.
 ```
 This statement indicates to me that the "AH3364Q-P-B Hall effect sensor" works like a "PNP" type Probe. For information on how "PNP" and "NPN" see https://automation-insights.blog/2018/02/14/an-easy-way-to-remember-pnp-and-npn-sensor-wiring/.
 
-3.  Neopixels with an in-line 30 Ohms resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly get connected to the "FS" connector of the ERCF v.3 toolhead board shih then goes to the "DRIVER_7" stepper motor socket of the Octopus Pro board. The "FS" connector 
+3.  Neopixels with an in-line 30 Ohms resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly get connected to the "FS" connector of the ERCF v.3 toolhead board which then goes to the "DRIVER_7" stepper motor socket of the Octopus Pro board.
 
+The "FS" connector comming from the ERCF v.3 toolhead board has two wires that need to be connected up on the Octopus Pro board (5V and Data line for the Neopixel LED which will be using a 5 Volt logic level {not a 3.3 Volt logic level})
+
+But first we must properly configure the "DRIVER_7" stepper motor socket.  Ensure that "DRIVER_7" mode Jumpers are set for UART mode if the rest of the stepper motor driver sockets are configure for SPI mode.  So if you are using the TMC5160_PRO drivers then "DRIVER_0", "DRIVER_1", "DRIVER_2", "DRIVER_3", "DRIVER_4", "DRIVER_5", and "DRIVER_6" will all be configured for SPI mode.
+
+So set the "DRIVER_7" for UART mode. By configuring the opposite mode for the empty driver socket you are ensuring that the empty driver socket will not interfear with the communication bus of the other 7 driver sockets.
+
+If you look at the schematic diagram for the Octopus Pro you will see that "DRIVER_7" has a chip select line called "DRIVER7_CS":
+![DRIVER7_Schematic_Diagram](../images/BTT_OctopusPro_schmatic_forDRIVER_7.jpg)
+
+If you follow the "DRIVER7_CS" line you will see it leads you to a device labeled ["TXS0104EPWR"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/TXS0104E%204-Bit%20Bidirectional%20Voltage-Level%20Translator_txs0104e.pdf):
+![DRIVER7_Shiftleveler_to_5Vlogic](../images/BTT_OctopusPro_schmatic_DRIVER7_CS_Shiftleveler.jpg)
+This "TXS0104EPWR" shifts the DRIVER7_CS signal line from 3.3VDC logic level to 5VDC logic level. Which is what we want for the LEDs data line for the stealthburner fan assembly.
+
+You might be asking why do you not just use the Octopus Pro RGB header? Well you could. But since the Stealthburner uses Neopixels LEDs, I decided to use Neopixels through out the QUEEN build. Remember that is why I bought in a second 5V PSU.  So to control the other lights with the Octopus Pro board I will need more than one Neopixel Data line.  I just choose to use the DRIVER7_CS line for the stealthburner LEDs because when I am ready to do the other Neopixels I will use the RGB header or the DRIVER7_STEP or the DRIVER7_DIR lines.
+
+Please remember to hook up the 5VDC line from the ERCF v.3 toolhead board to the 5V line on the DRIVER7 red socket.  If you do not want to use a Dupont connector for the 5VDC line then use a JST connector and attach it to "STOP_3" connector of Octopus Pro board.
+
+4.  Now we need to connect the extruder motor up to the Octopus Pro.  The LGX extruder motor will connected to the "E-STEP" connector of the ERCF v.3 toolhead board which then connects to "MOTOR6" connector of the Octopus Pro board.
+
+5.  The "CT" or "Chamber Thermistor" line of the ERCF v.3 toolhead board will connect to the "T1" on the Octopus Pro board.
+
+6.  The "TH0" or "Hotend Thermistor" line of the ERCF v.3 toolhead board will connect to the "T0" on the Octopus Pro board.
+
+7.  The "PCF" or "Parts/Print Cooling Fan" line of the ERCF v.3 toolhead board will connect to the "FAN0" on the Octopus Pro board.
+
+8.  The "HEF" or "Hot-End Fan" line of the ERCF v.3 toolhead board will connect to the "FAN1" on the Octopus Pro board.
+
+9.  The "HE0" or "Hot-End Heater" line of the ERCF v.3 toolhead board will connect to the "HE0" or "HEAT0" on the Octopus Pro board.
+
+10. The "24VDC" line of the ERCF v.3 toolhead board will connect to the "BED POWER IN" on the Octopus Pro board.
+
+11. The "AGND" line of the ERCF v.3 toolhead board will connect to the GND PIN on the Octopus Pro board's "T3" connector.
+
+12.  The "GND" line of the ERCF v.3 toolhead board will connect to the "Voron 2.4 AC Wiring Diagram"'s "Common V- Ground" reference (the point where you attach all the V- terminal of each PSU you have in the Build).
+
+So, thank you for letting me type and figure out how this all connects up.  That is how you connect up the Toolhead to the Octopus Pro if you are using Stealthburner fan assembly on the LGX extruder with Neopixels, Klicky_Probe (XES),  HEF, HE0, TH0, Chamber Thermistor(CT), PCF, HEF, LGX motor, 5VDC, 24VDC, GND, Analogue GND (AGND) and Common V- from all the PSUs (GND).
+
+Next we need to connect up all the motors and endstops:
+
+13. The "X" line of the [Voron 2.4 XY Microswitch Endstop PCB board](https://deepfriedhero.in/products/voron-2-4-xy-microswitch-endstop-pcb) will connect to to the "STOP_0" on the Octopus Pro board.
+
+14. The "Y" line of the [Voron 2.4 XY Microswitch Endstop PCB board](https://deepfriedhero.in/products/voron-2-4-xy-microswitch-endstop-pcb) will connect to to the "STOP_1" on the Octopus Pro board.
+
+15. The "HE1" line of the [Z Endstop PCB for Voron v2.4 board](https://deepfriedhero.in/products/z-endstop-pcb-for-voron-v2-4) (on the LDO Kit they refer to this as the "Nozzle Probe" line) will connect to to the "STOP_2" on the Octopus Pro board.
+
+
+Motor cables: Please use a LED light to ensure that the pairs of wires for each motor coil wire lie next to each other on in the motor cable. If the two adjacent wires do not turn on the LED light when you turn the shaft of the motor then you will need to find the appropriate pair of wires and ensure that they are adjacent to each other in the JST connector.  What do I mean by two adjacent wires. Well the JST connector has 4 pins. Pick a starting point, call that "PIN 1" then the next pin adjacent to it in the JST connector is "PIN 2". Place an LED across "PIN 1" and "PIN 2". Turn the stepper motor shaft to see if the LED turns on while you turning the motor;s shaft. If the LED turns on then "PIN 1" and "PIN 2" are a coil pair. Now check "PIN 3" and "PIN 4", just to ensure that the second motor coil is working properly. Place the LED across "PIN 3" and "PIN 4", does the LED turn on? Now that you have determined which pairs of motor wires make up a coil pair. Place the coil pairs as follows: PIN1 and PIN2 is a coil pair, PIN3 and PIN4 is a coil pair.
+
+16. "A" Motor cables is the motor located in the "Rear Right of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_1" connector on the Octopus Pro board.
+
+17. "B" Motor cables is the motor located in the "Rear Left of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_0" connector on the Octopus Pro board.
+
+18. "Z0" Motor cables is the motor located in the "Front Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_2" connector on the Octopus Pro board.
+
+19. "Z1" Motor cables is the motor located in the "Rear Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_3" connector on the Octopus Pro board.
+
+20. "Z2" Motor cables is the motor located in the "Rear Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_4" connector on the Octopus Pro board.
+
+21. "Z3" Motor cables is the motor located in the "Front Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_5" connector on the Octopus Pro board.
+
+22. Bottom Electronic Compartment Fans.  There are two of these fans please splice them together so that one JST connector will feed both fans. Basically you are creating a Y-cable adapter. The "Bottom Electronic Compartment Fans" are connected into "FAN2" connector on the Octopus Pro board.
+
+23. "Filter/Exhaust Fan for the Nevermore Filter" get connected into "FAN3" connector on the Octopus Pro board.
+
+Now the rest of the hook up is to take care of additional items I have added to this build via Mods: like the  "FANS mod", additional Neopixel LED lights for my side edge panel lighting, additiona Neopixel LED lights for the Bottom Electronics case, additiona Neopixel LED lights for the Litter Box mod, additiona Neopixel LED lights for the Left and right side of TOP panel, additiona Neopixel LED lights for the front and back side of the TOP panel,  SPST switches to control the Neopixels Lights, additional thermistor wire that is attached the cable chain, ADXL35 connection to the Raspberry pi, filament runout sensor,  PT1000 thermistor wires, endocope wires, a spare Hotend Thermistor wires, ethernet keystone connection, USB 2.0 and USB 3.0 Keystone connections and the TFTpi50 screen hookup to the Raspberry pi. I believe that takes care of all the extra items.
+
+I am tired for now and it looks like I will have to update my wiring harness diagram to reflect the changes to the Klicky probe connection and the Filament Sensor for ERCF connection to the Octopus Pro board. I apperently need to swap those two locations. I also need to change the LED hook up on the wiring harness diagram.  I have switched from 24VDC light (no to only using Neopixel lights (which are 5VDC, GND and a data line).
 
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
