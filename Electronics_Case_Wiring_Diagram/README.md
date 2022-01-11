@@ -143,7 +143,7 @@ Also another Voron user found an error in my first AC wiring diagram. I forgot t
 
 Ok, folks I have some explaining to do. But be aware that now I will be discussing **TWO** different Voron 2.4 printer builds in this build log.
 
-I was watching the build of the Voron 2.4 LDO kit on [@Steve Builds](https://www.youtube.com/channel/UC8VsL6u5PiOgy6n4I4b4Ufw) and have been very very impressed with the LDO kit.  So after discussng my options with my husband we decided that the best route forward for me is to buy the LDO kit and build the LDO 300mm³ build.  I still plan on building the 250mm³ QUEEN build but to build QUEEN I need a work horse 3D printer that prints ABS really well.
+I was watching the build of the Voron 2.4 LDO kit on [@Steve Builds](https://www.youtube.com/channel/UC8VsL6u5PiOgy6n4I4b4Ufw) and have been very very impressed with the LDO kit.  So after discussng my options with my husband we decided that the best route forward for me is to buy the LDO kit and build the LDO 300mm³ build.  I still planning on building the 250mm³ QUEEN build but to build QUEEN I need a work horse 3D printer that prints ABS really well.
 
 Now you are thinking that is nuts. Not really! I added up the cost of just getting the 3D printed parts done by a commerical vendor and the cost is over $5,000.  So the cost of the LDO kit is only $1,350. So instead of paying someone else to print the QUEEN ABS parts I will get a new Voron 2.4 LDO 300mm³ Build which I will call "Voron_LDO" and print the ABS parts for QUEEN myself on the Voron_LDO printer.  This way I get more experience with the printer profiles. I will also be able to print the modified parts and test them out.
 
@@ -153,7 +153,9 @@ I like to think of this rationalization as a way to boot strap my Voron printer 
 
 1/11/2022:
 
-I am still working on the DC wiring Diagram for the QUEEN build.  Here is what information I am looking for. I have bought a [ERCF v1.1 moster kit - 6 chart version](https://deepfriedhero.in/products/enraged-rabbit-carrot-feeder-v1-1-monster-kit?variant=41260783534249) because I will someday print out the parts and but it together to do multi-material printing.
+I am still working on the DC wiring Diagram for the QUEEN build.  Here is what I am trying to figure out right now. 
+
+I have bought a [ERCF v1.1 moster kit - 6 chart version](https://deepfriedhero.in/products/enraged-rabbit-carrot-feeder-v1-1-monster-kit?variant=41260783534249) because I will someday print out the parts and but it together to do multi-material printing.
 
 When planning the QUEEN build I want to ensure that the parts I use for the X-Axis and the toolhead will accomodate the ERCF v1.1. The ERCF adds on additional equipment that the "ERCF Easy Board" will handle. The ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) can be setup in Klipper as an additional MCU and that way the board's PIN definitions can be used.
 
