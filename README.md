@@ -378,11 +378,11 @@ Now I was looking at the [APC UPS 1500VA UPS Battery Backup and Surge Protector 
 
 Now let us look at the Voron 2.4 LDO kit. When I add up all the "INPUT AC Current (typ.)" values for that build I get a total of 4 Amps.  I have a extra APC UPS unit here at my home that is called [APC UPS 850VA UPS Battery Backup & Surge Protector](https://www.amazon.com/gp/product/B01HDC21FE). So I take 850/115 = 7.3913 Amps maximum.  I am only using 4 Amps. What is my left unused overhead value? 1-(4/7)*100=42.86%. I feel better with an overhead that large.  I personally would not buy a UPS unit that did not give me at least a 10% unused overhead value.
 
-## How to calculate the Amps required for the BIG RED mushroom button 
+## How to calculate the Amps required for the BIG RED mushroom button
 
-1/11/2022:
+Added on 1/11/2022:
 
-To calculate the total "INPUT AC Current Draw" from your Voron 2.4 build, look at each of the PSUs you have included in your Voron 2.4.  On the data sheet for the PSUs you will see a specification labeled "INPUT" "AC Current (typ.)" there should be an amount of amps listed for either 115VAC or 230VAC. Take the "INPUT AC Current (typ.)" values for your type of power distribution system and add them all together to get a total "INPUT AC Current (typ.)" value. 
+To calculate the total "INPUT AC Current Draw" from your Voron 2.4 build, look at each of the PSUs you have included in your Voron 2.4.  On the data sheet for the PSUs you will see a specification labeled "INPUT" "AC Current (typ.)" there should be an amount of amps listed for either 115VAC or 230VAC. Take the "INPUT AC Current (typ.)" values for your type of power distribution system and add them all together to get a total "INPUT AC Current (typ.)" value.
 
 So for example, I am in the USA, so I added all my "INPUT AC Current (typ.)" values together for the 115VAC option and my 4 PSUs and draw a total "INPUT AC Current (typ.)" value of 11.7 Amps for the QUEEN build. For the Voron-LDO build by total "INPUT AC Current (typ.)" value is 4 Amps.
 
