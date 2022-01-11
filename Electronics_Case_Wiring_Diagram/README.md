@@ -141,9 +141,9 @@ Also another Voron user found an error in my first AC wiring diagram. I forgot t
 
 1/9/2022:
 
-Ok, folks I have some explaining to do. But be aware that now I will be discussing **TWO** different Voron 2.4 printer builds in this build log.  
+Ok, folks I have some explaining to do. But be aware that now I will be discussing **TWO** different Voron 2.4 printer builds in this build log.
 
-I was watching the build of the Voron 2.4 LDO kit on [@Steve Builds](https://www.youtube.com/channel/UC8VsL6u5PiOgy6n4I4b4Ufw) and have been very very impressed with the LDO kit.  So after discussng my options with my husband we decided that the best route forward for me is to buy the LDO kit and build the LDO 300mm³ build.  I still plan on building the 250mm³ QUEEN build but to build QUEEN I need a work horse 3D printer that prints ABS really well. 
+I was watching the build of the Voron 2.4 LDO kit on [@Steve Builds](https://www.youtube.com/channel/UC8VsL6u5PiOgy6n4I4b4Ufw) and have been very very impressed with the LDO kit.  So after discussng my options with my husband we decided that the best route forward for me is to buy the LDO kit and build the LDO 300mm³ build.  I still plan on building the 250mm³ QUEEN build but to build QUEEN I need a work horse 3D printer that prints ABS really well.
 
 Now you are thinking that is nuts. Not really! I added up the cost of just getting the 3D printed parts done by a commerical vendor and the cost is over $5,000.  So the cost of the LDO kit is only $1,350. So instead of paying someone else to print the QUEEN ABS parts I will get a new Voron 2.4 LDO 300mm³ Build which I will call "Voron_LDO" and print the ABS parts for QUEEN myself on the Voron_LDO printer.  This way I get more experience with the printer profiles. I will also be able to print the modified parts and test them out.
 
@@ -167,7 +167,7 @@ On the [ERCF Easy Board,page 93 I see](http://nbviewer.jupyter.org/github/EtteGi
     2.  "Selector Motor";
     3.  "Gear Motor";
 
-On the [ERCF Easy Board,page 94 I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=94):    
+On the [ERCF Easy Board,page 94 I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=94):
 
     4.  "Selector Endstop";
     5.  "Encoder";
@@ -177,7 +177,7 @@ Besides ERCF prep for the QUEEN build, I also want to prep it for the Voron Stea
 ```
 Klicky --- XES header
 Filament Sensor --- probe header (those can run on 24v)
-LEDs --- FS header (5v, S, G) 
+LEDs --- FS header (5v, S, G)
 ```
 
 Hartk1213 says ``that should get you ERCF , LEDs and Klicky all at the same time``.
@@ -185,19 +185,19 @@ Hartk1213 says ``that should get you ERCF , LEDs and Klicky all at the same time
 Ok, but if the ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) has the connection for the .....thinking....
 I see now, the "Filament Sensor" is the "AH3364Q-P-B Hall effect sensor that is built into the toolhead". Look at [ERCF Easy Board,page 80](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=94)
 
-I plan on using the Bondtech LGX extruder instead of the clockwork1 (CW1) extruder. So I think from typing this all out I now understand how the connections all work.  
+I plan on using the Bondtech LGX extruder instead of the clockwork1 (CW1) extruder. So I think from typing this all out I now understand how the connections all work.
 
-I need to ensure that for the QUEEN build the correct LGX part is being used. It has to be the 3D part from the ERCF projocet so I can install the [AH3364Q-P-B Hall effect sensor](https://www.diodes.com/assets/Datasheets/AH3364Q.pdf) and run it at 24VDC. 
+I need to ensure that for the QUEEN build the correct LGX part is being used. It has to be the 3D part from the ERCF projocet so I can install the [AH3364Q-P-B Hall effect sensor](https://www.diodes.com/assets/Datasheets/AH3364Q.pdf) and run it at 24VDC.
 
-1. Then I can use the "Probe Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl". 
+1. Then I can use the "Probe Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl".
 
-2.  Ensure the [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) is connected to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "XES" header.  
+2.  Ensure the [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) is connected to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "XES" header.
 
-3.  Connect the Neopixel LEDs for the Stealthburner fan assembly to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "FS" connector. 
+3.  Connect the Neopixel LEDs for the Stealthburner fan assembly to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "FS" connector.
 
 and
 
-4.  I connect "Servo", "Selector Motor", "Gear Motor", "Selector Endstop" and "Encoder", not to the Octopus Pro board, but to the ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) which uses a "Seeeduino XIAO" processor which talks to the Raspberry Pi 4B board via USB connection (USB-C on Seeeduino XIAO to USB-2.0 on the raspberry pi).  
+4.  I connect "Servo", "Selector Motor", "Gear Motor", "Selector Endstop" and "Encoder", not to the Octopus Pro board, but to the ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) which uses a "Seeeduino XIAO" processor which talks to the Raspberry Pi 4B board via USB connection (USB-C on Seeeduino XIAO to USB-2.0 on the raspberry pi).
 
 The Seeeduino XIAO microcontroller and sensors are powered through the USB C cable from the RaspberryPi USB port while the stepper motor drivers are powered by the ERCF Easy Board's PSU (12/24V) on-board connector.
 
