@@ -163,18 +163,18 @@ The reason I choose the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.
 
 So now that I provided the background story, what am I confused about? Well, after reading the manual for the ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) I learned that I have the following connections available:
 
-On the [ERCF Easy Board,page 93 I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=93):
+On the [ERCF Easy Board, page 93,  I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=93):
 
     1.  "Servo";
     2.  "Selector Motor";
     3.  "Gear Motor";
 
-On the [ERCF Easy Board,page 94 I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=94):
+On the [ERCF Easy Board, page 94,  I see](http://nbviewer.jupyter.org/github/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf#page=94):
 
     4.  "Selector Endstop";
     5.  "Encoder";
 
-Besides ERCF prep for the QUEEN build, I also want to prep it for the Voron Stealthburner fan assembly.  To use the LEDs on the Stealthburner we need a Data PIN on the Hartk's ERCF v.3 toolhead board. The [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) will only works if you are running stock endstop pod, and you need to run [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) (which we are).  Therefore @Hartk1213 says that the following, hookup should be used:
+Besides the ERCF prep for the QUEEN build, I also want to prep QUEEN for the Voron Stealthburner fan assembly.  To use the LEDs on the Stealthburner we need a Data PIN on the Hartk's ERCF v.3 toolhead board along with GND and 5VDC to power the Neopixel LEDs. The [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) will only works if you are running stock endstop pod, and you need to run [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) (which we are).  Therefore @Hartk1213 says that the following, hookup should be used:
 
 ```
 Klicky --- XES header
@@ -191,7 +191,7 @@ I plan on using the Bondtech LGX extruder instead of the clockwork1 (CW1) extrud
 
 I need to ensure that for the QUEEN build the correct LGX part is being used. It has to be the 3D part from the ERCF projocet so I can install the [AH3364Q-P-B Hall effect sensor](https://www.diodes.com/assets/Datasheets/AH3364Q.pdf) and run it at 24VDC.
 
-1. Then I can use the "Probe Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl".
+1. Then I can use the "ABL Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl".
 
 2.  Ensure the [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) is connected to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "XES" header.
 
@@ -202,6 +202,23 @@ and
 4.  I connect "Servo", "Selector Motor", "Gear Motor", "Selector Endstop" and "Encoder", not to the Octopus Pro board, but to the ["ERCF Easy Board"](https://deepfriedhero.in/products/ercf-ez-board) which uses a "Seeeduino XIAO" processor which talks to the Raspberry Pi 4B board via USB connection (USB-C on Seeeduino XIAO to USB-2.0 on the raspberry pi).
 
 The Seeeduino XIAO microcontroller and sensors are powered through the USB C cable from the RaspberryPi USB port while the stepper motor drivers are powered by the ERCF Easy Board's PSU (12/24V) on-board connector.
+
+So all the connection on the ERCF Easy Board will send data to the rapberry pi via USB.  The only connections to the Octopus Pro board we need to make are the following:
+
+1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_2" endstop connector of the Octopus Pro board.
+
+2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Boards V~in~). Also on the Octopus Pro board ensure the Jumper on the "Probe Type Select" header is REMOVED so that PNP type is used for the "Probe" connector.  The datasheet on the "AH3364Q-P-B Hall effect sensor" states the following:
+```
+The single open drain output can be switched on with South pole of
+sufficient strength. When the magnetic flux density (B) perpendicular
+to the package is larger than the operate point (BOP) the output is
+switched on (pulled low) and is held on until magnetic flux density B is
+lower than the release point (BRP). The output remains switched off
+for North pole fields to or no magnetic fields.
+```
+This statement indicates to me that the "AH3364Q-P-B Hall effect sensor" works like a "PNP" type Probe. For information on how "PNP" and "NPN" see https://automation-insights.blog/2018/02/14/an-easy-way-to-remember-pnp-and-npn-sensor-wiring/.
+
+3.  Neopixels with an in-line 30 Ohms resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly get connected to the "FS" connector of the ERCF v.3 toolhead board shih then goes to the "DRIVER_7" stepper motor socket of the Octopus Pro board. The "FS" connector 
 
 
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
