@@ -368,7 +368,7 @@ Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](h
 To download the PDF just click on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf"](images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) and hit the download button.
 
 
-## How did I go about calculating the size of the UPS Battery Backup Unit I need for the QUEEN Build and the Voron 2.4 LDO Build
+## How did I go about calculating the size of the UPS Battery Backup Units I needed for the QUEEN Build and the Voron 2.4-LDO Build
 
 First off, if you have not heard I bought the Voron 2.4 300mm³ LDO kit.  I need to build a "close to spec" Voron 2.4 printer so that I can build my dream printer "QUEEN".  This way I will have a work horse printer that I can use to further develop my modifications I am making to the QUEEN build.
 
