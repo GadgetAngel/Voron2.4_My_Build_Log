@@ -396,7 +396,7 @@ To learn more about parallel ciruitus see [UNDERSTANDING & CALCULATING PARALLEL 
 
 Here is a diagram on how to wire two NC contacts up in parellel:
 
-![ParallelDiagram](../images/Parallel_Diagram.jpg)
+![ParallelDiagram](images/Parallel_Diagram.jpg)
 
 
 ## The PDF file of the "Color PIN Diagram" for the Octopus Pro V1.0:
