@@ -368,6 +368,17 @@ Click here see the JPG file for the ["Voron 2.4 AC Electrical Wiring Diagram"](h
 To download the PDF just click on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf"](images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) and hit the download button.
 
 
+## How did I go about calculating the amount of APC UPS Battery Backup Unit did I need for the QUEEN Build and the Voron 2.4 LDO Build
+
+First off, if you have not heard I bought the Voron 2.4 300mm³ LDO kit.  I need to build a "close to spec" Voron 2.4 printer so that I can build my dream printer "QUEEN".  This way I will have a work horse printer that I can use to further develop my modifications I am making to the QUEEN build.
+
+Back to the issue at hand.  How did I determine the amount of VAC I would need for each of my Voron 2.4 builds?  Once you decide on the power supply units (PSUs) you will be using for your build, get hold of the data sheets for each of the PSU and look at the specification called "INPUT" "AC Current (typ.)" there should be an amount of amps listed for either 115VAC or 230VAC.  For the USA and corresponding countries that use 120VAC (60Hz) or you will see on the spec sheet of the PSU a listing for "115VAC".  While Europe uses 230VAC (50Hz), you will see on the spec sheet of the PSU a listing for "230VAC".  Take the "INPUT AC Current (typ.)" values for your type of power distribution system and add them all together to get a total "INPUT AC Current (typ.)" value. So for sake of an example, I am in the USA, so I added all my "INPUT AC Current (typ.)" values together for my 4 PSU and got a total "INPUT AC Current (typ.)" = 11.7 amps for the QUEEN build.
+
+Now I was looking at the [APC UPS 1500VA UPS Battery Backup and Surge Protector Unit from Amazon](https://www.amazon.com/gp/product/B06VY6FXMM). It says in the title that is has 1500VA so I take that number and divide 115VAC into it to give me the total INPUT AC Current (typ) that this UPS Battery Backup unit can handle.  So 1500/115 = 13.0434782 Amps maximum.  I only need 11.7 amps. So take 11.7/13.0434782 to see what % of the total I will be using = 0.89699 or 89.699% so I have 100%-89.699% of overhead left unused which is equal to 10.30% left unused.  So as long as I have at least 10% unused overhead available I will purchase the unit.
+
+Now let us look at the Voron 2.4 LDO kit. When I add up all the "INPUT AC Current (typ.)" values for that build I get a total of 4 Amps.  I have a extra APC UPS unit here at my home that is called [APC UPS 850VA UPS Battery Backup & Surge Protector](https://www.amazon.com/gp/product/B01HDC21FE). So I take 850/115 = 7.3913 Amps maximum.  I am only using 4 Amps. What is my left unused overhead value? 1-(4/7)*100=42.86%. I feel better with an overhead that large.  I personally would not buy a UPS unit that did not give me at least a 10% unused overhead value.
+
+
 ## The PDF file of the "Color PIN Diagram" for the Octopus Pro V1.0:
 
 You can view the PDF in your browser by clicking on the filename ["BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V3.0.pdf"](https://github.com/GadgetAngel/BTT_Octopus_Color_PIN_Diagram/blob/main/BTT_Octopus_Pro_V1.0_Color_PIN_Diagram/BIGTREETECH-Octopus-Pro-V1.0-Color-PIN-V3.0.pdf) and then hit the download button.
