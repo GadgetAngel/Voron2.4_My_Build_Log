@@ -205,7 +205,9 @@ and
 
 The Seeeduino XIAO microcontroller and sensors are powered through the USB C cable from the RaspberryPi USB port while the stepper motor drivers are powered by the ERCF Easy Board's PSU (12/24V) on-board connector.
 
-#### So all the connection on the ERCF Easy Board will send data to the rapberry pi via USB.  The only connections to the Octopus Pro board we need to make are the following:
+So all the connection on the ERCF Easy Board will send data to the rapberry pi via USB.
+
+#### The only connections to the Octopus Pro board we need to make are the following:
 
 1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_7" endstop connector of the Octopus Pro board (on the LDO Kit they refer to this as the "Z Probe" line).
 
