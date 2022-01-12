@@ -244,7 +244,7 @@ On second thought, I want to have more than one strip of NeoPixels.  I will have
 
 So with all these Neopixels strings I will have plenty of NeoPixel repeaters in my Voron 2.4 printer QUEEN build. That will not be the case for my Voron 2.4 LDO build.
 
-If for your build, you only want to attach the "Voron Stealthburner" Neopixel LEDs, than I would buy a couple extra single Neopixels LEDs and place them in the wiring harness at which ever location you want to act as a repeater for the Neopixel's on the toolhead (one extra single NeoPixel placed half way down the wiring harness will do the trick).  This way the data line will be boasted and its signal level will not degrade to the point that it can not be correctly interpreted by the next Neopixel.
+If for your build, you only want to attach the "Voron Stealthburner" Neopixel LEDs, than I would buy a couple extra single Neopixels LEDs and place them in the wiring harness at which ever location you want to act as a repeater for the Neopixel's on the toolhead (one extra single NeoPixel placed half way down the wiring harness will do the trick).  This way the data line will be boasted and its signal level will not degrade so that the next Neopixel can correctly interpreted the previous Neopixel's data transmission.
 
 The "FS" connector comming from the ERCF v.3 toolhead board has one wires that needs to be connected up on the Octopus Pro board (Data line for the Neopixel LED which will be using a 5 Volt logic level {not a 3.3 Volt logic level})
 
