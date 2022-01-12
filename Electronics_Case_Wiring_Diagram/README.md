@@ -211,7 +211,7 @@ So all the connection on the ERCF Easy Board will send data to the rapberry pi v
 
 1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_7" endstop connector of the Octopus Pro board (on the LDO Kit they refer to this as the "Z Probe" line).
 
-2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Board's Vᵢₙ). 
+2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Board's Vᵢₙ).
 
     * Also on the Octopus Pro board ensure the Jumper on the "Probe Type Select" header is **REMOVED** so that PNP type is used for the "Probe" connector.  The datasheet on the "AH3364Q-P-B Hall effect sensor" states the following:
 
@@ -226,23 +226,23 @@ for North pole fields to or no magnetic fields.
 
 This statement indicates to me that the "AH3364Q-P-B Hall effect sensor" works like a "PNP" type Probe. For information on how "PNP" and "NPN" see https://automation-insights.blog/2018/02/14/an-easy-way-to-remember-pnp-and-npn-sensor-wiring/.
 
-3.  Neopixels should have an in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel. The resistor should be at the end of the wire closest to the NeoPixel(s), not the Octopus Pro board. 
+3.  Neopixels should have an in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel. The resistor should be at the end of the wire closest to the NeoPixel(s), not the Octopus Pro board.
 
 Neopixels with an in-line 300 to 500 Ohm resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly get connected to the "FS" connector of the ERCF v.3 toolhead board which then goes to the ~~"DRIVER_7" stepper motor socket~~ RGB header of the Octopus Pro board.
 
 From reading about Neopixels today and Adafruit's best-practices in using NeoPixels (https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), I quote Adafruit:
 
 ```
-Try to minimize the distance between the controller board and first pixel, so the signal is clear. 
+Try to minimize the distance between the controller board and first pixel, so the signal is clear.
 A meter or two is usually no problem. Much longer and things can become unreliable. Individual NeoPixels can act as repeaters for long runs.
 ```
 
-On a Voron 2.4 the distance from the motherboard to the toolhead is over 2 meters which is above Adafruit's recommendation.  
-So to accomodate this limitation one could place a single NeoPiexel half way down the wiring harness to the toolhead so that it acts as a repeater.  
+On a Voron 2.4 the distance from the motherboard to the toolhead is over 2 meters which is above Adafruit's recommendation.
+So to accomodate this limitation one could place a single NeoPiexel half way down the wiring harness to the toolhead so that it acts as a repeater.
 
-On second thought, I want to have more than one stip of NeoPixels.  I will have the individual NeoPixels for the Stealthburner but I plan on using NeoPixel stips on the sids panel and up in the top of the heated chamber. I also plan on putting a string underneath the printer (lights in the electronics compartment and in the litter box compartment).  Since each Neopixel has its own address, I can use one data line for all these lights.   
+On second thought, I want to have more than one stip of NeoPixels.  I will have the individual NeoPixels for the Stealthburner but I plan on using NeoPixel stips on the sids panel and up in the top of the heated chamber. I also plan on putting a string underneath the printer (lights in the electronics compartment and in the litter box compartment).  Since each Neopixel has its own address, I can use one data line for all these lights.
 
-So with all these Neopixels strings I will have plenty of NeoPixel repeaters in my Voron 2.4 printer. 
+So with all these Neopixels strings I will have plenty of NeoPixel repeaters in my Voron 2.4 printer.
 
 If for your build, you only want to attach the "Voron Stealthburner" Neopixel LEDs, than I would buy a couple extra single Neopixels LEDs and place them in the wiring harness at which ever location you want to act as a repeater for the Neopixel's on the toolhead (one extra single NeoPixel placed half way down the wiring harness will do the trick).  This way the data line will be boasted and its signal level will not degrade to the point that it can not be correctly interputed by the next Neopixel.
 
@@ -261,9 +261,9 @@ This "TXS0104EPWR" shifts the DRIVER7_CS signal line from 3.3VDC logic level to 
 
 You might be asking why do you not just use the Octopus Pro RGB header? Well you could. But since the Stealthburner uses Neopixels LEDs, I decided to use Neopixels through out the QUEEN build. Remember that is why I bought in a second 5V PSU.  So to control the other lights with the Octopus Pro board I will need more than one Neopixel Data line.  I just choose to use the DRIVER7_CS line for the stealthburner LEDs because when I am ready to do the other Neopixels I will use the RGB header or the DRIVER7_STEP or the DRIVER7_DIR lines.~~
 
-Since I have learned more about NeoPixels I will be following [Adafruit's recommendations on how to hook up Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).  
+Since I have learned more about NeoPixels I will be following [Adafruit's recommendations on how to hook up Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 
-Like I said earlier, The "FS" connector comming from the ERCF v.3 toolhead board has one wires that needs to be connected up to the Octopus Pro board (the NeoPixel's Data line).  As I already stated, I will be using a in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel. 
+Like I said earlier, The "FS" connector comming from the ERCF v.3 toolhead board has one wires that needs to be connected up to the Octopus Pro board (the NeoPixel's Data line).  As I already stated, I will be using a in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel.
 
 **Please**, **Please** put the resistor in-line with the first NeoPixel data line before trying to hook up power to the NeoPixels.  If you do not you could permentaly damage the first NeoPixel and have to rewire the Stealthburner to fix the NeoPixel.
 
@@ -277,7 +277,7 @@ Before connecting a NeoPixel strip to ANY source of power, a large capacitor (50
 
 Please remember to hook up the 5VDC line from the Meanwell RD-50A PSU to the first NeoPixel 5V DC pad and use "Common V- Ground" (the common ground reference between all the PSU in the build) to the GND pad on the first NeoPixel.
 
-Note: You only need **one** 300 to 500 Ohm resistor between the RGB header's data output pin and the first NeoPixel.  So in my case since I have many NeoPixel LEDs I will do this only to the first NeoPixel that will be located in the bottom electronics case for the QUEEN build.   
+Note: You only need **one** 300 to 500 Ohm resistor between the RGB header's data output pin and the first NeoPixel.  So in my case since I have many NeoPixel LEDs I will do this only to the first NeoPixel that will be located in the bottom electronics case for the QUEEN build.
 
 But for the my Voron_LDO build, I will only be placing the Neopixels on the "Voron Stealthburner".  In this case I will probably power the NeoPixels from the Octopus board.  I will buy four (4) individual NeoPixel LEDs for my Voron Stealthburner (in fact I already have them).  I will buy two extra in case I screw up on the soldering and ripe a pad off of one of the NeoPixels boards.  I will place one of the "extra" Neopixels half way down my wiring harness to act as a repeater for the Stealthburner's first Neopixel. So I will place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the "extra" Neopixel.  Remember this in-line resitor must be placed closer to the Neopixel then the RBG header. Since I am **NOT using an independent PSU to power the NeoPixels for the my Voron_LDO build**, I **do not need to use** the large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – terminals of my PSU.
 
