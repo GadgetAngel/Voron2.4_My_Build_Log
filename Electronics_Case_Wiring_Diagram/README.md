@@ -191,7 +191,9 @@ I plan on using the Bondtech LGX extruder instead of the clockwork1 (CW1) extrud
 
 I need to ensure that for the QUEEN build the correct LGX part is being used. It has to be the 3D part from the ERCF projocet so I can install the [AH3364Q-P-B Hall effect sensor](https://www.diodes.com/assets/Datasheets/AH3364Q.pdf) and run it at 24VDC.
 
-1. Then I can use the "ABL Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.  BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl".
+1. Then I can use the "ABL Header" on the [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) to connect up the  "AH3364Q-P-B Hall effect sensor" which is built-in to the [LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl) 3D printed part.
+
+BTW, I renamed the file to "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl".
 
 2.  Ensure the [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) is connected to [Hartk's ERCF v.3 toolhead board's](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) "XES" header.
 
