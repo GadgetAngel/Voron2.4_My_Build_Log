@@ -174,7 +174,7 @@ On the [ERCF Easy Board, page 94,  I see](http://nbviewer.jupyter.org/github/Ett
     4.  "Selector Endstop";
     5.  "Encoder";
 
-Besides the ERCF prep for the QUEEN build, I also want to prep QUEEN for the Voron Stealthburner fan assembly.  To use the LEDs on the Stealthburner we need a Data PIN on the Hartk's ERCF v.3 toolhead board along with GND and 5VDC to power the Neopixel LEDs. The [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) will only works if you are running stock endstop pod, and you need to run [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) (which we are).  Therefore @Hartk1213 says that the following, hookup should be used:
+Besides the ERCF prep for the QUEEN build, I also want to prep QUEEN for the Voron Stealthburner fan assembly.  To use the LEDs on the Stealthburner we need a Data PIN on the Hartk's ERCF v.3 toolhead board along with GND and 5VDC to power the Neopixel LEDs. The [Hartk's ERCF v.3 toolhead board](https://deepfriedhero.in/products/voron-afterburner-toolhead-board-v3-rabbit) will work only if you are running stock endstop pod, and you need to run [Klicky_Probe](https://github.com/jlas1/Klicky-Probe) (which we are).  Therefore @Hartk1213 says that the following, hookup should be used:
 
 ```
 Klicky --- XES header
@@ -207,7 +207,7 @@ So all the connection on the ERCF Easy Board will send data to the rapberry pi v
 
 1.   Klicky_Probe connected to the "XES" connector of the ERCF v.3 toolhead board to the "STOP_7" endstop connector of the Octopus Pro board (on the LDO Kit they refer to this as the "Z Probe" line).
 
-2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Boards V~in~). Also on the Octopus Pro board ensure the Jumper on the "Probe Type Select" header is REMOVED so that PNP type is used for the "Probe" connector.  The datasheet on the "AH3364Q-P-B Hall effect sensor" states the following:
+2.  Built-in "(AH3364Q-P-B) Hall effect sensor" for the LGX_ERCF part connected to the "ABL" connector of the ERCF v.3 toolhead board to the "Probe" connector on the Octopus Pro board with the "Probe Voltage Select" header's Jumper {on the Octopus Pro board} set on the pins that select 24VDC (or the Board's Vᵢₙ. Also on the Octopus Pro board ensure the Jumper on the "Probe Type Select" header is REMOVED so that PNP type is used for the "Probe" connector.  The datasheet on the "AH3364Q-P-B Hall effect sensor" states the following:
 ```
 The single open drain output can be switched on with South pole of
 sufficient strength. When the magnetic flux density (B) perpendicular
