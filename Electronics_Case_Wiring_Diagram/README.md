@@ -314,19 +314,19 @@ Next we need to connect up all the motors and endstops:
 15. The "HE1" line of the [Z Endstop PCB for Voron v2.4 board](https://deepfriedhero.in/products/z-endstop-pcb-for-voron-v2-4) (on the LDO Kit they refer to this as the "Nozzle Probe" line) will connect to to the "STOP_2" on the Octopus Pro board.
 
 
-Motor cables: Please use a LED light to ensure that the pairs of wires for each motor coil are lying next to each other in the motor cable's connector. If the two adjacent wires do not turn on the LED light when you turn the shaft of the motor then you will need to find the appropriate pair of wires and ensure that they are adjacent to each other in the JST connector.  What do I mean by two adjacent wires? Well the JST connector has 4 pins. Pick a starting point, call that "PIN 1" then the next pin adjacent to it in the JST connector is "PIN 2". Place an LED across "PIN 1" and "PIN 2". Turn the stepper motor shaft to see if the LED turns on while you turning the motor's shaft. If the LED turns on then "PIN 1" and "PIN 2" are a coil pair. Now check "PIN 3" and "PIN 4", just to ensure that the second motor coil is working properly. Place the LED across "PIN 3" and "PIN 4", does the LED turn on? Now that you have determined which pairs of wires make up the motor's coils. Place the coil pairs as follows: PIN1 and PIN2 is a coil pair, PIN3 and PIN4 is a coil pair.
+Motor cables: Please use a LED light to ensure that the pairs of wires for each motor coil are lying next to each other in the motor cable's connector. If the two adjacent wires do not turn on the LED light when you turn the shaft of the motor then you will need to find the appropriate pair of wires and ensure that they are adjacent to each other in the JST connector.  What do I mean by two adjacent wires? Well the JST connector has 4 pins. Pick a starting point, call that "PIN 1" then the next pin adjacent to it in the JST connector is "PIN 2". Place an LED across "PIN 1" and "PIN 2". Turn the stepper motor shaft to see if the LED turns on while you turning the motor's shaft. If the LED turns on then "PIN 1" and "PIN 2" are a coil pair. Now check "PIN 3" and "PIN 4", just to ensure that the second motor coil is working properly. Place the LED across "PIN 3" and "PIN 4", does the LED turn on? Now that you have determined which pairs of wires make up the motor's coils. Place the coil pairs as follows: PIN1 and PIN2 are a coil pair, PIN3 and PIN4 are a coil pair.
 
-16. "A" Motor cables is the motor located in the "Rear Right of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_1" connector on the Octopus Pro board.
+16. "A" Motor cable is the motor located in the "Rear Right of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_1" connector on the Octopus Pro board.
 
-17. "B" Motor cables is the motor located in the "Rear Left of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_0" connector on the Octopus Pro board.
+17. "B" Motor cable is the motor located in the "Rear Left of Gantry" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_0" connector on the Octopus Pro board.
 
-18. "Z0" Motor cables is the motor located in the "Front Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_2" connector on the Octopus Pro board.
+18. "Z0" Motor cable is the motor located in the "Front Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_2" connector on the Octopus Pro board.
 
-19. "Z1" Motor cables is the motor located in the "Rear Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_3" connector on the Octopus Pro board.
+19. "Z1" Motor cable is the motor located in the "Rear Left" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_3" connector on the Octopus Pro board.
 
-20. "Z2" Motor cables is the motor located in the "Rear Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_4" connector on the Octopus Pro board.
+20. "Z2" Motor cable is the motor located in the "Rear Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_4" connector on the Octopus Pro board.
 
-21. "Z3" Motor cables is the motor located in the "Front Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_5" connector on the Octopus Pro board.
+21. "Z3" Motor cable is the motor located in the "Front Right" as if standing in front of an upright printer and looking towards it. Place the "A" Motor cable into "Motor_5" connector on the Octopus Pro board.
 
 22. Bottom Electronic Compartment Fans.  There are two of these fans please splice them together so that one JST connector will feed both fans. Basically you are creating a Y-cable adapter. The "Bottom Electronic Compartment Fans" are connected into "FAN2" connector on the Octopus Pro board.
 
