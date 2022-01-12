@@ -277,6 +277,11 @@ Before connecting a NeoPixel strip to ANY source of power, a large capacitor (50
 
 Please remember to hook up the 5VDC line from the Meanwell RD-50A PSU to the first NeoPixel 5V DC pad and use "Common V- Ground" (the common ground reference between all the PSU in the build) to the GND pad on the first NeoPixel.
 
+Note: You only need **one** 300 to 500 Ohm resistor between the RGB header's data output pin and the first NeoPixel.  So in my case since I have many NeoPixel LEDs I will do this only to the first NeoPixel that will be located in the bottom electronics case for the QUEEN build.   
+
+But for the my Voron_LDO build, I will only be placing the Neopixels on the "Voron Stealthburner".  In this case I will probably power the NeoPixels from the Octopus board.  I will buy four (4) individual NeoPixel LEDs for my Voron Stealthburner (in fact I already have them).  I will buy two extra in case I screw up on the soldering and ripe a pad off of one of the NeoPixels boards.  I will place one of the "extra" Neopixels half way down my wiring harness to act as a repeater for the Stealthburner's first Neopixel. So I will place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the "extra" Neopixel.  Remember this in-line resitor must be placed closer to the Neopixel then the RBG header. Since I am **NOT using an independent PSU to power the NeoPixels for the my Voron_LDO build**, I **do not need to use** the large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – terminals of my PSU.
+
+I hope this procedure is clear.  Again, please place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the first Neopixel board.  You will not damage anything by doing this and in fact you could save the Neopixel board from being damaged.
 
 4.  Now we need to connect the extruder motor up to the Octopus Pro.  The LGX extruder motor will connected to the "E-STEP" connector of the ERCF v.3 toolhead board which then connects to "MOTOR6" connector of the Octopus Pro board.
 
