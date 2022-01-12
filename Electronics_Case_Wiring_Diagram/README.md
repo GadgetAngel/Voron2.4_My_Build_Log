@@ -303,7 +303,7 @@ I hope this procedure is clear.  Again, please place an in-line 300 to 500 Ohm r
 
 12.  The "GND" line of the ERCF v.3 toolhead board will connect to the "Voron 2.4 AC Wiring Diagram"'s "Common V- Ground" reference (the point where you attach all the V- terminal of each PSU you have in the Build).
 
-So, thank you for letting me type and figure out how this all connects up.  That is how you connect up the Toolhead to the Octopus Pro if you are using Stealthburner fan assembly on the LGX extruder with Neopixels, Klicky_Probe (XES),  HEF, HE0, TH0, Chamber Thermistor(CT), PCF, HEF, LGX motor, 5VDC, 24VDC, GND, Analogue GND (AGND) and Common V- from all the PSUs (GND).
+So, thank you for letting me type and figure out how this all connects up.  That is how you connect up the Hartk's ERCF v.3 toolhead board to the Octopus Pro if you are using Stealthburner fan assembly on the LGX extruder with Neopixels, Klicky_Probe (XES),  HEF, HE0, TH0, Chamber Thermistor(CT), PCF, HEF, LGX motor, 5VDC, 24VDC, GND, Analogue GND (AGND) and Common V- from all the PSUs (GND).
 
 Next we need to connect up all the motors and endstops:
 
