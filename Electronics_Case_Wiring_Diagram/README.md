@@ -265,9 +265,9 @@ The Picture below went with the crossed out text, so please ignore it.
 
 Since I have learned more about NeoPixels I will be following [Adafruit's recommendations on how to hook up Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 
-Like I said earlier, The "FS" connector comming from the ERCF v.3 toolhead board has one wires that needs to be connected up to the Octopus Pro board (the NeoPixel's Data line).  As I already stated, I will be using a in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel.
+Like I said earlier, The "FS" connector comming from the ERCF v.3 toolhead board has one wire that needs to be connected up to the Octopus Pro board (the NeoPixel's Data line).  As I already stated, I will be using a in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel.
 
-**Please**, **Please** put the resistor in-line with the first NeoPixel data line before trying to hook up power to the NeoPixels.  If you do not you could permentaly damage the first NeoPixel and have to rewire the Stealthburner to fix the NeoPixel.
+**Please**, **Please**, put the resistor in-line with the first NeoPixel on the data line before trying to hook up power to the NeoPixels.  If you do not, you could permentaly damage the first NeoPixel and have to rewire the Stealthburner to fix the NeoPixel.
 
 Since I am using an independent external power supply to power my NeoPixel strips (I am not using the Octopus Pro to power the LEDs) I will be placing a large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – 5VDC terminals of the Meanwell RD-50A PSU.  This is what Adafruit remcommends doing, I qoute them below:
 
@@ -275,13 +275,13 @@ Since I am using an independent external power supply to power my NeoPixel strip
 Before connecting a NeoPixel strip to ANY source of power, a large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – terminals provides a small power reservoir for abrupt changes in brightness that the power source might not otherwise handle — a common source of NeoPixel “glitching.” The capacitor also buffers sudden changes in the current drawn by the strip.
 ```
 
-~~Please remember to hook up the 5VDC line from the ERCF v.3 toolhead board to the 5V line on the DRIVER7 red socket.  If you do not want to use a Dupont connector for the 5VDC line then use a JST connector and attach it to "STOP_3" connector of Octopus Pro board.~~
+~~Please, remember to hook up the 5VDC line from the ERCF v.3 toolhead board to the 5V line on the DRIVER7 red socket.  If you do not want to use a Dupont connector for the 5VDC line then use a JST connector and attach it to "STOP_3" connector of Octopus Pro board.~~
 
 Please remember to hook up the 5VDC line from the Meanwell RD-50A PSU to the first NeoPixel 5V DC pad and use "Common V- Ground" (the common ground reference between all the PSU in the build) to the GND pad on the first NeoPixel.
 
 Note: You only need **one** 300 to 500 Ohm resistor between the RGB header's data output pin and the first NeoPixel.  So in my case since I have many NeoPixel LEDs I will do this only to the first NeoPixel that will be located in the bottom electronics case for the QUEEN build.
 
-But for the my Voron_LDO build, I will only be placing the Neopixels on the "Voron Stealthburner".  In this case I will probably power the NeoPixels from the Octopus board.  I will buy four (4) individual NeoPixel LEDs for my Voron Stealthburner (in fact I already have them).  I will buy two extra in case I screw up on the soldering and ripe a pad off of one of the NeoPixels boards.  I will place one of the "extra" Neopixels half way down my wiring harness to act as a repeater for the Stealthburner's first Neopixel. So I will place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the "extra" Neopixel.  Remember this in-line resitor must be placed closer to the Neopixel then the RBG header. Since I am **NOT using an independent PSU to power the NeoPixels for the my Voron_LDO build**, I **do not need to use** the large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – terminals of my PSU.
+But for my Voron_LDO build, I will only be placing the Neopixels on the "Voron Stealthburner".  In this case I will probably power the NeoPixels from the Octopus board.  I will buy four (4) individual NeoPixel LEDs for my Voron Stealthburner (in fact I already have them).  I will buy two extra in case I screw up on the soldering and ripe a pad off of one of the NeoPixels boards.  I will place one of the "extra" Neopixels half way down my wiring harness to act as a repeater for the Stealthburner's first Neopixel. So I will place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the "extra" Neopixel.  Remember this in-line resitor must be placed closer to the Neopixel then the RBG header. Since I am **NOT using an independent PSU to power the NeoPixels for the my Voron_LDO build**, I **do not need to use** the large capacitor (500–1000 µF at 6.3 Volts or higher) across the + and – terminals of my PSU.
 
 I hope this procedure is clear.  Again, please place an in-line 300 to 500 Ohm resistor between the (Octopus board) RGB header's data output pin and the first Neopixel board.  You will not damage anything by doing this and in fact you could save the Neopixel board from being damaged.
 
