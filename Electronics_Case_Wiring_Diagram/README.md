@@ -258,6 +258,7 @@ The "FS" connector comming from the ERCF v.3 toolhead board has one wire that ne
 ~~If you follow the "DRIVER7_CS" line you will see it leads you to a device labeled ["TXS0104EPWR"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/TXS0104E%204-Bit%20Bidirectional%20Voltage-Level%20Translator_txs0104e.pdf)~~:
 The Picture below went with the crossed out text, so please ignore it.
 ![DRIVER7_Shiftleveler_to_5Vlogic](../images/BTT_OctopusPro_schmatic_DRIVER7_CS_Shiftleveler.jpg)
+
 ~~This "TXS0104EPWR" shifts the DRIVER7_CS signal line from 3.3VDC logic level to 5VDC logic level. Which is what we want for the LEDs data line for the stealthburner fan assembly.~~
 
 ~~You might be asking why do you not just use the Octopus Pro RGB header? Well you could. But since the Stealthburner uses Neopixels LEDs, I decided to use Neopixels through out the QUEEN build. Remember that is why I bought in a second 5V PSU.  So to control the other lights with the Octopus Pro board I will need more than one Neopixel Data line.  I just choose to use the DRIVER7_CS line for the stealthburner LEDs because when I am ready to do the other Neopixels I will use the RGB header or the DRIVER7_STEP or the DRIVER7_DIR lines.~~
