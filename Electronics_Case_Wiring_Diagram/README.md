@@ -228,9 +228,9 @@ This statement indicates to me that the "AH3364Q-P-B Hall effect sensor" works l
 
 3.  Neopixels should have an in-line 300 to 500 Ohm resistor between the RGB header's data output pin and the input to the first NeoPixel. The resistor should be at the end of the wire closest to the NeoPixel(s), not the Octopus Pro board.
 
-Neopixels with an in-line 300 to 500 Ohm resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly get connected to the "FS" connector of the ERCF v.3 toolhead board which then goes to the ~~"DRIVER_7" stepper motor socket~~ RGB header of the Octopus Pro board.
+Neopixels with an in-line 300 to 500 Ohm resistor attached to the first Neopixel which is then attached to the other two Neopixels in the Stealthburner fan assembly. These Stealthburner NeoPixels get connected to the "FS" connector of the ERCF v.3 toolhead board which then goes to the ~~"DRIVER_7" stepper motor socket~~ RGB header of the Octopus Pro board.
 
-From reading about Neopixels today and Adafruit's best-practices in using NeoPixels (https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), I quote Adafruit:
+From reading about NeoPixels today and Adafruit's best-practices in using NeoPixels (https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices), I quote Adafruit:
 
 ```
 Try to minimize the distance between the controller board and first pixel, so the signal is clear.
@@ -240,7 +240,7 @@ A meter or two is usually no problem. Much longer and things can become unreliab
 On a Voron 2.4 the distance from the motherboard to the toolhead is over 2 meters which is above Adafruit's recommendation.
 So to accomodate this limitation one could place a single NeoPiexel half way down the wiring harness to the toolhead so that it acts as a repeater.
 
-On second thought, I want to have more than one stip of NeoPixels.  I will have the individual NeoPixels for the Stealthburner but I plan on using NeoPixel stips on the sids panel and up in the top of the heated chamber. I also plan on putting a string underneath the printer (lights in the electronics compartment and in the litter box compartment).  Since each Neopixel has its own address, I can use one data line for all these lights.
+On second thought, I want to have more than one strip of NeoPixels.  I will have the individual NeoPixels for the Stealthburner but I plan on using NeoPixel stips on the sids panel and up in the top of the heated chamber. I also plan on putting a string underneath the printer (lights in the electronics compartment and in the litter box compartment).  Since each Neopixel has its own address, I can use one data line for all these lights.
 
 So with all these Neopixels strings I will have plenty of NeoPixel repeaters in my Voron 2.4 printer.
 
