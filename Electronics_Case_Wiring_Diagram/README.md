@@ -244,22 +244,22 @@ On second thought, I want to have more than one strip of NeoPixels.  I will have
 
 So with all these Neopixels strings I will have plenty of NeoPixel repeaters in my Voron 2.4 printer QUEEN build. That will not be the case for my Voron 2.4 LDO build.
 
-If for your build, you only want to attach the "Voron Stealthburner" Neopixel LEDs, than I would buy a couple extra single Neopixels LEDs and place them in the wiring harness at which ever location you want to act as a repeater for the Neopixel's on the toolhead (one extra single NeoPixel placed half way down the wiring harness will do the trick).  This way the data line will be boasted and its signal level will not degrade so that the next Neopixel can correctly interpreted the previous Neopixel's data transmission.
+If for your build, you only want to attach the "Voron Stealthburner" Neopixel LEDs, than I would buy a couple extra single Neopixels LEDs and place them in the wiring harness at which ever location you want to act as a repeater for the Neopixel's on the toolhead (one extra single NeoPixel placed half way down the wiring harness will do the trick).  This way the data line will be boasted and its signal level will not degrade so that the next Neopixel can correctly interpret the previous Neopixel's data transmission.
 
-The "FS" connector comming from the ERCF v.3 toolhead board has one wires that needs to be connected up on the Octopus Pro board (Data line for the Neopixel LED which will be using a 5 Volt logic level {not a 3.3 Volt logic level})
+The "FS" connector comming from the ERCF v.3 toolhead board has one wire that needs to be connected up on the Octopus Pro board (Data line for the Neopixel LED which will be using a 5 Volt logic level {not a 3.3 Volt logic level})
 
-~~But first we must properly configure the "DRIVER_7" stepper motor socket.  Ensure that "DRIVER_7" mode Jumpers are set for UART mode if the rest of the stepper motor driver sockets are configure for SPI mode.  So if you are using the TMC5160_PRO drivers then "DRIVER_0", "DRIVER_1", "DRIVER_2", "DRIVER_3", "DRIVER_4", "DRIVER_5", and "DRIVER_6" will all be configured for SPI mode.
+~~But first we must properly configure the "DRIVER_7" stepper motor socket.  Ensure that "DRIVER_7" mode Jumpers are set for UART mode if the rest of the stepper motor driver sockets are configure for SPI mode.  So if you are using the TMC5160_PRO drivers then "DRIVER_0", "DRIVER_1", "DRIVER_2", "DRIVER_3", "DRIVER_4", "DRIVER_5", and "DRIVER_6" will all be configured for SPI mode.~~
 
-So set the "DRIVER_7" for UART mode. By configuring the opposite mode for the empty driver socket you are ensuring that the empty driver socket will not interfear with the communication bus of the other 7 driver sockets.
+~~So set the "DRIVER_7" for UART mode. By configuring the opposite mode for the empty driver socket you are ensuring that the empty driver socket will not interfear with the communication bus of the other 7 driver sockets.~~
 
-If you look at the schematic diagram for the Octopus Pro you will see that "DRIVER_7" has a chip select line called "DRIVER7_CS":
-![DRIVER7_Schematic_Diagram](../images/BTT_OctopusPro_schmatic_forDRIVER_7.jpg)
+~~If you look at the schematic diagram for the Octopus Pro you will see that "DRIVER_7" has a chip select line called "DRIVER7_CS":~~
+<!--- ![DRIVER7_Schematic_Diagram](../images/BTT_OctopusPro_schmatic_forDRIVER_7.jpg)-->
 
-If you follow the "DRIVER7_CS" line you will see it leads you to a device labeled ["TXS0104EPWR"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/TXS0104E%204-Bit%20Bidirectional%20Voltage-Level%20Translator_txs0104e.pdf):
-![DRIVER7_Shiftleveler_to_5Vlogic](../images/BTT_OctopusPro_schmatic_DRIVER7_CS_Shiftleveler.jpg)
-This "TXS0104EPWR" shifts the DRIVER7_CS signal line from 3.3VDC logic level to 5VDC logic level. Which is what we want for the LEDs data line for the stealthburner fan assembly.
+~~If you follow the "DRIVER7_CS" line you will see it leads you to a device labeled ["TXS0104EPWR"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/TXS0104E%204-Bit%20Bidirectional%20Voltage-Level%20Translator_txs0104e.pdf)~~:
+<!--- ![DRIVER7_Shiftleveler_to_5Vlogic](../images/BTT_OctopusPro_schmatic_DRIVER7_CS_Shiftleveler.jpg)-->
+~~This "TXS0104EPWR" shifts the DRIVER7_CS signal line from 3.3VDC logic level to 5VDC logic level. Which is what we want for the LEDs data line for the stealthburner fan assembly.~~
 
-You might be asking why do you not just use the Octopus Pro RGB header? Well you could. But since the Stealthburner uses Neopixels LEDs, I decided to use Neopixels through out the QUEEN build. Remember that is why I bought in a second 5V PSU.  So to control the other lights with the Octopus Pro board I will need more than one Neopixel Data line.  I just choose to use the DRIVER7_CS line for the stealthburner LEDs because when I am ready to do the other Neopixels I will use the RGB header or the DRIVER7_STEP or the DRIVER7_DIR lines.~~
+~~You might be asking why do you not just use the Octopus Pro RGB header? Well you could. But since the Stealthburner uses Neopixels LEDs, I decided to use Neopixels through out the QUEEN build. Remember that is why I bought in a second 5V PSU.  So to control the other lights with the Octopus Pro board I will need more than one Neopixel Data line.  I just choose to use the DRIVER7_CS line for the stealthburner LEDs because when I am ready to do the other Neopixels I will use the RGB header or the DRIVER7_STEP or the DRIVER7_DIR lines.~~
 
 Since I have learned more about NeoPixels I will be following [Adafruit's recommendations on how to hook up Neopixels](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 
