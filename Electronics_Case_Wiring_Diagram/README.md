@@ -344,6 +344,8 @@ Here is a picture of how I see the problem at this time:
 
 ![JPG of Understanding_the_Octopus_RBD_header_issue](../images/Understanding_the_Octopus_RBD_header_issue.jpg)
 
+[Here is the online Voltage drop calculator I used.](https://www.rapidtables.com/calc/wire/voltage-drop-calculator.html)
+
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
