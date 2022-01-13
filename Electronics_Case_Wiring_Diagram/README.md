@@ -338,7 +338,7 @@ I am tired for now and it looks like I will have to update my wiring harness dia
 
 1/13/2022: After looking into the Octopus V1.0/V1.1 and the Octopus Pro V1.0 board's schematic diagrams, I decided to look further into the RGB header of both boards.
 
-From reading the the [SN74LVC1G125 chip data sheet on page 5](http://nbviewer.jupyter.org/github/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/sn74lvc1g125.pdf#page=5), I decided some bench testing is needed to see what is going on with the SN74LVC1G125 voltage lines and how it is effecting the Octopus' ability to send data appropriatly to the first NeoPixel.
+From reading the the [SN74LVC1G125 chip data sheet on page 5](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Resources/sn74lvc1g125.pdf), I decided some bench testing is needed to see what is going on with the SN74LVC1G125 voltage lines and how it is effecting the Octopus' ability to send data appropriatly to the first NeoPixel.
 
 Here is a picture of how I see the problem at this time:
 
