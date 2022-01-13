@@ -342,7 +342,7 @@ From reading the the [SN74LVC1G125 chip data sheet on page 5](http://nbviewer.ju
 
 Here is a picture of how I see the problem at this time:
 
-[JPG ofUnderstanding_the_Octopus_RBD_header_issue](../images/Understanding_the_Octopus_RBD_header_issue.jpg)
+![JPG of Understanding_the_Octopus_RBD_header_issue](../images/Understanding_the_Octopus_RBD_header_issue.jpg)
 
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
