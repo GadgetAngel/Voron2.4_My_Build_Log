@@ -336,6 +336,8 @@ Now the rest of the hook up is to take care of additional items I have added to 
 
 I am tired for now and it looks like I will have to update my wiring harness diagram to reflect the changes to the Klicky probe connection and the Filament Sensor (for ERCF connection) to the Octopus Pro board. I apperently need to swap those two locations. I also need to change the LED hook up on the wiring harness diagram.  I have switched from 24VDC LED lights to only using Neopixel lights (which are 5VDC, GND and a data line).
 
+1/13/2022: After looking into the Octopus V1.0/V1.1 and the Octopus Pro V1.0 board's schematic diagrams, I decided to look further into the RGB header of both boards.  From reading the the [SN74LVC1G125 chip data sheet]()
+
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
