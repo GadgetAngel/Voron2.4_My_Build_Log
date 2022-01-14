@@ -644,6 +644,9 @@ set Communication interface to (USB (on PA11/PA12))
 
 The firmware will compile.
 
+>B
+>Q
+
 You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
 update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
 the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the 
@@ -677,6 +680,9 @@ set Communication interface to (USB (on PA11/PA12))
 
 The firmware will compile.
 
+>B
+>Q
+
 You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
 update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
 the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the 
@@ -708,6 +714,9 @@ set Communication interface to (USB (on PA11/PA12))
 >Q Y
 
 The firmware will compile.
+
+>B
+>Q
 
 You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
 update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
