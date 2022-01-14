@@ -517,6 +517,221 @@ The BIGTREETECH GitHub repository for Octopus 1.0/1.1 is located at https://gith
 
 This repository also has information on how to wire up an Octopus V1.0/V1.1 board for a Voron Build and is located at https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20works%20on%20Voron%20v2.4/Firmware
 
+## How to setup Klipper on a Raspberry Pi
+
+I am using a [Raspberry Pi 4B that I bought from CanaKit](https://www.canakit.com/raspberry-pi-4-extreme-aluminum-case-kit.html). You can choose to run the Raspberry Pi 4B with a micro-SD card or you can use a solid state drive as your disk drive.
+
+I bought a [Samsung 870 EVO 500GB SATA (2.5") Solid State Drive (SSD) (MZ-77E500) from Amazon](https://www.amazon.com/gp/product/B08T1QQZ1T) with a [StarTech.com USB 3.1 to 2.5" SATA Hard Drive Adapter](https://www.amazon.com/gp/product/B00XLAZODE).
+
+It does not matter which item you use to boot the Raspberry Pi 4B, but you do need at least a micro-SD card.
+
+The first thing you will need to do is to format the micro-SD card or theh SSD.  I have a Windows 10 machine so all my instructions will assume you are using a Windows 10 OS.
+
+Before you can format a SSD you first need to initialize the media. On Window 10 "Right-click" on the startup menu in the lower left corner of your desktop. Choose the "Disk Management" option.  The "Disk Management" tool will automatically ask you if you want to initialize the new disk drive.  Say "Yes". When Windowns is done exit the "Disk Management" Tool. Now you need to create a primary partition for the SSD. Since we will be creating a Primary partition of FAT32 larger tahn 32GB we can not use the Windows 10 "Disk Management" Tool to do this.
+
+I like to use the program ["MiniTool Partion Wizard", so click here](https://www.partitionwizard.com/free-partition-manager.html). As a home user you can download it and use it for free. Download and Install the software onto your computer. With the MiniTool Partion Wizard you will need to create a primary partion by choosing "Disk & Partition Management" square. Choose the new dist drive and select "Create a partition". Set "Create As" field to "Primary", set "File System" as "FAT32" and accept default for everthing else. Select "Ok". Now all that did was place the command into the que you need to tell the software to go ahead and Select "Apply" to get the software to actual execute the command. Once MiniTool Partion Wizard is done creating the Primary Partion you can format the SSD by choosing the "Format Partition"  and set the "File System" field to "FAT32". Leave all other fields at the default. Select "OK" and "Apply". When MiniTool Partion Wizrd is finished you can exit the software for closing out the window.
+
+For a micro-SD card, all you need to do is place the mico-SD card into an adapter that will allow your Window 10 machine to read the micro-SD card. I need a micro-SD card to USB reader.  You can use windows to format the micro-SD card by opening Windows file explorer [Win Key]+[E key] select "This PC" now right-click on the micro-SD card and choose "Format". Set the "File System" field to "FAT32" and click "Start".
+
+Once the micro-SD card (or SSD drive) is formated for FAT32 you are ready to burn the image of raspberry pi OS lite onto the media. First you need to download the image of [Raspberry Pi OS Lite, by click here](https://www.raspberrypi.com/software/operating-systems/). Select "Download" next to the item listed as "Raspberry Pi OS Lite" and save the file onto your local disk drive. Remember where you put it because you will need to navigate to the image file in the next step. Before moving onto the next step take the time now to UnZip the folder so you will be able to access the *.img file.
+
+Once the download is complete, you will need a program called ["Balena Etcher", so click her](https://www.balena.io/etcher/). Select "Download for Windows (x86|x64)" and save the file to your disk drive. Install the "Balena Etcher" software on to your computer.
+
+Open Ethcher and choose "Select Image". You now have to navigate to the directory of where you stored the image of "Raspberry Pi OS Lite", the name of the file for my "Raspberry Pi OS Lite" was "2021-10-30-raspios-bullseye-armhf-lite.img". Now choose the "Select Drive". Since you formatted the micro-SD card (or the SSD) the media should have been assigned a disk drive letter. Ensure you have selected the correct drive letter.  You do not want to overwrite the wrong drive letter.  Disclaimer: I will not be held responsible for anyone who over writes their main disk drive for their computer system.  Double check that you select the correct drive letter and that it matches the one for you micro-SD card (or the SSD) you will be using with your Raspberry Pi 4B. Once you are sure you have selected the correct drive letter, now select "Flash!". Ether might give you a warning especially if you are flashing to a SSD, just again ensure you have the correct drive letter and when you are sure tell Etcher "yes or proceed".  Etcher will then take the *.img file and write it to the media. After the Etcher is finished it will automatically dismount the media from your computer.  So unplug the USB connector to the micro-SD card (or SSD) and plug it back into your USB port.
+
+We now have to add a file to the micro-SD card (or SSD).  This file is an empty file you just need to create the filename "SSH".  I usually just right-click inside the Window Explorer folder for the micro-SD card (or SSD) and choose the option of "New" -> "Text docuement". I assign the name SSH and remove the extension ".txt".  This is a very impartant step the file CAN NOT have a file extension.  The file must be named "SSH" or "ssh" without an extension.  The empty ssh file will tell the "Raspberry Pi OS Lite" operating system to enable the SSH sever automatically upon first boot up.
+
+Once you have added the ssh file to the contents of the micro-SD card (or SSD) it is now time to dismount the media from your computer and plug the media into the Raspberry Pi 4B so it can boot up (of course you need to ensure you also connect a power supply to the Raspberry Pi 4B).  Once you have plugged in the micro-SD card (or SSD) to the Raspberry Pi, and connect an hardwire ethernet cable to the ethernet port, turn on the power supply and allow it to boot up.  
+
+The Raspberry Pi OS will look to see if a micro-SD card is present, if a micro-SD card is present it will try to boot off the micro-SD card. But if a micro-SD card is not present, it will start to look for another media to boot from and this is when it will find the Solid state drive.  So for those of you that want to use the SSD as the main boot device make sure that the micro-SD card reader of your Rapberry Pi is empty when you have the SSD attached to the USB 3.0 port.
+
+The Raspberry Pi will boot and then be assigne an IP address on your network.  We need to know the IP address so we can remotely login to the Raspberry Pi.  On a Windows 10 OS open up a command prompt window, and type the command "ping raspberrypi.local -4".  Since this is a fresh install of the Raspberry Pi, all Raspberry Pi are assigned a hostname of raspberrypi after the intial boot.  The default login information is username is "pi" and password is "raspberry". After you perform the windows cmd "ping raspberrypi.local -4". The ping command will display an IP address that it trasmitted at least 4 packets too. Write down the IP address that recieved those packets.  This is the IP address of your new raspberry pi.  
+
+To setup Klipper on the new raspberry pi you will need to remotely login into the raspberry pi via ssh.  To do this you need another software package called ["Putty", click here](https://www.putty.org/). Install the software on your computer. Now run Putty and enter in the IP address (in the Host Name field) you saw in the "ping raspberrypi.local -4" command. Leave the Port number set to 22. Now hit "Open". You should see a window that pops up that says something about the authorization key has not been stored..." just say you trust the device. You will then get the login prompt. Enter in "pi" for the username and "raspberry" for the password.  
+
+If you get the "connect rejected" message then when you place the empty ssh file in the file folder of the boot media you either misspelled the filename or left the ".txt" extension on the filename.  You can fix the "connect rejected" message by powering off the Raspberry pi; removing the boot media from the Raspberry Pi; reattach the boot media to your computer and double check the empty ssh filename is "ssh" only; then reattach the boot media to the Raspberry pi and reboot again.
+
+Now you should be login to the Raspberry Pi. When you see a "$" this means you need to type a comand at the command prompt.  If you see a ">" this means you type a number at the current command prompt. Follow the below sequece to install KIAUH, Klipper, MoonRacker, Mainsail, KlipperScreen and Octoprint.  Once that is all installed we will then be hooking up the Octopus or Octopus Pro to flash a new firmware onto it so it will talk the the Raspberry Pi that is running Klipper.  But for now just follow the below squence to install everything you will need on the Raspberry Pi 4B, make sure you also have a hardwire ethernet cable attached to the Raspberry Pi's ethernet port:
+
+```
+$sudo raspi-config
+
+The raspi-config Menu will be displayed.
+
+>System Options -> change the system password (make note of the password so you do not forget it)
+>System Options -> Boot/Autologin -> Console Autologin; turn this on
+>System Option -> Network at Boot; turn this on
+>Interface Options -> turn on camera interface
+>Interface Options -> turn on SSH
+>Localization Options -> set Time Zone for your area -> for me USA: Eastern Time
+>Localization Options -> set Localization -> if in USA use "en_US.UTF-8"
+>Localization Options -> WLAN Country -> set this to your country -> for me USA
+>Advanced Options -> expand filesystem
+>Finish
+
+$sudo reboot
+
+Now wait for the device to reboot and use Putty to login back in to continue onto the next step
+
+$sudo apt update
+$sudo apt full-upgrade
+$sudo apt autoremove
+sudo apt-get install git -y
+$cd ~
+$git clone https://github.com/th33xitus/kiauh.git
+$./kiauh/kiauh.sh
+
+The KIAUH menu will appear.
+
+>1
+>1
+>2
+
+make a note of the Moonracker Instance (write down the IP address)
+
+>3
+
+make a note of the MJPG-Streamer webcam URLs
+
+>5
+>7
+
+make a note of the Octoprint IP address
+
+>B
+>Q
+
+```
+Now that Klipper and its corresponding software has been installed onto the Raspberry Pi I want to do a clean reboot before we go onto the set of compiling the Klipper firmware and sending over to the mother board (Octopus or Octopus Pro board).
+
+```
+$sudo reboot
+```
+
+If you have either an Octopus V1.0/V1.1 board or the Octopus PRO board you will need a fresh micro-SD card so that you can trasnfer the compiled firmware over to the Octopus V1.0/V1.1 board or the Octopus PRO board. You will need to download and install on your PC the software ["winscp", by click here](https://winscp.net/eng/download.php). The Winscp software will allow you to trasnfer a file off the raspberry pi to your PC's disk drive. This way when the Raspberry Pi has finished compiling the firmware for the Octopus board you can grab the Klipper.bin file and transfer it to your PC disk drive and then copy it over to the Micro-SD card that you will place into the Octopus board's Micro-SD card reader so that the Octopus board on reboot will load the new firmware.  When you copy the klipper.bin file over the the Micro-SD card remember to rename it to firmware.bin. If the file is not renamed "firmware.bin" then the Octopus boards (V1.0/V1.1 or PRO) bootloader will not be updated properly.
+
+Now we need to apply power to the Octopus board.  I typically power the Octopus board using the USB-C cable when I do this next step (ensure you have the Jumper on the for PWR SELECTION header so that the USB-C can power the 5V rail of the Octpus board)
+
+But you could power the Octopus board by using and independent PSU and attach the 12VDC and GND to the screw terminal (just ensure you **remove** the Jumper from the PWR SELECTION header so that the 5V rail is not getting power via the USB-C cable)
+
+Now use the USB-C cable that came with the Octopud board and attach it to the Raspberry Pi (USB 2.0) port.  If the Jumper is on the PWR SELECTION header than the Raspberry Pi will supply the 5VDC to the 5V rail of the Octopus Board and also commuicate to the Octpus board via USB. If the Jumper is removed from the PWR SELECTION header than the USB-C cable will be used for communications only.
+
+When the Raspberry Pi reboots, use Putty to log back into the device.
+
+If you have an Octopus V1.0/V1.1 board follow the steps below (skip these steps if you have an Octopus Pro board with the F446 chip or the F429 chip):
+
+```
+$./kiauh/kiauh.sh
+
+The KIAUH menu will appear.
+
+>4
+>3
+
+[*] Enable extra low-level configuration options by moving the cursor and hitting the space bar until the "*" appears.
+
+The space bar is a toggle so when the "*" appears it means you have selected the item
+when the  "*" is not present it means the item is NOT selected. You use the arrow keys on your keyboard to move up and down the menu.
+
+set Micro-controller Architecture to (STMicroelectronics STM32)
+set Processor model to (STM32F446)
+set Bootloader offset to (32KiB bootloader)
+set Clock Reference to (12 Mhz crystal)
+set Communication interface to (USB (on PA11/PA12))
+>Q Y
+
+The firmware will compile.
+
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
+
+```
+
+If you have an Octopus V1.0/V1.1 board or the Octopus Pro board with the F429 chip skip, the following steps these are for the Octopus PRO board with the F446 chip. If you have an Octopus Pro board that uses the F446 chip, please follow the next steps:
+
+```
+$./kiauh/kiauh.sh
+
+The KIAUH menu will appear.
+
+>4
+>3
+
+[*] Enable extra low-level configuration options by moving the cursor and hitting the space bar until the "*" appears.
+
+The space bar is a toggle so when the "*" appears it means you have selected the item
+when the  "*" is not present it means the item is NOT selected. You use the arrow keys on your keyboard to move up and down the menu.
+
+set Micro-controller Architecture to (STMicroelectronics STM32)
+set Processor model to (STM32F446)
+set Bootloader offset to (32KiB bootloader)
+set Clock Reference to (12 Mhz crystal)
+set Communication interface to (USB (on PA11/PA12))
+>Q Y
+
+The firmware will compile.
+
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
+```
+
+If you have an Octopus V1.0/V1.1 board or an Octopus Pro board with F446 chip skip, the follwoing steps these are for the Octopus PRO board with the F429. If you have an Octopus Pro board that uses the F429 chip, please follow the next steps:
+
+```
+$./kiauh/kiauh.sh
+
+The KIAUH menu will appear.
+
+>4
+>3
+
+[*] Enable extra low-level configuration options by moving the cursor and hitting the space bar until the "*" appears.
+
+The space bar is a toggle so when the "*" appears it means you have selected the item
+when the  "*" is not present it means the item is NOT selected. You use the arrow keys on your keyboard to move up and down the menu.
+
+set Micro-controller Architecture to (STMicroelectronics STM32)
+set Processor model to (STM32F429)
+set Bootloader offset to (32KiB bootloader)
+set Clock Reference to (8 Mhz crystal)
+set Communication interface to (USB (on PA11/PA12))
+>Q Y
+
+The firmware will compile.
+
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "d".  If the filename changed then the Octopus board updated its bootloader correctly.
+
+```
+
+### Finding the MCU ID:
+
+At this point if you have an Octopu V1.0/V1.1 or an Octopus Pro with F446 chip or an Octopus Pro with F429 Chip, you have successfully updated its bootloader because the "firmware.bin" filname on the micro-SD card was renamed to "FIRMWARE.CUR"
+
+But we will be needing the MCU ID for out Klipper configuration file so, lets log back into the Raspberry Pi by using Putty.
+
+Now power the Octopus board via which USB-C or with an independent power supply. Connect the USB-C cable from the Octpus board to the Raspberry Pi's USB 2.0 port. We need to find the ID for this connection.
+
+Please do the following:
+
+```
+$./kiauh/kiauh.sh
+
+The KIAUH menu will appear.
+
+>4
+>6
+>1
+
+the menu will refresh but above the menu you will see something similar to my output (each Octopus board will generate a unique id).
+
+● (USB) MCU #1: /dev/serial/by-id/usb-Klipper_stm32f446xx_3B001B00115053424E363620-if00
+
+copy this string down because you will have to add it to your Klipper config file later.
+
+>B
+>Q
+```
+
+If you loose the MCU ID you can alway rerun KIAUH option 4, option 6, choose 1 for USB and it will display the information for you again.
+
 ## Klipper firmware supports the Octopus Pro V1.0 board:
 
 Here is the link to the config file on GitHub for the Octopus pro V1.0 board https://github.com/Klipper3d/klipper/blob/master/config/generic-bigtreetech-octopus.cfg.
