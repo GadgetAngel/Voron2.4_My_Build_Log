@@ -612,11 +612,11 @@ If you have either an Octopus V1.0/V1.1 board or the Octopus PRO board you will 
 
 The Winscp software will allow you to trasnfer a file off the raspberry pi to your PC's disk drive. This way when the Raspberry Pi has finished compiling the firmware for the Octopus board you can grab the "Klipper.bin" file and transfer it to your PC disk drive and then copy it over to the Micro-SD card that you will place into the Octopus board's Micro-SD card reader.  When you copy the "klipper.bin" file over to the Micro-SD card remember to rename it to "firmware.bin". If the file is not renamed "firmware.bin" then the Octopus boards (V1.0/V1.1 or PRO) bootloader will not be updated properly.
 
-Now we need to apply power to the Octopus board.  I typically power the Octopus board using the USB-C cable when I do this next step (ensure you have the Jumper on the for PWR SELECTION header so that the USB-C can power the 5V rail of the Octpus board)
+Now we need to apply power to the Octopus board.  I typically power the Octopus board using the USB-C cable when I do this next step (ensure you have the Jumper on the for PWR SELECTION header so that the USB-C can power the 5V rail of the Octopus board)
 
-But you could power the Octopus board by using and independent PSU and attach the 12VDC and GND to the screw terminal (just ensure you **remove** the Jumper from the PWR SELECTION header so that the 5V rail is not getting power via the USB-C cable)
+But you could power the Octopus board by using an independent PSU and attach the 12VDC and GND to the screw terminals (just ensure you **remove** the Jumper from the PWR SELECTION header so that the 5V rail is **not** getting power via the USB-C cable)
 
-Now use the USB-C cable that came with the Octopud board and attach it to the Raspberry Pi (USB 2.0) port.  If the Jumper is on the PWR SELECTION header than the Raspberry Pi will supply the 5VDC to the 5V rail of the Octopus Board and also commuicate to the Octpus board via USB. If the Jumper is removed from the PWR SELECTION header than the USB-C cable will be used for communications only.
+Now use the USB-C cable that came with the Octopus board and attach it to the Raspberry Pi (USB 2.0) port.  If the Jumper is on the PWR SELECTION header than the Raspberry Pi will supply the 5VDC to the 5V rail of the Octopus Board and also commuicate to the Octpus board via USB. If the Jumper is removed from the PWR SELECTION header than the USB-C cable will be used for communications only.
 
 When the Raspberry Pi reboots, use Putty to log back into the device.
 
@@ -632,8 +632,8 @@ The KIAUH menu will appear.
 
 [*] Enable extra low-level configuration options by moving the cursor and hitting the space bar until the "*" appears.
 
-The space bar is a toggle so when the "*" appears it means you have selected the item
-when the  "*" is not present it means the item is NOT selected. You use the arrow keys on your keyboard to move up and down the menu.
+The space bar is a toggle so when the "*" appears it means you have selected the item.
+When the  "*" is not present it means the item is NOT selected. You use the arrow keys on your keyboard to move up and down the menu.
 
 set Micro-controller Architecture to (STMicroelectronics STM32)
 set Processor model to (STM32F446)
@@ -644,11 +644,16 @@ set Communication interface to (USB (on PA11/PA12))
 
 The firmware will compile.
 
-You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
+update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
+the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the 
+Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the 
+bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has 
+been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
 
 ```
 
-If you have an Octopus V1.0/V1.1 board or the Octopus Pro board with the F429 chip skip, the following steps these are for the Octopus PRO board with the F446 chip. If you have an Octopus Pro board that uses the F446 chip, please follow the next steps:
+If you have an Octopus V1.0/V1.1 board or the Octopus Pro board with the F429 chip, skip the following steps.  These steps are for the Octopus PRO board with the F446 chip. If you have an Octopus Pro board that uses the F446 chip, please follow the next steps:
 
 ```
 $./kiauh/kiauh.sh
@@ -672,10 +677,15 @@ set Communication interface to (USB (on PA11/PA12))
 
 The firmware will compile.
 
-You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
+update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
+the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the 
+Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the 
+bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has 
+been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
 ```
 
-If you have an Octopus V1.0/V1.1 board or an Octopus Pro board with F446 chip skip, the follwoing steps these are for the Octopus PRO board with the F429. If you have an Octopus Pro board that uses the F429 chip, please follow the next steps:
+If you have an Octopus V1.0/V1.1 board or an Octopus Pro board with F446 chip,  skip the follwoing steps. These steps are for the Octopus PRO board with the F429. If you have an Octopus Pro board that uses the F429 chip, please follow the next steps:
 
 ```
 $./kiauh/kiauh.sh
@@ -699,17 +709,22 @@ set Communication interface to (USB (on PA11/PA12))
 
 The firmware will compile.
 
-You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has been change from "firmware.bin" to "d".  If the filename changed then the Octopus board updated its bootloader correctly.
+You will now have to use a micro-SD card to flash the Octopus board with the new firmware. The Octopus board will not 
+update the firmware via USB cable! After you have copied the out\Klipper.bin file over to your PC (using Winscp) and onto 
+the micro-SD card, please rename the "klipper.bin" file to "firmware.bin".  Once you place the micro-SD card into the 
+Octopus board's Micro-SD card reader it will update its bootloader. To ensure that the board really did update the 
+bootloader pull the micro-SD card out of the Octopus board and reload it onto your PC. Check to see if the filename has 
+been change from "firmware.bin" to "FIRMWARE.CUR".  If the filename changed then the Octopus board updated its bootloader correctly.
 
 ```
 
 ### Finding the MCU ID:
 
-At this point if you have an Octopu V1.0/V1.1 or an Octopus Pro with F446 chip or an Octopus Pro with F429 Chip, you have successfully updated its bootloader because the "firmware.bin" filname on the micro-SD card was renamed to "FIRMWARE.CUR"
+At this point if you have an Octoops V1.0/V1.1 or an Octopus Pro with F446 chip or an Octopus Pro with F429 Chip, you have successfully updated its bootloader because the "firmware.bin" filname on the micro-SD card was renamed to "FIRMWARE.CUR"
 
-But we will be needing the MCU ID for out Klipper configuration file so, lets log back into the Raspberry Pi by using Putty.
+But we will be needing the MCU ID for out Klipper configuration file, so let's log back into the Raspberry Pi by using Putty.
 
-Now power the Octopus board via which USB-C or with an independent power supply. Connect the USB-C cable from the Octpus board to the Raspberry Pi's USB 2.0 port. We need to find the ID for this connection.
+Now power the Octopus board via which USB-C or with an independent power supply. Connect the USB-C cable from the Octopus board to the Raspberry Pi's USB 2.0 port. We need to find the ID for this connection.
 
 Please do the following:
 
@@ -722,11 +737,11 @@ The KIAUH menu will appear.
 >6
 >1
 
-the menu will refresh but above the menu you will see something similar to my output (each Octopus board will generate a unique id).
+the menu will refresh, but, **above the menu** you will see something similar to my output (each Octopus board will generate a unique id).
 
 ● (USB) MCU #1: /dev/serial/by-id/usb-Klipper_stm32f446xx_3B001B00115053424E363620-if00
 
-copy this string down because you will have to add it to your Klipper config file later.
+Copy this string down because you will have to add it to your Klipper config file later.
 
 >B
 >Q
