@@ -551,7 +551,7 @@ To setup Klipper on the new raspberry pi you will need to remotely login into th
 
 If you get the "connect rejected" message, then there is something wrong with the ssh server. When you placeed the empty ssh file in the file folder of the boot media you either misspelled the filename or left the ".txt" extension on the filename.  You can fix the "connect rejected" message by powering off the Raspberry pi; removing the boot media from the Raspberry Pi; reattach the boot media to your computer and double check the empty ssh filename is "ssh" only; then reattach the boot media to the Raspberry pi and reboot again.
 
-Now you should be logged in to the Raspberry Pi. When you see a "$" this means you need to type a comand at the command prompt.  If you see a ">" this means you type a number at the current command prompt. Follow the below sequece to install KIAUH, Klipper, MoonRacker, Mainsail, KlipperScreen and Octoprint.  Once that is all installed we will then be hooking up the Octopus or Octopus Pro boards so that we can flash a new bootloader on to the boards. This new bootloader will allow the Raspberry Pi to talk to the Octopus board.  But for now just follow the below squence to install everything you will need on the Raspberry Pi 4B, make sure you also have a hardwire ethernet cable attached to the Raspberry Pi's ethernet port:
+Now you should be logged in to the Raspberry Pi. When you see a "$" this means you need to type a comand at the command prompt.  If you see a ">" this means you type a number at the current command prompt. Follow the below sequece to install KIAUH, Klipper, MoonRacker, Mainsail, KlipperScreen and Octoprint.  Once that is all installed we will then be hooking up the Octopus or Octopus Pro boards so that we can flash a new bootloader on to the boards. This new bootloader will allow the Raspberry Pi to talk to the Octopus board.  But for now just follow the below squence to install everything you will need on the Raspberry Pi 4B. Also, make sure you have an ethernet cable attached to the Raspberry Pi's ethernet port:
 
 ```
 $sudo raspi-config
@@ -571,7 +571,7 @@ The raspi-config Menu will be displayed.
 
 $sudo reboot
 
-Now wait for the device to reboot and use Putty to login back in to continue onto the next step
+Now wait for the device to reboot and use Putty to log back into the Raspberry pi and continue onto the next step
 
 $sudo apt update
 $sudo apt full-upgrade
@@ -602,7 +602,7 @@ make a note of the Octoprint IP address
 >Q
 
 ```
-Now that Klipper and its corresponding software has been installed onto the Raspberry Pi I want to do a clean reboot before we go onto the set of compiling the Klipper firmware and sending over to the mother board (Octopus or Octopus Pro board).
+Now that Klipper and its corresponding software has been installed onto the Raspberry Pi, I want to do a clean reboot before we go onto the next step of compiling the Klipper firmware and updating the mother board (Octopus or Octopus Pro board).
 
 ```
 $sudo reboot
