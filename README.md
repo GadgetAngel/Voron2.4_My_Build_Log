@@ -394,7 +394,7 @@ But for the QUEEN Build the total "INPUT AC Current (typ.)" value is 11.7 Amps, 
 I have updated the ["AC wiring diagram"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) to reflect the changes to the BIG RED mushroom Emergency Button.  
 
 I also modified the [Skirt-Microfit-Inserts Mod from Ette's ERCF project](/The_.STL_Files/GA_modded_STLs/Skirt/Front/A/%5Ba%5D_Button_mount%20Z-tensioner_Mod_Front_OR_Rear_Hour_Counter_Skirt_A_300_x2.stl) so that I would have a place to mount QUEEN's "Reset Printer Only"
-buttons.  The other four switches will control four Neopixel LED Strings and they will be on the "DC wiring diagram". I also need to print the 300mm front skirt version so that I have a place to mount this "Skirt_Insert" called "Button_mount Z-tensioner_Mod_Front_OR_Rear_Hour_Counter_Skirt_A_300".
+buttons.  The other four switches will control four Neopixel LED Strings and they will be on the "DC wiring diagram". I also need to print the 300mm front skirt version so that I have a place to mount this "Skirt_Insert" called "\[a\]_Button_mount Z-tensioner_Mod_Front_OR_Rear_Hour_Counter_Skirt_A_300.stl" and "\[a\]_Button_mount_Front_OR_Rear_Rocker-switches_Skirt_B_300.stl".
 
 To learn more about parallel ciruitus see [UNDERSTANDING & CALCULATING PARALLEL CIRCUITS - EXPLANATION](https://www.swtc.edu/Ag_Power/electrical/lecture/parallel_circuits.htm)
 
