@@ -390,7 +390,9 @@ I purchased this [BIG RED Mushroom Emergency Button](https://www.amazon.com/gp/p
 
 But for the QUEEN Build the total "INPUT AC Current (typ.)" value is 11.7 Amps, which is above the rated 10 Amps for this [BIG RED Mushroom Emergency Button](https://www.amazon.com/gp/product/B07RJMVPJ4).  The problem is I could not find a BIG RED Mushroom Emergency Button that is rated for 20 Amps on Amazon.  So this is what I have opted to do.  In the USA, we really do not need to switch the AC "Neutral" wire but switching the AC "Line" wire is what is really needed.  Since this [BIG RED Mushroom Emergency Button](https://www.amazon.com/gp/product/B07RJMVPJ4) has TWO normally closed (NC) contacts and each contact is rated for 10 Amps, I can just run the AC "Line" wire into the two NC contacts in parallel. Think of the BIG RED Mushroom button as a DPST switch.   By wiring the contacts up in parellel then each contact will handle 10 Amps and now my BIG RED Mushroom Button can handle 20 Amps on the AC "Line" wire. On the output of the NC contacts the two AC "Line" wires are brought back toether for a single output feed.
 
-So now I need to change my "AC wiring diagram" to reflect this change in the BIG RED button for the QUEEN Build.
+~~So now I need to change my "AC wiring diagram" to reflect this change in the BIG RED button for the QUEEN Build.~
+I have updated the ["AC wiring diagram"](Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.pdf) to reflect the changes to the BIG RED mushroom Emergency Button.  I also modified the [Skirt-Microfit-Inserts Mod from Ett's ERCF project](https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts) so that I would have a place to mount QUEEN's Printer Reset
+button.  The other four switches will be controlling Neopixel LED Strings and they will be on the "DC wiring diagram'
 
 To learn more about parallel ciruitus see [UNDERSTANDING & CALCULATING PARALLEL CIRCUITS - EXPLANATION](https://www.swtc.edu/Ag_Power/electrical/lecture/parallel_circuits.htm)
 
@@ -461,7 +463,7 @@ You can download the JPG file for this "Wiring_Harness_Diagram" by clicking on t
 
  You can view an even higher resolution image (give it a minute or two to load, it takes longer due to the higher resolution) when you view the JPG in your browser by clicking on the filename  ["Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness_400ppi.jpg) and then hit the download button.
 
-## PDF version of the for Wiring_Harness_Diagram":
+## PDF version of the Wiring_Harness_Diagram":
 
 You can view the PDF in your browser by clicking on the filename ["Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf"](https://github.com/GadgetAngel/Voron2.4_My_Build_Log/blob/main/Wiring_Harness_Diagram/Voron_2.4_Tool_Head_PCB__Wiring_Harness.pdf) and then hit the download button.
 
