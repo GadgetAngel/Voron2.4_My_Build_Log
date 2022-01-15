@@ -350,7 +350,7 @@ Here is a table showing American Wire Gauge current rating: https://www.engineer
 
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
 
-You can download the JPG file for the "Voron 2.4 AC Electrical Wiring Diagram" by clicking on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg) and then hit the download button.
+You can download the JPG file for the "Voron 2.4 AC Wiring Diagram" by clicking on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg) and then hit the download button.
 
 
 ![JPG of Voron2.4_AC_Electrical_Wiring_Diagram](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg)
