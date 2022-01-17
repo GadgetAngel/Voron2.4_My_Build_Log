@@ -1,0 +1,20 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qbluedragonx's \"BlueDragonX's Klicky Mods\"(using built-in Klicky Probe to X-Axis Carriage Frame): https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident/Usermods/bluedragonx;\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOc_geek's More Robust Klicky Probe Mod;  Beefier column and revised holes for zip tie (was def too small); reduced height 1mm (was excess) Chanfered bottom in all direction (also sides) on the probe carriage Microswitch body exposed by a tiny bit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QSee also Th3fallen's website for the LGX_PCB_Mount_Heatset.stl file;\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QRevnull's \"Articulating arm\" from his \"rpi_7in_display_mount mod\";\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QRamalama2's \"AB_Plug_Microfit mod\"; or AB_Plug_JST-XHmod; or you could also use the Voron Design Team's \"Tie-down the AB motors cables to the Z-Beam Mod\";\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QRamalama2's \"Panel_Clips\"; I will use the midspan clips for sides and top; - (use 6 mm version - 3 mm panel and 3mm of foam tape);\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOV1A's \"WAGO+221+DIN+rail+holder mod\" from Thiniverse.com; Used to mount the WAGO nuts on the DIN rails.\\E$"}
+{"rule":"SPURIOUS_APOSTROPHE","sentence":"^\\QThe following will be needed if you add the kinematic kit to your Voron 2.4 Build:\nModified Purge Bucket;\nbuy a longer sexbolt for Item #10 and\nbuy some Openbuild's Angled brackets or you could just use blind joints;\\E$"}
+{"rule":"SPURIOUS_APOSTROPHE","sentence":"^\\QThe following will be needed if you add the kinematic kit to your Voron 2.4 Build:\nModified Purge Bucket;\nbuy a longer sexbolt for Item #10 and\nbuy some Openbuild's Angled brackets, or you could just use blind joints;\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDerpimus' Euclide_Probe's \"OmronRotatedXRailDock_v2\";\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwithout an aluminum plate, so 80%] : https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-200-48/7707242\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwithout an aluminum plate, so 80%]: https://www.digikey.com/en/products/detail/mean-well-usa-inc/UHP-200-24/7707239\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QBut for the QUEEN Build the total \"INPUT AC Current (typ.)\" value is 11.7 Amps, which is above the rated 10 Amps for this BIG RED Mushroom Emergency Button.\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QThe Octopus V1.1 pin-out has PC5 on the EXP2 connector but on the Octopus Pro V1.0 this pin on the EXP2 connector is now \"Not Connected (NC)\".\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QRamalama2's \"Panel_Clips\"; I will use the midspan clips for sides and top; - (use 6 mm version - 3 mm panel and 3 mm of foam tape);\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QRamalama2's \"Panel_Clips\"; I will use the midspan clips for sides and top; - (use 6 mm version - 3 mm panel and 3 mm of foam tape);\\E$"}
+{"rule":"CD_NN","sentence":"^\\QI have bought a ERCF v1.1 moster kit - 6 chart version because I will someday print out the parts and put it together to do multi-material printing.\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QThe \"GND\" line of the ERCF v.3 toolhead board will connect to the \"Voron 2.4 AC Wiring Diagram\"'s \"Common V- Ground\" reference (the point where you attach all the V- terminal of each PSU you have in the Build).\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QSo when you looked from the front of the printer you would ask yourself, \"what is that black plastic in the middle of the back of the printer?\".\\E$"}
+{"rule":"NON_STANDARD_WORD","sentence":"^\\QThe \"Litter Box\" mod is a place to store all you good s..t......LOL\\E$"}

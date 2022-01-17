@@ -21,7 +21,7 @@ Press Enter to create your local clone.
 Now open Window explorer to the location of local clone.
 ```
 
-## This whole repository can be downloaded as one large zip file from my Google drive at: (if downloading via LFS is giving you are hard time)
+## This whole repository can be downloaded as one large zip file from my Google Drive at: (if downloading via LFS is giving you are hard time)
 
 ## xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -29,11 +29,11 @@ Now open Window explorer to the location of local clone.
 
 As a starting point for this Sourcing Guide, I based my Sourcing Guide on @shammy#6484 Sourcing Guide.  I want to thank @Shammy#6484 for sharing his Sourcing_Guide with me when I needed one.
 
-I reviewed the "generated_bom" tab, "Voron Afterburner Parts" tab, and the "Voron Optional Parts" tab in @shammy#6484's Sourcing Guide to see if any changes needed to be made.  @Shammy#6484 had a tab labeled "Voron 2.4 350" where he listed his cost per part and the quanity he purchased for his Voron 2.4 300mm³ build.
+I reviewed the "generated_bom" tab, "Voron Afterburner Parts" tab, and the "Voron Optional Parts" tab in @shammy#6484's Sourcing Guide to see if any changes needed to be made.  @Shammy#6484 had a tab labeled "Voron 2.4 350" where he listed his cost per part and the quanity he purchased for his Voron 2.4 300 mm³ build.
 
-My build is 250mm³. So the changes you will see are due to the size difference.  I erased all his cost information and edited the items listed to buy.  I erased all his URL links so that I could enter my URL links.  I do not list the cost information. You can do that if you want.  My Sourcing Guide is not for me to total my cost, it is basically a way to let you know where I purchased most of my parts for the Voron 2.4 build.
+My build is 250 mm³. So the changes you will see are due to the size difference.  I erased all his cost information and edited the items listed to buy.  I erased all his URL links so that I could enter my URL links.  Furthermore, I do not list the cost information. You can do that if you want.  My Sourcing Guide is not for me to total my cost, it is basically a way to let you know where I purchased most of my parts for the Voron 2.4 build.
 
-Once my cost hit over $2,000 I quite keeping track of them.
+Once my cost hit over $2,000 I quit keeping track of them.
 
 The QUEEN Sourcing Guide is contained in a file called "QUEEN_Sourcing_BOM.xlsx" which is inside a .zip file called "QUEEN_Sourcing_BOM.xlsx.zip".  This makes it easier to download the Excel spreadsheet from GitHub since it is contained within a .zip file.
 
