@@ -348,6 +348,11 @@ Here is a picture of how I see the problem at this time:
 
 Here is a table showing American Wire Gauge current rating: https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
+Edited 1/25/2022:
+After testing and working with other Voron Users, if has been decided that the SN74LVC1G125 chip that is being used on the Octopus board (V1.1 and the Pro versions) is **not** doing a sufficient job for the stealthburner NeoPixels.  
+
+The length of the wire and reflections on the line are causing distorations in the RGB data signal line.  Therefore, to ensure that the data line will work for any size Voron 2.4 build, I recommend installing a [logic level converter](https://www.amazon.com/gp/product/B01N30ZCW9).  I have updated the "AC Wiring Diagram" to demonstrate the wiring involved.
+
 ## A Picture of the "Voron 2.4 AC Electrical Wiring Diagram" for QUEEN:
 
 You can download the JPG file for the "Voron 2.4 AC Wiring Diagram" by clicking on the filename ["Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg"](../images/Voron_2.4_Electronics_Case_Wiring_Diagram_AC_wiring.jpg) and then hit the download button.
