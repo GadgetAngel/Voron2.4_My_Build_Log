@@ -1,0 +1,3 @@
+https://learn.adafruit.com/heat-set-rig
+
+http://docs.ldomotors.com/guides/heatset_insert_tool_guide

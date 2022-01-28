@@ -1,9 +1,0 @@
-[a]_base_plate_a_mod_x2.stl
-and
-[a]_base_plate_b_mod_x2.stl
-
-came from:
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/V2.4_z_drive_motor_tensioner_mod/STLs
-
-The other parts not beinging with GA_ comes from:
-https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Z_Drive

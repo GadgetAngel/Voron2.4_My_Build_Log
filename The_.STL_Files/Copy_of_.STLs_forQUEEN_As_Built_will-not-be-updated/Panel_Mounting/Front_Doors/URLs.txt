@@ -1,5 +1,0 @@
-https://github.com/Ramalama2/Voron-2-Mods/tree/main/Panel_Clips/STL
-
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges
-
-https://github.com/v6cl/My-Voron2.4-Customs/tree/main/Panel_Locker

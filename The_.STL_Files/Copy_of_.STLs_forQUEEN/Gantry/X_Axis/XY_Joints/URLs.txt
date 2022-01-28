@@ -1,0 +1,8 @@
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/randell/Microswitch_Endstop
+
+https://github.com/tanaes/whopping_Voron_mods/tree/main/extrusion_backers/STLs
+
+https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Gantry/X_Axis/XY_Joints
+
+https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Pins_Mod/STLs/Gantry/X_Axis/XY_Joints
+

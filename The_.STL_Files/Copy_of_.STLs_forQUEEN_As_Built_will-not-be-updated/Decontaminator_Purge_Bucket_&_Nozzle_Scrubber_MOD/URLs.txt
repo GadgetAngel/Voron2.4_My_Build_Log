@@ -1,5 +1,0 @@
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs
-
-and
-
-this repository for filenames beginning with GA_*

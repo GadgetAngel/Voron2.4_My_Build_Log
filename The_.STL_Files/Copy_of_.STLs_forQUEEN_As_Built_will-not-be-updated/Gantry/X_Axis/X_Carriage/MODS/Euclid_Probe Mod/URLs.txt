@@ -1,3 +1,0 @@
-https://github.com/VoronDesign/Voron-Trident/tree/main/STLs/Gantry/X_Axis/X_Carriage
-
-https://github.com/nionio6915/Euclid_Probe/tree/main/stls

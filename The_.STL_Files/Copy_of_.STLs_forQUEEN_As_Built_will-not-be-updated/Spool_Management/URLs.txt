@@ -1,3 +1,0 @@
-https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Spool_Management
-
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/BladeScraper-Designs/Horizontal-Spool-Holder

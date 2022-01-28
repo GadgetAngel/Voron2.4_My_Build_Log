@@ -1,0 +1,15 @@
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN/STL_files
+
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/geoffreyyoung/lgx/STLs
+
+https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/LGX
+
+https://github.com/VoronDesign/Voron-2/tree/Voron2.4/STLs/VORON2.4/Gantry/X_Axis/X_Carriage/Direct_Feed
+
+https://github.com/richardjm/VoronUsers/tree/richardjm/adxl-chain/printer_mods/richardjm/adxl-chain/STL
+
+https://github.com/th3fallen/Voron-Hardware/tree/feature/add-heatset-lgx-pcb-mount/Afterburner_Toolhead_PCB/STLs/LGX
+
+https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/LGX/LGX_on_AfterBurner_Adapter_ERCF_Sensor.stl ---renamed "LGX_on_AfterBurner_Adapter_ERCF_Sensor_fromERCFproj.stl"
+
+
